@@ -1,0 +1,27 @@
+---
+title: "Simone Romiti"
+about:
+  template: trestles
+  image: profile.jpg
+  links:
+    - text: Email
+      href: simone.romiti.1994@gmail.com
+    - icon: github
+      text: Github
+      href: https://github.com/simone-romiti
+    - icon: people
+      text: Work group
+      href: https://lqcd.hiskp.uni-bonn.de/people/
+---
+
+
+## Bio
+
+I'm a PhD graduate in Theoretical Physics,
+working in the field of lattice QCD and lattice gauge theories.
+
+## Education
+
+
+## Experience
+
