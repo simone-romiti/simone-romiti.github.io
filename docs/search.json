@@ -1,96 +1,5 @@
 [
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "What’s New & Updated",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Notes: * corresponding author; GS graduate student advisee; VS visiting scholar;  ESI Highly Cited Paper (top 1%);  ESI Hot Paper (top 0.1%)\nTotal citations as of January 2025:"
-  },
-  {
-    "objectID": "publications.html#selected-work",
-    "href": "publications.html#selected-work",
-    "title": "Publications",
-    "section": "Selected Work",
-    "text": "Selected Work\nEinstein, A., Podolsky, B., & Rosen, N. (1935). Can quantum-mechanical description of physical reality be considered complete?. Physical review, 47(10), 777. [pdf] [code and data]   \n\n\n\n\n\n\nEinstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. American Journal of Physics, 33(5), 367. [pdf]"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Order By\n      Default\n      \n      \n      \n        Title\n      \n      \n        Team\n      \n      \n        Funder\n      \n      \n        Description\n      \n      \n        Start\n      \n      \n        End\n      \n      \n        Funding\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/news-title/index.html",
-    "href": "posts/news-title/index.html",
-    "title": "News item",
-    "section": "",
-    "text": "About the news"
-  },
-  {
-    "objectID": "posts/news-title/index.html#summary",
-    "href": "posts/news-title/index.html#summary",
-    "title": "News item",
-    "section": "",
-    "text": "About the news"
-  },
-  {
-    "objectID": "posts/paper-title/index.html#abstract",
-    "href": "posts/paper-title/index.html#abstract",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Abstract",
-    "text": "Abstract\nIn a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete."
-  },
-  {
-    "objectID": "posts/paper-title/index.html#links",
-    "href": "posts/paper-title/index.html#links",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Links",
-    "text": "Links\nPublished paper"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-1",
-    "href": "teaching.html#class-1",
-    "title": "Teaching",
-    "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-2",
-    "href": "teaching.html#class-2",
-    "title": "Teaching",
-    "section": "Class 2",
-    "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-3",
-    "href": "teaching.html#class-3",
-    "title": "Teaching",
-    "section": "Class 3",
-    "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Simone Romiti",
@@ -98,123 +7,11 @@
     "text": "Github\n  \n  \n    \n     E-mail\n  \n  \n      ORCID\n  \n  \n    \n     Publications List\n  \n  \n    \n     Uni-Bern\n  \n\n  \n  \n\n\nI am a theoretical physicist in High Energy Physics, with experience in Quantum Field Theories on the lattice, QCD phenomenology, and computational methods.\nI have expertise in developing and optimizing numerical algorithms for large-scale simulations, with strong programming skills in C/C++, Python, Machine Learning for scientific applications, and daily work on GNU/Linux systems.\nI have a proven track record in collaborative research, publications in well recognizerd scientific journals, and I contribute to major international physics collaborations.\nOver the years, I also gained significant experience in mentoring students and teaching."
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Simone Romiti",
-    "section": "",
-    "text": "Researcher, Univerisity"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Simone Romiti",
-    "section": "",
-    "text": "PhD, Univerisity"
-  },
-  {
-    "objectID": "index.html#recent-posts",
-    "href": "index.html#recent-posts",
-    "title": "Simone Romiti",
-    "section": "Recent Posts",
-    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\nJun 24, 2024\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
-    "section": "",
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#team",
-    "href": "people.html#team",
-    "title": "People",
-    "section": "",
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#alumni",
-    "href": "people.html#alumni",
-    "title": "People",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "old/index.html",
-    "href": "old/index.html",
-    "title": "Simone Romiti",
-    "section": "",
-    "text": "Email\n  \n  \n    \n     Github\n  \n  \n    \n     Scientific Activity (ORCID)\n  \n\n  \n  \nI am a theoretical physicist in High Energy Physics, with experience in Quantum Field Theories on the lattice, QCD phenomenology, and computational methods.\nI have expertise in developing and optimizing numerical algorithms for large-scale simulations, with strong programming skills in C/C++, Python, Machine Learning for scientific applications, and daily work on GNU/Linux systems.\nI have a proven track record in collaborative research, publications in well recognizerd scientific journals, and I contribute to major international physics collaborations.\nOver the years, I also gained significant experience in mentoring students and teaching.\nMore information below!\n\n\n\n\nEducation"
-  },
-  {
-    "objectID": "old/education.html",
-    "href": "old/education.html",
-    "title": "Education",
-    "section": "",
-    "text": "Roma Tre University, Rome, Italy\n2018 – 2022 (thesis submission: 31st October 2021)\nThesis: The neutron–proton mass difference in Lattice QCD+QED\nSupervisors: Prof. Vittorio Lubicz, Prof. Silvano Simula"
-  },
-  {
-    "objectID": "old/education.html#ph.d.-in-theoretical-physics",
-    "href": "old/education.html#ph.d.-in-theoretical-physics",
-    "title": "Education",
-    "section": "",
-    "text": "Roma Tre University, Rome, Italy\n2018 – 2022 (thesis submission: 31st October 2021)\nThesis: The neutron–proton mass difference in Lattice QCD+QED\nSupervisors: Prof. Vittorio Lubicz, Prof. Silvano Simula"
-  },
-  {
-    "objectID": "old/education.html#m.sc.-in-theoretical-physics-110110-cum-laude",
-    "href": "old/education.html#m.sc.-in-theoretical-physics-110110-cum-laude",
-    "title": "Education",
-    "section": "M.Sc. in Theoretical Physics (110/110 cum laude)",
-    "text": "M.Sc. in Theoretical Physics (110/110 cum laude)\nRoma Tre University, Rome, Italy\n2016 – 2018\nThesis: Optimization techniques in lattice QCD calculations\nSupervisor: Prof. Cecilia Tarantino"
-  },
-  {
-    "objectID": "old/education.html#b.sc.-in-physics-110110-cum-laude",
-    "href": "old/education.html#b.sc.-in-physics-110110-cum-laude",
-    "title": "Education",
-    "section": "B.Sc. in Physics (110/110 cum laude)",
-    "text": "B.Sc. in Physics (110/110 cum laude)\nRoma Tre University, Rome, Italy\n2013 – 2016\nSupervisor: Giorgio Matt\nHonors: Bachelor’s Merit Scholarship – Students Excellence Program"
-  },
-  {
-    "objectID": "index.html#more-information",
-    "href": "index.html#more-information",
-    "title": "Simone Romiti",
-    "section": "More information",
-    "text": "More information\n\nMy academic education"
-  },
-  {
-    "objectID": "index.html#thank-you-for-visiting-my-website",
-    "href": "index.html#thank-you-for-visiting-my-website",
-    "title": "Simone Romiti",
-    "section": "",
-    "text": "I am a theoretical physicist in High Energy Physics, with experience in Quantum Field Theories on the lattice, QCD phenomenology, and computational methods.\nI have expertise in developing and optimizing numerical algorithms for large-scale simulations, with strong programming skills in C/C++, Python, Machine Learning for scientific applications, and daily work on GNU/Linux systems.\nI have a proven track record in collaborative research, publications in well recognizerd scientific journals, and I contribute to major international ph ysics collaborations.\nOver the years, I also gained significant experience in mentoring students and teaching."
-  },
-  {
     "objectID": "index.html#welcome-to-my-website",
     "href": "index.html#welcome-to-my-website",
     "title": "Simone Romiti",
     "section": "",
     "text": "I am a theoretical physicist in High Energy Physics, with experience in Quantum Field Theories on the lattice, QCD phenomenology, and computational methods.\nI have expertise in developing and optimizing numerical algorithms for large-scale simulations, with strong programming skills in C/C++, Python, Machine Learning for scientific applications, and daily work on GNU/Linux systems.\nI have a proven track record in collaborative research, publications in well recognizerd scientific journals, and I contribute to major international physics collaborations.\nOver the years, I also gained significant experience in mentoring students and teaching."
-  },
-  {
-    "objectID": "grants.html",
-    "href": "grants.html",
-    "title": "Research grants",
-    "section": "",
-    "text": "Grants under which I have been employed:\n\nApr. 2024 - Aug. 2024: SNSF - High-precision hadronic contributions to the anomalous magnetic moment of the muon from first principles\nSept. 2025 - Aug. 2026: SNSF - Nonperturbative aspects of Quantum Chromodynamics"
-  },
-  {
-    "objectID": "grants.html#employment",
-    "href": "grants.html#employment",
-    "title": "Research grants",
-    "section": "",
-    "text": "Grants under which I have been employed:\n\nApr. 2024 - Aug. 2024: SNSF - High-precision hadronic contributions to the anomalous magnetic moment of the muon from first principles\nSept. 2025 - Aug. 2026: SNSF - Nonperturbative aspects of Quantum Chromodynamics"
-  },
-  {
-    "objectID": "grants.html#computing-time",
-    "href": "grants.html#computing-time",
-    "title": "Research grants",
-    "section": "Computing time",
-    "text": "Computing time\n\nOctober 2025 to October 2026: I am the Principal Inverstigator of a Computing time grant (240,000 node hours allocation on the CSCS LUMI supercomputer)."
   },
   {
     "objectID": "education.html",
@@ -245,11 +42,53 @@
     "text": "B.Sc. in Physics (110/110 cum laude)\nRoma Tre University, Rome, Italy\n2013 – 2016\nSupervisor: Giorgio Matt\nHonors: Bachelor’s Merit Scholarship – Students Excellence Program"
   },
   {
-    "objectID": "scientific_publications.html",
-    "href": "scientific_publications.html",
-    "title": "Scientific Activity",
+    "objectID": "old_template/contact.html",
+    "href": "old_template/contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "The full list of my scientific publications can be found on inspirehet.net. If possible, please refer to the above link, that is usually up-to date and does not miss publications or citations.\nI report here also my google scholar profile and my ORCID."
+    "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
+  },
+  {
+    "objectID": "old_template/people.html",
+    "href": "old_template/people.html",
+    "title": "People",
+    "section": "",
+    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "old_template/people.html#team",
+    "href": "old_template/people.html#team",
+    "title": "People",
+    "section": "",
+    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "old_template/people.html#alumni",
+    "href": "old_template/people.html#alumni",
+    "title": "People",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "old_template/projects.html",
+    "href": "old_template/projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n      Default\n      \n      \n      \n        Title\n      \n      \n        Team\n      \n      \n        Funder\n      \n      \n        Description\n      \n      \n        Start\n      \n      \n        End\n      \n      \n        Funding\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "old_template/posts/news-title/index.html",
+    "href": "old_template/posts/news-title/index.html",
+    "title": "News item",
+    "section": "",
+    "text": "About the news"
+  },
+  {
+    "objectID": "old_template/posts/news-title/index.html#summary",
+    "href": "old_template/posts/news-title/index.html#summary",
+    "title": "News item",
+    "section": "",
+    "text": "About the news"
   },
   {
     "objectID": "job_positions.html",
@@ -280,10 +119,129 @@
     "text": "Ph.D. Researcher\nRoma Tre University, Department of Mathematics and Physics, Italy\n2018 – 2021\nResearch activities: - Calculation of leading isospin-breaking effects in lattice QCD+QED for the hadron spectrum - Development of efficient signal-extraction algorithms for lattice correlators - Tutorial sessions for undergraduate mathematics and physics courses"
   },
   {
-    "objectID": "grants.html#ciao",
-    "href": "grants.html#ciao",
+    "objectID": "old/education.html",
+    "href": "old/education.html",
+    "title": "Education",
+    "section": "",
+    "text": "Roma Tre University, Rome, Italy\n2018 – 2022 (thesis submission: 31st October 2021)\nThesis: The neutron–proton mass difference in Lattice QCD+QED\nSupervisors: Prof. Vittorio Lubicz, Prof. Silvano Simula"
+  },
+  {
+    "objectID": "old/education.html#ph.d.-in-theoretical-physics",
+    "href": "old/education.html#ph.d.-in-theoretical-physics",
+    "title": "Education",
+    "section": "",
+    "text": "Roma Tre University, Rome, Italy\n2018 – 2022 (thesis submission: 31st October 2021)\nThesis: The neutron–proton mass difference in Lattice QCD+QED\nSupervisors: Prof. Vittorio Lubicz, Prof. Silvano Simula"
+  },
+  {
+    "objectID": "old/education.html#m.sc.-in-theoretical-physics-110110-cum-laude",
+    "href": "old/education.html#m.sc.-in-theoretical-physics-110110-cum-laude",
+    "title": "Education",
+    "section": "M.Sc. in Theoretical Physics (110/110 cum laude)",
+    "text": "M.Sc. in Theoretical Physics (110/110 cum laude)\nRoma Tre University, Rome, Italy\n2016 – 2018\nThesis: Optimization techniques in lattice QCD calculations\nSupervisor: Prof. Cecilia Tarantino"
+  },
+  {
+    "objectID": "old/education.html#b.sc.-in-physics-110110-cum-laude",
+    "href": "old/education.html#b.sc.-in-physics-110110-cum-laude",
+    "title": "Education",
+    "section": "B.Sc. in Physics (110/110 cum laude)",
+    "text": "B.Sc. in Physics (110/110 cum laude)\nRoma Tre University, Rome, Italy\n2013 – 2016\nSupervisor: Giorgio Matt\nHonors: Bachelor’s Merit Scholarship – Students Excellence Program"
+  },
+  {
+    "objectID": "scientific_publications.html",
+    "href": "scientific_publications.html",
+    "title": "Scientific Activity",
+    "section": "",
+    "text": "The full list of my scientific publications can be found on inspirehet.net. If possible, please refer to the above link, that is usually up-to date and does not miss publications or citations.\nI report here also my google scholar profile and my ORCID."
+  },
+  {
+    "objectID": "grants.html",
+    "href": "grants.html",
     "title": "Research grants",
-    "section": "Ciao",
-    "text": "Ciao\n\nOctober 2025 to October 2026: I am the Principal Inverstigator of a Computing time grant (240,000 node hours allocation on the CSCS LUMI supercomputer)."
+    "section": "",
+    "text": "Grants under which I have been employed:\n\nApr. 2024 - Aug. 2024: SNSF - High-precision hadronic contributions to the anomalous magnetic moment of the muon from first principles\nSept. 2025 - Aug. 2026: SNSF - Nonperturbative aspects of Quantum Chromodynamics"
+  },
+  {
+    "objectID": "grants.html#employment",
+    "href": "grants.html#employment",
+    "title": "Research grants",
+    "section": "",
+    "text": "Grants under which I have been employed:\n\nApr. 2024 - Aug. 2024: SNSF - High-precision hadronic contributions to the anomalous magnetic moment of the muon from first principles\nSept. 2025 - Aug. 2026: SNSF - Nonperturbative aspects of Quantum Chromodynamics"
+  },
+  {
+    "objectID": "grants.html#computing-time",
+    "href": "grants.html#computing-time",
+    "title": "Research grants",
+    "section": "Computing time",
+    "text": "Computing time\n\nOctober 2025 to October 2026: I am the Principal Inverstigator of a Computing time grant (240,000 node hours allocation on the CSCS LUMI supercomputer)."
+  },
+  {
+    "objectID": "old/index.html",
+    "href": "old/index.html",
+    "title": "Simone Romiti",
+    "section": "",
+    "text": "Email\n  \n  \n    \n     Github\n  \n  \n    \n     Scientific Activity (ORCID)\n  \n\n  \n  \nI am a theoretical physicist in High Energy Physics, with experience in Quantum Field Theories on the lattice, QCD phenomenology, and computational methods.\nI have expertise in developing and optimizing numerical algorithms for large-scale simulations, with strong programming skills in C/C++, Python, Machine Learning for scientific applications, and daily work on GNU/Linux systems.\nI have a proven track record in collaborative research, publications in well recognizerd scientific journals, and I contribute to major international physics collaborations.\nOver the years, I also gained significant experience in mentoring students and teaching.\nMore information below!\n\n\n\n\nEducation"
+  },
+  {
+    "objectID": "old_template/posts/paper-title/index.html#abstract",
+    "href": "old_template/posts/paper-title/index.html#abstract",
+    "title": "Can quantum-mechanical description of physical reality be considered complete?",
+    "section": "Abstract",
+    "text": "Abstract\nIn a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete."
+  },
+  {
+    "objectID": "old_template/posts/paper-title/index.html#links",
+    "href": "old_template/posts/paper-title/index.html#links",
+    "title": "Can quantum-mechanical description of physical reality be considered complete?",
+    "section": "Links",
+    "text": "Links\nPublished paper"
+  },
+  {
+    "objectID": "old_template/publications.html",
+    "href": "old_template/publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Notes: * corresponding author; GS graduate student advisee; VS visiting scholar;  ESI Highly Cited Paper (top 1%);  ESI Hot Paper (top 0.1%)\nTotal citations as of January 2025:"
+  },
+  {
+    "objectID": "old_template/publications.html#selected-work",
+    "href": "old_template/publications.html#selected-work",
+    "title": "Publications",
+    "section": "Selected Work",
+    "text": "Selected Work\nEinstein, A., Podolsky, B., & Rosen, N. (1935). Can quantum-mechanical description of physical reality be considered complete?. Physical review, 47(10), 777. [pdf] [code and data]   \n\n\n\n\n\n\nEinstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. American Journal of Physics, 33(5), 367. [pdf]"
+  },
+  {
+    "objectID": "old_template/posts.html",
+    "href": "old_template/posts.html",
+    "title": "What’s New & Updated",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "old_template/teaching.html",
+    "href": "old_template/teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
+  },
+  {
+    "objectID": "old_template/teaching.html#class-1",
+    "href": "old_template/teaching.html#class-1",
+    "title": "Teaching",
+    "section": "",
+    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
+  },
+  {
+    "objectID": "old_template/teaching.html#class-2",
+    "href": "old_template/teaching.html#class-2",
+    "title": "Teaching",
+    "section": "Class 2",
+    "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
+  },
+  {
+    "objectID": "old_template/teaching.html#class-3",
+    "href": "old_template/teaching.html#class-3",
+    "title": "Teaching",
+    "section": "Class 3",
+    "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
   }
 ]

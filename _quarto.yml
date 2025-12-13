@@ -44,7 +44,7 @@ website:
       # - text: CV
       #   href: files/nsf-biosketch.pdf
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/simone-romiti
         target: _blank
       # - text: "{{< fa brands bluesky >}}"
       #   href: https://bsky.app
@@ -77,7 +77,7 @@ website:
 
   draft-mode: unlinked
   
-  repo-url: https://github.com/drganghe/quarto-academic-website-template
+  repo-url: https://github.com/simone-romiti
 #  repo-actions: [edit, issue, source]
   
   open-graph: true
@@ -85,7 +85,7 @@ website:
   twitter-card: true 
 #  card-style: summary      
   
-  site-url: "https://drganghe.github.io/quarto-academic-website-template"
+  site-url: "https://github.com/simone-romiti"
   
   google-analytics:
     tracking-id: ""  # Please delete or replace with your own tracking ID
@@ -106,6 +106,6 @@ format:
     link-external-icon: false
     link-external-newwindow: true
     email-obfuscation: javascript
-    link-external-filter: '^(?:http:|https:)\/\/drganghe\.github\.io\/custom'
-    include-in-header: "files/includes/_academic.qmd"
+    # link-external-filter: '^(?:http:|https:)\/\/drganghe\.github\.io\/custom'
+    # include-in-header: "files/includes/_academic.qmd"
 

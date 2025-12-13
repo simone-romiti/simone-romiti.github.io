@@ -21,7 +21,7 @@ about:
     #   target: _blank
     - icon: envelope
       text: E-mail
-      href: simone.romiti.1994@gmail.com    
+      href: "mailto:simone.romiti.1994@gmail.com"
     # - icon: linkedin
     #   text: LinkedIn
     #   href: https://linkedin.com
