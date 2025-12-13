@@ -1,0 +1,37 @@
+---
+title: Job Positions covered so far
+author: Simone Romiti
+---
+
+## Postdoctoral Researcher  
+**University of Bern**, Institute for Theoretical Physics, Switzerland  
+*2024 – Present*
+
+**Research topics:**
+- Leading hadronic contributions to the muon anomalous magnetic moment \( g - 2 \) using lattice QCD
+- Numerical algorithms for large-scale lattice simulations (e.g. Nested Sampling for lattice gauge theories)
+- Development of machine learning algorithms for Hamiltonian simulations on the lattice  
+
+---
+
+## Postdoctoral Researcher  
+**University of Bonn**, Helmholtz Institute for Radiation and Nuclear Physics, Germany  
+*2021 – 2024*
+
+**Research activities:**
+- Production and analysis of configurations for ETMC ensembles (maximal twist and physical-point fine-tuning)
+- Development of Hamiltonian methods for the simulation of lattice gauge theories on quantum devices
+- Organizer of the weekly HISKP seminar series (2022–2024)
+- Co-organizer of the *LATTICE 2022* conference
+- Tutorial sessions for graduate-level courses  
+
+---
+
+## Ph.D. Researcher  
+**Roma Tre University**, Department of Mathematics and Physics, Italy  
+*2018 – 2021*
+
+**Research activities:**
+- Calculation of leading isospin-breaking effects in lattice QCD+QED for the hadron spectrum
+- Development of efficient signal-extraction algorithms for lattice correlators
+- Tutorial sessions for undergraduate mathematics and physics courses

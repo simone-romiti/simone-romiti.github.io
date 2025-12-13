@@ -1,27 +1,97 @@
 ---
 title: "Simone Romiti"
+description-meta: "Personal webpage of Simone Romiti"
+image: "./io_a_Colonia.jpg"
+page-navigation: false
+toc: false
+#sidebar: false
+page-layout: full
+
 about:
+  id: hero-heading
   template: trestles
-  image: profile.jpg
+  image-width: 70%
   links:
-    - text: Email
-      href: simone.romiti.1994@gmail.com
     - icon: github
       text: Github
       href: https://github.com/simone-romiti
-    - icon: people
-      text: Work group
-      href: https://lqcd.hiskp.uni-bonn.de/people/
+    # - icon: globe
+    #   text: Uprofile
+    #   href: https://baruch.cuny.edu
+    #   target: _blank
+    - icon: envelope
+      text: E-mail
+      href: simone.romiti.1994@gmail.com    
+    # - icon: linkedin
+    #   text: LinkedIn
+    #   href: https://linkedin.com
+      # target: _blank
+    # - icon: youtube
+    #   text: YouTube
+    #   href: https://www.youtube.com     
+    #   target: _blank 
+    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
+      href: https://orcid.org/0000-0002-6509-447X
+      target: _blank
+    # - text: "{{< ai clarivate >}} Web of Science"
+    #   href: https://www.webofscience.com  
+    #   target: _blank
+    # - text: "{{< ai scopus >}} Scopus"
+    #   href: https://www.scopus.com
+    #   target: _blank
+    # - text: "{{< ai google-scholar >}} Google Scholar"
+    #   href: https://scholar.google.com
+    #   target: _blank
+#    - text: "{{< ai researchgate >}} Research Gate"
+#      href: https://www.researchgate.net
+#      target: _blank
+    - icon: pencil-fill
+      text: Publications List
+      href: https://inspirehep.net/authors/1755571?ui-citation-summary=false&ui-exclude-self-citations=false
+    - icon: sun
+      text: Uni-Bern
+      href: https://www.itp.unibe.ch/about_us/people/people/index_eng.html?id=265
+
+# listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
+#   - id: recent-posts
+#     contents: 
+#       - posts
+#       - posts/post-links.yml
+#     exclude:
+#       title: ""
+#     type: grid
+#     max-items: 3
+# #    image-height: 150px
+#     page-size: 3 #set same as max-times to remove the page number setting
+#     fields: [image, date, title, subtitle]
+#     max-description-length: 75
+#     sort: 
+#       - "date desc"
+#       - "title asc"
 ---
 
+:::{#hero-heading}
 
-## Bio
+## Welcome to my website! 😊
 
-I'm a PhD graduate in Theoretical Physics,
-working in the field of lattice QCD and lattice gauge theories.
+I am a theoretical physicist in High Energy Physics, with experience in Quantum Field Theories on the lattice, QCD phenomenology, and computational methods. 
 
-## Education
+I have expertise in developing and optimizing numerical algorithms for large-scale simulations, with strong programming skills in `C/C++`, `Python`, Machine Learning for scientific applications, and daily work on GNU/Linux systems. 
+
+I have a proven track record in collaborative research, publications in well recognizerd scientific journals, and I contribute to major international physics collaborations. 
+
+Over the years, I also gained significant experience in mentoring students and teaching.
+
+:::
 
 
-## Experience
+<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
+<!-- ## More information -->
 
+
+<!-- Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
+
+:::{#recent-posts}
+:::
+
+<p align="right">[All Posts »](/posts.qmd)</p> -->

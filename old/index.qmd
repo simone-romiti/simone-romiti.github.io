@@ -1,0 +1,37 @@
+---
+title: "Simone Romiti"
+page-navigation: false
+toc: false
+#sidebar: false
+page-layout: full
+
+about:
+  id: general-info
+  template: trestles
+  image: profile.jpg
+  links:
+    - text: Email
+      href: simone.romiti.1994@gmail.com
+    - icon: github
+      text: Github
+      href: https://github.com/simone-romiti
+    - icon: people
+      text: Scientific Activity (ORCID)
+      href: https://orcid.org/0000-0002-6509-447X
+---
+
+:::{#general-info}
+
+I am a theoretical physicist in High Energy Physics, with experience in Quantum Field Theories on the lattice, QCD phenomenology, and computational methods. 
+
+I have expertise in developing and optimizing numerical algorithms for large-scale simulations, with strong programming skills in `C/C++`, `Python`, Machine Learning for scientific applications, and daily work on GNU/Linux systems. 
+
+I have a proven track record in collaborative research, publications in well recognizerd scientific journals, and I contribute to major international physics collaborations. 
+
+Over the years, I also gained significant experience in mentoring students and teaching.
+
+**More information below!**
+
+:::
+
+- [**Education**](./education.qmd)

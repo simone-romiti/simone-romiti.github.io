@@ -1,0 +1,17 @@
+---
+title: Research grants
+author: Simone Romiti
+---
+
+## Employment
+
+Grants under which I have been employed:
+
+- Apr. 2024 - Aug. 2024: [SNSF - High-precision hadronic contributions to the anomalous magnetic moment of the muon from first principles](https://data.snf.ch/grants/grant/10003675)
+- Sept. 2025 - Aug. 2026: [SNSF - Nonperturbative aspects of Quantum Chromodynamics](https://data.snf.ch/grants/grant/208222)
+
+
+## Computing time
+
+- October 2025 to October 2026: I am the Principal Inverstigator of a Computing time grant (240,000 node hours allocation on the [CSCS LUMI](https://account.lumi.cscs.ch/login/) supercomputer).
+
