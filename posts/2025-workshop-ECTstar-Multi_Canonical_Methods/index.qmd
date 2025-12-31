@@ -1,0 +1,20 @@
+---
+title: "SU(N) eigenstates with Physics-Informed Neural Networks"
+description: "Talk at ECT* workshop on Multi-canonical methods and lattice field theory"
+author: "Simone Romiti"
+date: "2025-12-05"
+categories: [event, presentation]
+image: "/files/images/placeholder2.JPG"
+page-layout: full
+#css: /custom.css
+#draft: true
+---
+
+I gave a talk about my recent arxiv submission [2510.26904](https://arxiv.org/abs/2510.26904).
+
+[![](/files/images/placeholder2.JPG){width="90%"}](https://indico.ectstar.eu/event/248/)
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

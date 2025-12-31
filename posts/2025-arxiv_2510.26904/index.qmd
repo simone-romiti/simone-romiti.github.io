@@ -1,0 +1,56 @@
+---
+title: "$\\mathrm{SU(N)}$ lattice gauge theories with Physics-Informed Neural Networks"
+description: "Novel method to learn the solution of the Schrödinger equation with a neural network"
+# subtitle: "*Physical Review*"
+author: 
+  - name: Simone Romiti
+date: "2025-10-30"
+categories: [paper]
+image: "featured.jpg"
+# citation:
+#   type: article-journal
+#   container-title: "Physical Review"
+#   doi: "10.1103/PhysRev.47.777"
+#   available-date: "1935-05-15"
+#   issued: "1935-05-15"
+#   volume: 47
+#   issue: 7938
+#   page: 777-80
+#   url: https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777
+google-scholar: true
+---
+
+<!--Include academic icons or bottons-->
+
+{{< include /files/includes/_academic.qmd >}}
+
+# Preamble
+
+In Quantum Mechanics the fundamental equations are the Schrödinger equations.
+One depends on time, determining the evolution of a physical state:
+$$i \partial_t \ket{\psi} = H \ket{\psi}$$
+
+The other is the eigenvalue equation for the $n$-th eigenstate $\psi_n$:
+$$H \ket{\psi}_n = E \ket{\psi}_n$$
+
+If the are able to solve the latter, the time evolution reads:
+$$
+\ket{\psi(0)} = \sum_n c_n \ket{\psi}_n
+\, \to \,
+\ket{\psi(t)} = \sum_n c_n e^{-i E_n t} \ket{\psi}_n
+$$
+
+
+**Note**: Solving the Schrödinger equations can be simpler for some values of the parameters in the Hamiltonian (e.g. eq can use perturbation theory). For others, we have to resort to numerical methods.
+
+# Summary of the paper
+
+In [this paper](https://arxiv.org/abs/2510.26904) I proposed an algorithm to solve the eigenvalue equation with a neural network.
+The usefulness is the ability to solve the eigenvalue equation with a form of unsupervised learning, for values the coupling where the analytic solution is not known.
+
+The key elements of originality are:
+
+1. This has never been done for lattice gauge theories, and has the potential of overcoming the _exponential curse_ of the Hilbert space size scaling.
+2. I define and successfully test a procedure to compute the coupling dependence of the solution (i.e. the renormalization flow of the eigenfunctions and energies)
+3. The method is general and can be applied also to learn the dependence on other parameters of the Hamiltonian
+4. This is an Hamiltonian method. As such, it does not suffer from the typical Monte Carlo hindrances: critical slowing down, topological freezing, sign problem, etc.

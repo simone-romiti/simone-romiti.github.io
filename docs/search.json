@@ -1,247 +1,93 @@
 [
   {
+    "objectID": "posts/2025-arxiv_2510.26904/index.html",
+    "href": "posts/2025-arxiv_2510.26904/index.html",
+    "title": "\\(\\mathrm{SU(N)}\\) lattice gauge theories with Physics-Informed Neural Networks",
+    "section": "",
+    "text": "Preamble\nIn Quantum Mechanics the fundamental equations are the Schrödinger equations. One depends on time, determining the evolution of a physical state: \\[i \\partial_t \\ket{\\psi} = H \\ket{\\psi}\\]\nThe other is the eigenvalue equation for the \\(n\\)-th eigenstate \\(\\psi_n\\): \\[H \\ket{\\psi}_n = E \\ket{\\psi}_n\\]\nIf the are able to solve the latter, the time evolution reads: \\[\n\\ket{\\psi(0)} = \\sum_n c_n \\ket{\\psi}_n\n\\, \\to \\,\n\\ket{\\psi(t)} = \\sum_n c_n e^{-i E_n t} \\ket{\\psi}_n\n\\]\nNote: Solving the Schrödinger equations can be simpler for some values of the parameters in the Hamiltonian (e.g. eq can use perturbation theory). For others, we have to resort to numerical methods.\n\n\nSummary of the paper\nIn this paper I proposed an algorithm to solve the eigenvalue equation with a neural network. The usefulness is the ability to solve the eigenvalue equation with a form of unsupervised learning, for values the coupling where the analytic solution is not known.\nThe key elements of originality are:\n\nThis has never been done for lattice gauge theories, and has the potential of overcoming the exponential curse of the Hilbert space size scaling.\nI define and successfully test a procedure to compute the coupling dependence of the solution (i.e. the renormalization flow of the eigenfunctions and energies)\nThe method is general and can be applied also to learn the dependence on other parameters of the Hamiltonian\nThis is an Hamiltonian method. As such, it does not suffer from the typical Monte Carlo hindrances: critical slowing down, topological freezing, sign problem, etc."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Simone Romiti",
+    "title": "Simone Romiti, PhD",
     "section": "",
-    "text": "Github\n  \n  \n    \n     E-mail\n  \n  \n      ORCID\n  \n  \n    \n     Publications List\n  \n  \n    \n     Uni-Bern\n  \n\n  \n  \n\n\nI am a theoretical physicist in High Energy Physics, with experience in Quantum Field Theories on the lattice, QCD phenomenology, and computational methods.\nI have expertise in developing and optimizing numerical algorithms for large-scale simulations, with strong programming skills in C/C++, Python, Machine Learning for scientific applications, and daily work on GNU/Linux systems.\nI have a proven track record in collaborative research, publications in well recognizerd scientific journals, and I contribute to major international physics collaborations.\nOver the years, I also gained significant experience in mentoring students and teaching."
+    "text": "E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     Uni-Bern\n  \n  \n      Inspire HEP\n  \n  \n      Orcid\n  \n  \n      Web of Science\n  \n  \n      Google Scholar\n  \n  \n      Comp. Phys.\n  \n\n  \n  \n\n\n\nI am a theoretical computational physicist in the field of High Energy Physics. In my work I use computers to provide high-precision quantitative predictions of physical quantities, in those regimes where analytic solutions are out of reach.\n\nCurrent employer: University of Bern\nJob title: Postdoctoral Researcher\nEducation: PhD in Theoretical Physics\n\nMy main areas of interest are:\n\nQuantum Field Theories on the lattice, QCD phenomenology\nMachine Learning for scientific applications, Physics-Informed Neural Networks\nMarkov chain Monte Carlo, Bayesian algorithms\n\nEducation | Experience | Skills\nYou can learn much more about me on this website. Check out the top bar for some macro-sections, and my posts below."
   },
   {
-    "objectID": "index.html#welcome-to-my-website",
-    "href": "index.html#welcome-to-my-website",
-    "title": "Simone Romiti",
-    "section": "",
-    "text": "I am a theoretical physicist in High Energy Physics, with experience in Quantum Field Theories on the lattice, QCD phenomenology, and computational methods.\nI have expertise in developing and optimizing numerical algorithms for large-scale simulations, with strong programming skills in C/C++, Python, Machine Learning for scientific applications, and daily work on GNU/Linux systems.\nI have a proven track record in collaborative research, publications in well recognizerd scientific journals, and I contribute to major international physics collaborations.\nOver the years, I also gained significant experience in mentoring students and teaching."
+    "objectID": "index.html#recent-posts",
+    "href": "index.html#recent-posts",
+    "title": "Simone Romiti, PhD",
+    "section": "Recent Posts",
+    "text": "Recent Posts\n\n\n\n\n\n\n\n\n\n\n\nSU(N) eigenstates with Physics-Informed Neural Networks\n\n\n\nDec 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(\\mathrm{SU(N)}\\) lattice gauge theories with Physics-Informed Neural Networks\n\n\n\nOct 30, 2025\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\nAll Posts »"
   },
   {
-    "objectID": "education.html",
-    "href": "education.html",
-    "title": "Education",
-    "section": "",
-    "text": "Roma Tre University, Rome, Italy\n2018 – 2022 (thesis submission: 31st October 2021)\nThesis: The neutron–proton mass difference in Lattice QCD+QED\nSupervisors: Prof. Vittorio Lubicz, Prof. Silvano Simula"
-  },
-  {
-    "objectID": "education.html#ph.d.-in-theoretical-physics",
-    "href": "education.html#ph.d.-in-theoretical-physics",
-    "title": "Education",
-    "section": "",
-    "text": "Roma Tre University, Rome, Italy\n2018 – 2022 (thesis submission: 31st October 2021)\nThesis: The neutron–proton mass difference in Lattice QCD+QED\nSupervisors: Prof. Vittorio Lubicz, Prof. Silvano Simula"
-  },
-  {
-    "objectID": "education.html#m.sc.-in-theoretical-physics-110110-cum-laude",
-    "href": "education.html#m.sc.-in-theoretical-physics-110110-cum-laude",
-    "title": "Education",
-    "section": "M.Sc. in Theoretical Physics (110/110 cum laude)",
-    "text": "M.Sc. in Theoretical Physics (110/110 cum laude)\nRoma Tre University, Rome, Italy\n2016 – 2018\nThesis: Optimization techniques in lattice QCD calculations\nSupervisor: Prof. Cecilia Tarantino"
-  },
-  {
-    "objectID": "education.html#b.sc.-in-physics-110110-cum-laude",
-    "href": "education.html#b.sc.-in-physics-110110-cum-laude",
-    "title": "Education",
-    "section": "B.Sc. in Physics (110/110 cum laude)",
-    "text": "B.Sc. in Physics (110/110 cum laude)\nRoma Tre University, Rome, Italy\n2013 – 2016\nSupervisor: Giorgio Matt\nHonors: Bachelor’s Merit Scholarship – Students Excellence Program"
-  },
-  {
-    "objectID": "old_template/contact.html",
-    "href": "old_template/contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
-  },
-  {
-    "objectID": "old_template/people.html",
-    "href": "old_template/people.html",
-    "title": "People",
-    "section": "",
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "old_template/people.html#team",
-    "href": "old_template/people.html#team",
-    "title": "People",
-    "section": "",
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "old_template/people.html#alumni",
-    "href": "old_template/people.html#alumni",
-    "title": "People",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "old_template/projects.html",
-    "href": "old_template/projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Order By\n      Default\n      \n      \n      \n        Title\n      \n      \n        Team\n      \n      \n        Funder\n      \n      \n        Description\n      \n      \n        Start\n      \n      \n        End\n      \n      \n        Funding\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "old_template/posts/news-title/index.html",
-    "href": "old_template/posts/news-title/index.html",
-    "title": "News item",
-    "section": "",
-    "text": "About the news"
-  },
-  {
-    "objectID": "old_template/posts/news-title/index.html#summary",
-    "href": "old_template/posts/news-title/index.html#summary",
-    "title": "News item",
-    "section": "",
-    "text": "About the news"
-  },
-  {
-    "objectID": "job_positions.html",
-    "href": "job_positions.html",
-    "title": "Job Positions covered so far",
-    "section": "",
-    "text": "University of Bern, Institute for Theoretical Physics, Switzerland\n2024 – Present\nResearch topics: - Leading hadronic contributions to the muon anomalous magnetic moment ( g - 2 ) using lattice QCD - Numerical algorithms for large-scale lattice simulations (e.g. Nested Sampling for lattice gauge theories) - Development of machine learning algorithms for Hamiltonian simulations on the lattice"
-  },
-  {
-    "objectID": "job_positions.html#postdoctoral-researcher",
-    "href": "job_positions.html#postdoctoral-researcher",
-    "title": "Job Positions covered so far",
-    "section": "",
-    "text": "University of Bern, Institute for Theoretical Physics, Switzerland\n2024 – Present\nResearch topics: - Leading hadronic contributions to the muon anomalous magnetic moment ( g - 2 ) using lattice QCD - Numerical algorithms for large-scale lattice simulations (e.g. Nested Sampling for lattice gauge theories) - Development of machine learning algorithms for Hamiltonian simulations on the lattice"
-  },
-  {
-    "objectID": "job_positions.html#postdoctoral-researcher-1",
-    "href": "job_positions.html#postdoctoral-researcher-1",
-    "title": "Job Positions covered so far",
-    "section": "Postdoctoral Researcher",
-    "text": "Postdoctoral Researcher\nUniversity of Bonn, Helmholtz Institute for Radiation and Nuclear Physics, Germany\n2021 – 2024\nResearch activities: - Production and analysis of configurations for ETMC ensembles (maximal twist and physical-point fine-tuning) - Development of Hamiltonian methods for the simulation of lattice gauge theories on quantum devices - Organizer of the weekly HISKP seminar series (2022–2024) - Co-organizer of the LATTICE 2022 conference - Tutorial sessions for graduate-level courses"
-  },
-  {
-    "objectID": "job_positions.html#ph.d.-researcher",
-    "href": "job_positions.html#ph.d.-researcher",
-    "title": "Job Positions covered so far",
-    "section": "Ph.D. Researcher",
-    "text": "Ph.D. Researcher\nRoma Tre University, Department of Mathematics and Physics, Italy\n2018 – 2021\nResearch activities: - Calculation of leading isospin-breaking effects in lattice QCD+QED for the hadron spectrum - Development of efficient signal-extraction algorithms for lattice correlators - Tutorial sessions for undergraduate mathematics and physics courses"
-  },
-  {
-    "objectID": "old/education.html",
-    "href": "old/education.html",
-    "title": "Education",
-    "section": "",
-    "text": "Roma Tre University, Rome, Italy\n2018 – 2022 (thesis submission: 31st October 2021)\nThesis: The neutron–proton mass difference in Lattice QCD+QED\nSupervisors: Prof. Vittorio Lubicz, Prof. Silvano Simula"
-  },
-  {
-    "objectID": "old/education.html#ph.d.-in-theoretical-physics",
-    "href": "old/education.html#ph.d.-in-theoretical-physics",
-    "title": "Education",
-    "section": "",
-    "text": "Roma Tre University, Rome, Italy\n2018 – 2022 (thesis submission: 31st October 2021)\nThesis: The neutron–proton mass difference in Lattice QCD+QED\nSupervisors: Prof. Vittorio Lubicz, Prof. Silvano Simula"
-  },
-  {
-    "objectID": "old/education.html#m.sc.-in-theoretical-physics-110110-cum-laude",
-    "href": "old/education.html#m.sc.-in-theoretical-physics-110110-cum-laude",
-    "title": "Education",
-    "section": "M.Sc. in Theoretical Physics (110/110 cum laude)",
-    "text": "M.Sc. in Theoretical Physics (110/110 cum laude)\nRoma Tre University, Rome, Italy\n2016 – 2018\nThesis: Optimization techniques in lattice QCD calculations\nSupervisor: Prof. Cecilia Tarantino"
-  },
-  {
-    "objectID": "old/education.html#b.sc.-in-physics-110110-cum-laude",
-    "href": "old/education.html#b.sc.-in-physics-110110-cum-laude",
-    "title": "Education",
-    "section": "B.Sc. in Physics (110/110 cum laude)",
-    "text": "B.Sc. in Physics (110/110 cum laude)\nRoma Tre University, Rome, Italy\n2013 – 2016\nSupervisor: Giorgio Matt\nHonors: Bachelor’s Merit Scholarship – Students Excellence Program"
-  },
-  {
-    "objectID": "scientific_publications.html",
-    "href": "scientific_publications.html",
-    "title": "Scientific Activity",
-    "section": "",
-    "text": "The full list of my scientific publications can be found on inspirehet.net. If possible, please refer to the above link, that is usually up-to date and does not miss publications or citations.\nI report here also my google scholar profile and my ORCID."
-  },
-  {
-    "objectID": "grants.html",
-    "href": "grants.html",
-    "title": "Research grants",
-    "section": "",
-    "text": "Grants under which I have been employed:\n\nApr. 2024 - Aug. 2024: SNSF - High-precision hadronic contributions to the anomalous magnetic moment of the muon from first principles\nSept. 2025 - Aug. 2026: SNSF - Nonperturbative aspects of Quantum Chromodynamics"
-  },
-  {
-    "objectID": "grants.html#employment",
-    "href": "grants.html#employment",
-    "title": "Research grants",
-    "section": "",
-    "text": "Grants under which I have been employed:\n\nApr. 2024 - Aug. 2024: SNSF - High-precision hadronic contributions to the anomalous magnetic moment of the muon from first principles\nSept. 2025 - Aug. 2026: SNSF - Nonperturbative aspects of Quantum Chromodynamics"
-  },
-  {
-    "objectID": "grants.html#computing-time",
-    "href": "grants.html#computing-time",
-    "title": "Research grants",
-    "section": "Computing time",
-    "text": "Computing time\n\nOctober 2025 to October 2026: I am the Principal Inverstigator of a Computing time grant (240,000 node hours allocation on the CSCS LUMI supercomputer)."
-  },
-  {
-    "objectID": "old/index.html",
-    "href": "old/index.html",
-    "title": "Simone Romiti",
-    "section": "",
-    "text": "Email\n  \n  \n    \n     Github\n  \n  \n    \n     Scientific Activity (ORCID)\n  \n\n  \n  \nI am a theoretical physicist in High Energy Physics, with experience in Quantum Field Theories on the lattice, QCD phenomenology, and computational methods.\nI have expertise in developing and optimizing numerical algorithms for large-scale simulations, with strong programming skills in C/C++, Python, Machine Learning for scientific applications, and daily work on GNU/Linux systems.\nI have a proven track record in collaborative research, publications in well recognizerd scientific journals, and I contribute to major international physics collaborations.\nOver the years, I also gained significant experience in mentoring students and teaching.\nMore information below!\n\n\n\n\nEducation"
-  },
-  {
-    "objectID": "old_template/posts/paper-title/index.html#abstract",
-    "href": "old_template/posts/paper-title/index.html#abstract",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Abstract",
-    "text": "Abstract\nIn a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete."
-  },
-  {
-    "objectID": "old_template/posts/paper-title/index.html#links",
-    "href": "old_template/posts/paper-title/index.html#links",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Links",
-    "text": "Links\nPublished paper"
-  },
-  {
-    "objectID": "old_template/publications.html",
-    "href": "old_template/publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Notes: * corresponding author; GS graduate student advisee; VS visiting scholar;  ESI Highly Cited Paper (top 1%);  ESI Hot Paper (top 0.1%)\nTotal citations as of January 2025:"
-  },
-  {
-    "objectID": "old_template/publications.html#selected-work",
-    "href": "old_template/publications.html#selected-work",
-    "title": "Publications",
-    "section": "Selected Work",
-    "text": "Selected Work\nEinstein, A., Podolsky, B., & Rosen, N. (1935). Can quantum-mechanical description of physical reality be considered complete?. Physical review, 47(10), 777. [pdf] [code and data]   \n\n\n\n\n\n\nEinstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. American Journal of Physics, 33(5), 367. [pdf]"
-  },
-  {
-    "objectID": "old_template/posts.html",
-    "href": "old_template/posts.html",
-    "title": "What’s New & Updated",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "old_template/teaching.html",
-    "href": "old_template/teaching.html",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
     "title": "Teaching",
     "section": "",
     "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
   },
   {
-    "objectID": "old_template/teaching.html#class-1",
-    "href": "old_template/teaching.html#class-1",
+    "objectID": "teaching.html#class-1",
+    "href": "teaching.html#class-1",
     "title": "Teaching",
     "section": "",
     "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
   },
   {
-    "objectID": "old_template/teaching.html#class-2",
-    "href": "old_template/teaching.html#class-2",
+    "objectID": "teaching.html#class-2",
+    "href": "teaching.html#class-2",
     "title": "Teaching",
     "section": "Class 2",
     "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
   },
   {
-    "objectID": "old_template/teaching.html#class-3",
-    "href": "old_template/teaching.html#class-3",
+    "objectID": "teaching.html#class-3",
+    "href": "teaching.html#class-3",
     "title": "Teaching",
     "section": "Class 3",
     "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "E-mail: simone.romiti.1994@gmail.com\nCompany: University of Bern, Bern, Switzerland. My webpage on their website\nAddress: Sidlerstrasse 5, 3012 Bern, Switzerland\nPersonal website: https://simone-romiti.github.io/"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n       Default\n         \n        \n         \n          Title\n        \n         \n          Team\n        \n         \n          Funder\n        \n         \n          Description\n        \n         \n          Start\n        \n         \n          End\n        \n         \n          Funding\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n \n\n\nTitle\n\n\nTeam\n\n\nFunder\n\n\nDescription\n\n\nFunding\n\n\nStart\n\n\nEnd\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2025-workshop-ECTstar-Multi_Canonical_Methods/index.html",
+    "href": "posts/2025-workshop-ECTstar-Multi_Canonical_Methods/index.html",
+    "title": "SU(N) eigenstates with Physics-Informed Neural Networks",
+    "section": "",
+    "text": "I gave a talk about my recent arxiv submission 2510.26904."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "What’s New & Updated",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSU(N) eigenstates with Physics-Informed Neural Networks\n\n\n\n\n\n\nevent\n\n\npresentation\n\n\n\nTalk at ECT* workshop on Multi-canonical methods and lattice field theory\n\n\n\n\n\nDec 5, 2025\n\n\nSimone Romiti\n\n\n\n\n\n\n\n\n\n\n\n\n\\(\\mathrm{SU(N)}\\) lattice gauge theories with Physics-Informed Neural Networks\n\n\n\n\n\n\npaper\n\n\n\nNovel method to learn the solution of the Schrödinger equation with a neural network\n\n\n\n\n\nOct 30, 2025\n\n\nSimone Romiti\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "mindset.html",
+    "href": "mindset.html",
+    "title": "A summary of my personal interests and work mindset",
+    "section": "",
+    "text": "I believe that meaningful work comes from genuine interest, commitment, and a positive attitude. I strive to approach each day with enthusiasm and a strong sense of responsibility, motivated not only by outcomes but by the process of learning, improving, and contributing along the way.\nI value environments where people care about what they do and where collaboration, respect, and growth are encouraged. When I feel aligned with the mission and culture of a workplace, I naturally invest my energy and effort to help it succeed. I take pride in being reliable, consistent, and proactive, and I am always willing to step up when something needs to be done.\nI am a hard worker by nature, but also a curious one. I enjoy learning new skills, adapting to new challenges, and expanding my perspective. Feedback is something I welcome, as I see it as an opportunity to grow and refine my approach. Over time, my goal is to continuously add more value to the environment I am part of and to grow alongside it.\nFor me, work is at its best when passion, purpose, and progress come together—creating a space where both the individual and the organization can thrive."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "My profile on research databases\n\nInspire HEP\nOrcid\nWeb Of Science\nGoogle Scholar\n\n\n\n\n\n\n\n\n\nList of publications\n\n[1] R. Aliberti et al., The anomalous magnetic moment of the muon in the standard model: An update, Physics Reports 1143, 1 (2025).\n\n\n[2] S. Romiti, Leading isospin breaking effects in nucleon and ∆ masses, Supl. Rev. Mex. Fis. 3, (2022).\n\n\n[3] T. Jakobs, M. Garofalo, T. Hartung, K. Jansen, J. Ostmeyer, D. Rolfes, S. Romiti, and C. Urbach, Canonical momenta in digitized su(2) lattice gauge theory: Definition and free theory, Eur. Phys. J. C 83, 669 (2023).\n\n\n[4] S. Romiti and C. Urbach, Digitizing lattice gauge theories in the magnetic basis: Reducing the breaking of the fundamental commutation relations, Eur. Phys. J. C 84, 708 (2024).\n\n\n[5] C. Alexandrou et al., Strange and charm quark contributions to the muon anomalous magnetic moment in lattice QCD with twisted-mass fermions, Phys. Rev. D 111, 054502 (2025).\n\n\n[6] A. Crippa, S. Romiti, L. Funcke, K. Jansen, S. Kühn, P. Stornati, and C. Urbach, Towards determining the (2+1)-dimensional quantum electrodynamics running coupling with monte carlo and quantum computing methods, Commun Phys 8, 367 (2025).\n\n\n[7] C. Alexandrou et al., Inclusive hadronic decay rate of the τ lepton from lattice QCD: The u ¯ s flavor channel and the cabibbo angle, Phys. Rev. Lett. 132, 261901 (2024).\n\n\n[8] S. Romiti and S. Simula, Extraction of multiple exponential signals from lattice correlation functions, Phys. Rev. D 100, 054515 (2019).\n\n\n[9] T. Jakobs, M. Garofalo, T. Hartung, K. Jansen, P. Ludwig, J. Ostmeyer, S. Romiti, and C. Urbach, A comprehensive stress test of truncated hilbert space bases against green’s function monte carlo in u(1) lattice gauge theory, (2025).\n\n\n[10] S. Romiti, $\\Mathrm{SU(n)}$ lattice gauge theories with physics-informed neural networks, arXiv:2510.26904 (2025).\n\n\n[11] C. F. Groß, S. Romiti, L. Funcke, K. Jansen, A. Kan, S. Kühn, and C. Urbach, Matching lagrangian and hamiltonian simulations in (2+1)-dimensional u(1) gauge theory, arXiv:2503.11480 (2025).\n\n\n[12] T. Jakobs, M. Garofalo, T. Hartung, K. Jansen, J. Ostmeyer, S. Romiti, and C. Urbach, Dynamics in hamiltonian lattice gauge theory: Approaching the continuum limit with partitionings of SU$(2)$, arXiv:2503.03397 (2025).\n\n\n[13] M. Garofalo, B. Kostrzewa, S. Romiti, and A. Sen, Autotuning Multigrid Parameters in the HMC on Different Architectures, in Proceedings of the 41st International Symposium on Lattice Field Theory — PoS(LATTICE2024) (Sissa Medialab, Liverpool, UK, 2025), p. 276.\n\n\n[14] A. Evangelista, S. Bacchio, R. Frezzotti, G. Gagliardi, M. Garofalo, N. Kalntis, S. Romiti, F. Sanfilippo, N. Tantalo, and Extended Twisted Mass Collaboration, Valence Leading Isospin Breaking Contributions to $a_{\\mu}^{\\mathrm{HVP-LO}}$, in Proceedings of the 41st International Symposium on Lattice Field Theory — PoS(LATTICE2024) (Sissa Medialab, Liverpool, UK, 2025), p. 260.\n\n\n[15] N. Kalntis, G. Kanwar, M. Petschlies, S. Romiti, and U. Wenger, Hadronic Light-by-Light Contribution to the Muon g-2 Using Twisted-Mass Fermions, in Proceedings of the 41st International Symposium on Lattice Field Theory — PoS(LATTICE2024) (Sissa Medialab, Liverpool, UK, 2025), p. 228.\n\n\n[16] M. Garofalo, T. Hartung, T. Jakobs, K. Jansen, J. Ostmeyer, D. Rolfes, S. Romiti, and C. Urbach, Testing the $\\Mathrm{SU}(2)$ Lattice Hamiltonian Built from $s_3$ Partitionings, in Proceedings of the 40th International Symposium on Lattice Field Theory — PoS(LATTICE2023) (Sissa Medialab, Fermi National Accelerator Laboratory, 2024), p. 231.\n\n\n[17] L. Funcke, C. Groß, K. Jansen, S. Kühn, S. Romiti, and C. Urbach, Hamiltonian Limit of Lattice QED in 2+1 Dimensions, in Proceedings of the 39th International Symposium on Lattice Field Theory — PoS(LATTICE2022) (Sissa Medialab, Bonn, Germany, 2023), p. 292.\n\n\n[18] B. Kostrzewa, S. Bacchio, J. Finkenrath, M. Garofalo, F. Pittler, S. Romiti, C. Urbach, and ETM Collaboration, Twisted Mass Ensemble Generation on GPU Machines, in Proceedings of the 39th International Symposium on Lattice Field Theory — PoS(LATTICE2022) (Sissa Medialab, Bonn, Germany, 2023), p. 340.\n\n\n[19] M. Garofalo, T. Hartung, K. Jansen, J. Ostmeyer, S. Romiti, and C. Urbach, Defining Canonical Momenta for Discretised SU$(2)$ Gauge Fields, in Proceedings of the 39th International Symposium on Lattice Field Theory — PoS(LATTICE2022) (Sissa Medialab, Bonn, Germany, 2022), p. 040.\n\n\n[20] S. Romiti, The Neutron-Proton Mass Difference, in Proceedings of the 38th International Symposium on Lattice Field Theory — PoS(LATTICE2021) (Sissa Medialab, Zoom/Gather@Massachusetts Institute of Technology, 2022), p. 543.\n\n\n[21] N. Kalntis, G. Kanwar, M. Petschlies, S. Romiti, and U. Wenger, HLbL contribution to the muon g-2 using twisted-mass fermions at the physical point, arXiv:2512.21155 (2025)."
   }
 ]

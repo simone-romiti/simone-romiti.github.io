@@ -1,9 +1,0 @@
----
-title: Scientific Activity
-author: Simone Romiti
----
-
-The full list of my scientific publications can be found on [inspirehet.net](https://inspirehep.net/authors/1755571?ui-citation-summary=true&ui-exclude-self-citations=true).
-If possible, please refer to the above link, that is usually up-to date and does not miss publications or citations.
-
-I report here also my [google scholar profile](https://scholar.google.com/citations?user=B95wK7wAAAAJ&hl=it) and my [ORCID](https://orcid.org/0000-0002-6509-447X).

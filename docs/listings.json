@@ -1,18 +1,20 @@
 [
   {
-    "listing": "/old_template/people.html",
-    "items": []
-  },
-  {
-    "listing": "/old_template/projects.html",
-    "items": []
-  },
-  {
-    "listing": "/old_template/posts.html",
+    "listing": "/index.html",
     "items": [
-      "/old_template/posts/event-title/index.html",
-      "/old_template/posts/news-title/index.html",
-      "/old_template/posts/paper-title/index.html"
+      "/posts/2025-workshop-ECTstar-Multi_Canonical_Methods/index.html",
+      "/posts/2025-arxiv_2510.26904/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2025-workshop-ECTstar-Multi_Canonical_Methods/index.html",
+      "/posts/2025-arxiv_2510.26904/index.html"
     ]
   }
 ]
