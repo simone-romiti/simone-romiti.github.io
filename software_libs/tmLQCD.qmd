@@ -1,0 +1,12 @@
+---
+title: "**tmLQCD**"
+subtitle: "Monte Carlo sampler for lattice QCD"
+date: 2021-10-01
+categories: [C/C++, openMP, MPI, CUDA, git, R, Makefile, LaTeX]
+description: "_Contributor_"
+# image: images/data-analysis.png
+---
+
+[`tmLQCD`](https://github.com/etmc/tmLQCD) is a `C` library containing a set of Monte Carlo algorithms for [twisted mass lattice QCD](https://arxiv.org/abs/0905.3331), and is part of the [Lattice QFT software list](https://lattice-software.github.io/list/).
+I have used it extensively since my PhD, and contributed to its development as a postdoc (check out my [experience section](experience.qmd)).
+

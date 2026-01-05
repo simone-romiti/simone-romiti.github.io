@@ -1,0 +1,21 @@
+---
+title: "**Lattice Data Tools**"
+subtitle: "Statistical analysis of lattice data"
+date: 2021-11-01
+categories: [Python, git, R, Makefile, LaTeX]
+description: "_Creator and maintainer_"
+# image: images/data-analysis.png
+---
+
+
+I am the creator and maintainer of the library [`lattice_data_tools`](https://github.com/simone-romiti/lattice_data_tools), a software toolkit for the statistical analysis of lattice data.
+Some features are, for instance:
+
+-  Extraction of effective masses and amplitudes from lattice correlators
+- Standard routines in the calculation of the hadronic contributions to $(g-2)_\mu$
+- Analysis  of Monte Carlo trajectories
+- Bootstrap and jackknife sampling
+- Least-squares fit of functions $\mathbb{R}^n \to \mathbb{R}^{m}$
+- Bayesian Model Averaging, Akaike's Information Criterion
+
+`lattice_data_tools` is also part of the [Lattice QFT software list](https://lattice-software.github.io/list/).

@@ -1,0 +1,11 @@
+---
+title: "**QCD+QED diagrams**"
+subtitle: "Feynman diagrams for QCD+QED"
+date: 2023-03-30
+categories: [Jaxodraw, git, Makefile, LaTeX]
+description: "_Creator and maintainer_"
+# image: false
+---
+
+
+The repository for [QCD+QED diagrams with the RM123 method](https://github.com/simone-romiti/QCDQED_diagrams) contains the [Jaxodraw](https://jaxodraw.sourceforge.io/) diagrams (and the corresponding `axodraw` `LaTeX` code) for the Feynman diagrams used in the [RM123 method](https://arxiv.org/abs/1303.4896), for the calculation of the Leading Isospin Breaking Effects at leading order in lattice QCD+QED. 
