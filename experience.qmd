@@ -5,46 +5,108 @@ format: html
 toc: false
 ---
 
+::: {.callout-note appearance="minimal" collapse="true"}
+# Postdoctoral Researcher (April 2024 - present) | Bern --- [click to expand]
 
-::: {.callout-note appearance="minimal"}
-# Postdoctoral Researcher  
 *April 2024 – present* · [**University of Bern**, Switzerland](https://www.unibe.ch/)
 
 **Department:**  
 [Institute for Theoretical Physics, Albert Einstein Center for Fundamental Physics (AEC)](https://www.itp.unibe.ch/)
 
-**Activity:**
-- Calculation of the hadronic contributions to the muon’s anomalous magnetic moment  
-- Numerical developments for lattice simulations  
+**Key Activities:**
+
+- **Machine Learning applications:**  
+  - Independently developed Physics-Informed Neural Networks (PINNs) method for solving eigenvalue problems in $\mathrm{SU}(N)$ lattice Hamiltonians | overcoming Hilbert space truncation exponential scaling
+
+- **Hadronic contributions to muon $(g-2)_\mu$:**  
+  - Leading contributor to Hadronic Vacuum Polarization (HVP) calculations for $u,d,s,c$ flavors and Leading Isospin Breaking corrections. **Reference person** for Bern group in ETM collaboration's blinded HVP analysis.
+  - Implementation and calculation of meson pole contributions to Hadronic Light-by-Light (HLbL) scattering. 
+    Represented collaboration at 2025 $(g-2)_\mu$ Initiative workshop
+    Included in author list of 2025 $(g-2)_\mu$ Whitepaper
+
+- **Transition Form Factors (TFFs):**  
+  - Principal Investigator for [CSCS](https://www.cscs.ch/) computing time allocation of 240k GPU node hours, for the calculation of $P\to\gamma^*\gamma^*$ transition form factors for $\eta,\eta'$ mesons: continuum limit over the ETM ensembles.
+
+- **Numerical developments:**  
+  - Developed open-source implementation of pseudoscalar meson pole contributions (infinite and finite volume)
+  - Advanced work on precision lattice QCD at sub-permille level
+
+**Recognition:** Invited speaker at 2025 [Scale Setting Workshop (ECT*)](https://indico.ectstar.eu/event/229/)
 :::
 
-::: {.callout-note appearance="minimal"}
-# Postdoctoral Researcher  
-*Nov 2021 – March 2024* · **University of Bonn**, Germany  
+::: {.callout-note appearance="minimal" collapse="true"}
+# Postdoctoral Researcher (Nov. 2021 - Mar. 2024) | Bonn --- [click to expand]
+*Nov 2021 – Mar. 2024* · **University of Bonn**, Germany  
 
 **Department:**  
 [Helmholtz Institute for Radiation and Nuclear Physics (HISKP)](https://www.hiskp.uni-bonn.de/)
 
-**Activity:**
-- Production and study of twisted-mass QCD (tmQCD) ensembles  
-- Hamiltonian simulations  
-- Software development  
-- Tutorial sessions for undergraduate courses  
-  (see my [teaching section](teaching.qmd))
+**Key Activities:**
+
+- **Ensemble production and analysis:**  
+  - Contributed to generation and analysis of Extended Twisted Mass Collaboration (ETMC) gauge configurations
+  - Code development for `tmLQCD` library
+
+- **Hamiltonian formulations:**  
+  - Quantum computing simulations of $\mathrm{U}(1)$ gauge theories in 2+1 dimensions
+  - Main developer and maintainer of specialized Monte Carlo library for Hamiltonian lattice gauge theories
+  - Developed novel algorithms for $\mathrm{SU}(2)$ gauge theories maximizing canonical commutation relations
+  - Work on Hilbert space truncations via group manifold partitioning
+
+
+
+- **Teaching:**  
+  - Tutorial sessions for undergraduate courses (see [teaching section](teaching.qmd))
+
+**Recognition:**  
+Leading organizer of September 2025 Hamiltonian Lattice Gauge Theory Workshop
 :::
 
-::: {.callout-note appearance="minimal"}
-# Ph.D. Student  
+::: {.callout-note appearance="minimal" collapse="true"}
+# Ph.D. Student (Nov. 2018 - Oct. 2021) | Rome --- [click to expand]
 *Nov 2018 – Oct 2021* · **Roma Tre University**, Rome, Italy  
 
 **Department:**  
 [Department of Mathematics and Physics](https://matematicafisica.uniroma3.it/)
 
-**Activity:**
+**Research Focus:**
 
-- Tutorial sessions for undergraduate courses  
-- Spectral decomposition of Euclidean lattice correlators  
-- Calculation of Leading Isospin Breaking Effects (LIBEs) in Lattice QCD  
-- Ph.D. thesis research  
+- **Leading Isospin Breaking Effects (LIBEs):**  
+  - Calculated LIBEs on nucleon spectrum and $\Delta(1232)$ resonances using RM123 method
+  - Provided one of few lattice calculations of neutron-proton mass difference
+  - Determined $\Delta(1232)$ mass splittings
 
+- **Methodological development:**  
+  - Spectral decomposition of Euclidean lattice correlators
+  - Advanced understanding of isospin symmetry breaking in QCD
+
+- **Teaching:**  
+  - Tutorial sessions for undergraduate courses
+
+**Outcomes:**  
+Successfully defended Ph.D. thesis on Leading Isospin Breaking Effects in lattice QCD
+:::
+
+::: {.callout-tip appearance="minimal" collapse="true"}
+# Research Expertise Summary --- [click to expand]
+
+**Computational Methods:**
+- Monte Carlo algorithms and code development
+- Hamiltonian formulations (Kogut-Susskind)
+- Tensor networks and quantum computing
+- Machine Learning (PINNs, normalizing flows)
+- Nested Sampling algorithm
+
+**Physics Areas:**
+- Precision lattice phenomenology
+- Hadronic contributions to muon anomalous magnetic moment
+- Transition form factors
+- Isospin breaking effects
+- Topological properties in QCD
+
+**Technical Skills:**
+- High-performance computing (HPC)
+- Open-source software development
+- Collaboration leadership and project management
+- Cross-disciplinary research integration
 :::

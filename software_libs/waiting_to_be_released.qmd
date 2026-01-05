@@ -1,19 +1,20 @@
 ---
 title: "**Waiting to be released as open-source**"
-subtitle: "Libraries"
+subtitle: "Libraries that will become available soon"
 date: today
 categories: [C/C++, Python, streamlit, git, Makefile, LaTeX]
-description: "_Contributor_"
+description: "_Creator, Main developer, Contributor_"
 # image: images/data-analysis.png
 ---
 
-Some libraries are still involved in the development of scientific (or personal) projects, and will become open-source as soon as the corresponding paper is published.
-Here I list them, providing the links that will be active when 
+Some libraries are still involved in the development of scientific (or personal) projects, and will become **open-source** as soon as the corresponding paper is published.
+Here I list them, providing the links that will become active in the future.
 
-- HLbL contribution to $(g-2)_\mu$: [pole contribution at large distances](https://github.com/simone-romiti/gm2_HLbL_work)
-- **Hamiltonian simulations of SU(2) lattice gauge theories**: [solvers](https://github.com/HISKP-LQCD/HLGTSolvers) and [toolkit](https://github.com/HISKP-LQCD/HLGTTools)
-- **Installation of ETM collaboration's lattice QCD software stack**: [installation instructions and scripts for different machines](https://github.com/simone-romiti/software-stack)
-- **Nutritionist software toolkit**: [a `streamlit` app to handle patients, their progresses and diet, nutrients conversions and equivalences](https://github.com/simone-romiti/nutri-1)
+
+- HLbL contribution to $(g-2)_\mu$: [pole contribution at large distances](https://github.com/simone-romiti/gm2_HLbL_work) | _Creator and maintainer_
+- **Installation of ETM collaboration's lattice QCD software stack**: [installation instructions and scripts for different machines](https://github.com/simone-romiti/software-stack) | _Creator and maintainer_
+- **Nutritionist software toolkit**: [a `streamlit` app to handle patients, their progresses and diet, nutrients conversions and equivalences](https://github.com/simone-romiti/nutri-1) | _Creator and maintainer_
+- **Hamiltonian simulations of SU(2) lattice gauge theories**: [solvers](https://github.com/HISKP-LQCD/HLGTSolvers) and [toolkit](https://github.com/HISKP-LQCD/HLGTTools) | _Contributor_
 
 
 
