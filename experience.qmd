@@ -1,0 +1,50 @@
+---
+title: "Experience"
+author: Simone Romiti
+format: html
+toc: false
+---
+
+
+::: {.callout-note appearance="minimal"}
+# Postdoctoral Researcher  
+*April 2024 – present* · [**University of Bern**, Switzerland](https://www.unibe.ch/)
+
+**Department:**  
+[Institute for Theoretical Physics, Albert Einstein Center for Fundamental Physics (AEC)](https://www.itp.unibe.ch/)
+
+**Activity:**
+- Calculation of the hadronic contributions to the muon’s anomalous magnetic moment  
+- Numerical developments for lattice simulations  
+:::
+
+::: {.callout-note appearance="minimal"}
+# Postdoctoral Researcher  
+*Nov 2021 – March 2024* · **University of Bonn**, Germany  
+
+**Department:**  
+[Helmholtz Institute for Radiation and Nuclear Physics (HISKP)](https://www.hiskp.uni-bonn.de/)
+
+**Activity:**
+- Production and study of twisted-mass QCD (tmQCD) ensembles  
+- Hamiltonian simulations  
+- Software development  
+- Tutorial sessions for undergraduate courses  
+  (see my [teaching section](teaching.qmd))
+:::
+
+::: {.callout-note appearance="minimal"}
+# Ph.D. Student  
+*Nov 2018 – Oct 2021* · **Roma Tre University**, Rome, Italy  
+
+**Department:**  
+[Department of Mathematics and Physics](https://matematicafisica.uniroma3.it/)
+
+**Activity:**
+
+- Tutorial sessions for undergraduate courses  
+- Spectral decomposition of Euclidean lattice correlators  
+- Calculation of Leading Isospin Breaking Effects (LIBEs) in Lattice QCD  
+- Ph.D. thesis research  
+
+:::

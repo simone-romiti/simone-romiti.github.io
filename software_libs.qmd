@@ -1,0 +1,60 @@
+---
+title: "Software libraries"
+author: Simone Romiti
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    # css: styles.css   # optional, if you use cv-card styling
+---
+
+This document contains a short documentation of the open-source software I develop and maintain, as well as those libraries to which I have contributed. 
+
+---
+
+# Open-source libraries
+
+
+::: {.callout-note appearance="minimal"}
+## `tmLQCD`
+
+[`tmLQCD`](https://github.com/etmc/tmLQCD) is a `C` library containing a set of Monte Carlo algorithms for [twisted mass lattice QCD](https://arxiv.org/abs/0905.3331), and is part of the [Lattice QFT software list](https://lattice-software.github.io/list/).
+I have used it extensively since my PhD, and contributed to ints development as a postdoc (check out my [experience section](experience.qmd)).
+
+:::
+
+
+::: {.callout-note appearance="minimal"}
+## Lattice Data Tools
+
+I am the creator and maintainer of the library [`lattice_data_tools`](https://github.com/simone-romiti/lattice_data_tools), a software toolkit for the statistical analysis of lattice data.
+Some features are, for instance:
+
+-  Extraction of effective masses and amplitudes from lattice correlators
+- Standard routines in the calculation of the hadronic contributions to $(g-2)_\mu$
+- Analysis  of Monte Carlo trajectories
+- Bootstrap and jackknife sampling
+- Least-squares fit of functions $\mathbb{R}^n \to \mathbb{R}^{m}$
+- Bayesian Model Averaging, Akaike's Information Criterion
+
+`lattice_data_tools` is also part of the [Lattice QFT software list](https://lattice-software.github.io/list/).
+
+
+:::
+
+
+
+- [Adiabatic PINNs for SU(N)](https://github.com/simone-romiti/adiabatic_PINNs-suN)
+- [Implementation of DJT method for SU(2)](https://github.com/simone-romiti/DJT_paper-code)
+- [QCD+QED diagrams with RM123 method](https://github.com/simone-romiti/QCDQED_diagrams)
+- [Monte Carlo algorithms for U(1), SU(2), SU(3) in d=2,3,4 dimensions](https://github.com/HISKP-LQCD/su2)
+
+
+- [Tutorial sessions for the Mathematical Analysis 1 course I taught in 2020-2021](https://github.com/simone-romiti/Tutorato_AM1_2020_2021)
+
+
+# Waiting to be released as open-source
+
+Some libraries are still involved in the development of scientific projects, and will become open-source as soon as the corresponding paper is published.
+Here I list them, providing the links that will be active when 
+

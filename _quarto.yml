@@ -23,11 +23,11 @@ website:
             href: education.qmd             
           - text: Experience 🧑‍💼
             href: experience.qmd 
-          - text: Skills ⚒️
-            href: skills.qmd 
-          - text: Mindset 📈
-            href: mindset.qmd 
-          - text: News 📰
+          # - text: Skills ⚒️
+          #   href: skills.qmd 
+          # - text: Mindset 📈
+          #   href: mindset.qmd 
+          - text: Posts 📰
             href: posts.qmd#category=news
           - text: Contact 📧
             href: contact.qmd             
@@ -42,11 +42,7 @@ website:
         - text: Teaching 👨‍🏫
           href: teaching.qmd
       - text: Software
-        menu:        
-        - text: Python libraries
-          href: python_libs.qmd
-        - text: C++ libraries
-          href: cpp_libs.qmd
+        href: software_libs.qmd
 
     right: 
       - text: CV
