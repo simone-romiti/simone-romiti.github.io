@@ -1,0 +1,24 @@
+---
+title: "**ETMC update on the $a_\\mu^{\\text{HLbL}}$ calculation**"
+description: "Talk at the 2025 $(g-2)_\\mu$ initiative workshop"
+author: "Simone Romiti"
+date: "2025-12-05"
+categories: [workshop, presentation]
+# image: "/files/images/placeholder2.JPG"
+page-layout: full
+#css: /custom.css
+#draft: true
+---
+
+# Information about my talk
+
+I gave a [talk at the IJC lab in Orsay](https://indico.ijclab.in2p3.fr/event/11652/contributions/39079/attachments/26172/38803/Romiti-Orsay.pdf) for the [2025 $(g-2)_\mu$ initiative workshop](https://indico.ijclab.in2p3.fr/event/11652/).
+I presented the the progress of the ETM collaboration on the HLbL contribution to $(g-2)_\mu$, with focus on the flavor contribution coming from the light flavors ($u,d$) and the heavy quarks $s,c$.
+
+
+[![](https://indico.ijclab.in2p3.fr/event/11652/logo-3864134598.png)](https://indico.ijclab.in2p3.fr/event/11652/)
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

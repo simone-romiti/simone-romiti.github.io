@@ -54,17 +54,20 @@ about:
     #   target: _blank
 
 listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
-  - id: recent-posts
+  - id: my-recent-activity
+    # exclude:
+    #   contents: waiting_to_be_released.qmd
+    #   title: ""
     contents: 
-      - posts
+      - outreach
+      - software_libs
+      # - posts
       # - posts/post-links.yml
-    exclude:
-      title: ""
     type: grid
-    max-items: 4
+    max-items: 6
 #    image-height: 150px
-    page-size: 4 #set same as max-times to remove the page number setting
-    fields: [image, date, title, subtitle]
+    page-size: 5 #set same as max-times to remove the page number setting
+    fields: [title, subtitle, categories]
     max-description-length: 75
     sort: 
       - "date desc"
@@ -73,7 +76,6 @@ listing:   # Comment the listing section and delete corresponding lines in the i
 
 :::{#hero-heading}
 
-:::{#hero-heading}
 
 # Welcome to my website
 
@@ -91,28 +93,19 @@ My main areas of interest are:
 - **Machine Learning** for scientific applications, Physics-Informed Neural Networks
 - **Markov chain Monte Carlo**, Bayesian algorithms
 
-[Education](./education.qmd) | [Experience](./experience.qmd) | [Teaching](teaching.qmd)
+[Education](./education.qmd) | [Experience](./experience.qmd) | [Publications](./publications.qmd) | [Teaching](teaching.qmd) | [Software](./software_libs.qmd)
 
-You can learn much more about me on this website. Check out the top bar for some macro-sections, and my posts below.
-
-<!-- I have expertise in developing and optimizing numerical algorithms for large-scale simulations, with strong programming skills in `C/C++`, `Python`, Machine Learning for scientific applications, and daily work on GNU/Linux systems. 
-
-I have a proven track record in collaborative research, publications in well recognizerd scientific journals, and I contribute to major international physics collaborations. 
-
-Over the years, I also gained significant experience in mentoring students and teaching. -->
-
-:::
-
+More information about me is available from the macro-sections on the top bar and my activity below.
 
 
 :::
 
 
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-## Recent Posts
+## Activity
+
 <!-- Check out the latest [Papers](posts.qmd#category=paper), [News](posts.qmd#category=news), [Events](posts.qmd#category=event), and [More »](/posts.qmd) -->
 
-:::{#recent-posts}
+:::{#my-recent-activity}
 :::
 
-<p align="right">[All Posts »](/posts.qmd)</p>
+<!-- <p align="right">[All Posts »](/posts.qmd)</p> -->

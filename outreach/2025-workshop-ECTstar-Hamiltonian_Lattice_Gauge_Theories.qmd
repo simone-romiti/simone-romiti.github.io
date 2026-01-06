@@ -1,0 +1,25 @@
+---
+title: "**Organization of the 2025 workshop Hamiltonian LGTs**"
+description: "Leading organizer of workshop at ECT* (Trento)"
+author: "Simone Romiti"
+date: "2025-12-05"
+categories: [workshop, organization, presentation]
+# image: "/files/images/placeholder2.JPG"
+page-layout: full
+#css: /custom.css
+#draft: true
+---
+
+# Information about the event
+
+In the week 1-5 Sept. 2025 I was one of the leading organizers of the [workshop on _Hamiltonian Lattice Gauge Theories: Status, Novel Developments and Applications_](https://indico.ectstar.eu/event/242/).
+On the last day me and C. Urbach gave a [talk](https://indico.ectstar.eu/event/242/contributions/5858/), summarizing the content of the workshop and the final considerations based on the talks and discussion sessions had during the week.
+
+
+
+[![](https://indico.ectstar.eu/event/242/logo-2422125753.png)](https://indico.ectstar.eu/event/242/)
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

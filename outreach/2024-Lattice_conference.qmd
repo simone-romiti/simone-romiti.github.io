@@ -1,0 +1,24 @@
+---
+title: "**Lattice 2024 conference**"
+description: "Talk at the 41st International Symposium on Lattice Field Theory"
+author: "Simone Romiti"
+date: "2024-07-28"
+categories: [conference, presentation]
+page-layout: full
+---
+
+# Information 
+
+
+**From the 28th July 2024 to the 3rd of August 2024** I attended the [Lattice 2024 international conference](https://conference.ippp.dur.ac.uk/event/1265/) in Liverpool, UK.
+
+In [my talk](https://conference.ippp.dur.ac.uk/event/1265/contributions/7618/) I described the application of Nested Sampling to SU(N) lattice gauge theories, with focus on U(1) in 2+1 dimensions.
+My talk was the first of three talks on Nested Sampling that I co-authored with [Urs Wenger](https://conference.ippp.dur.ac.uk/event/1265/contributions/7617/) and [Gurtej Kanwar](https://conference.ippp.dur.ac.uk/event/1265/contributions/7619/).
+
+
+[![](https://conference.ippp.dur.ac.uk/event/1265/attachments/5175/8122/Lattice_2024_0007_full.jpg)](https://conference.ippp.dur.ac.uk/event/1265/overview)
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

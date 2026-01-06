@@ -27,16 +27,16 @@ website:
           #   href: skills.qmd 
           # - text: Mindset 📈
           #   href: mindset.qmd 
-          - text: Posts 📰
-            href: posts.qmd#category=news
+          # - text: Posts 📰
+          #   href: posts.qmd#category=news
           - text: Contact 📧
             href: contact.qmd             
       - text: Academia
         menu:        
-        - text: List of Publications 📃
+        - text: Publications 📃
           href: publications.qmd
-        - text: Presentations 
-          href: posts.qmd#category=presentation                   
+        - text: Outreach 📈
+          href: outreach.qmd                   
         # - text: Grants
         #   href: projects.qmd                                
         - text: Teaching 👨‍🏫
@@ -45,8 +45,8 @@ website:
         href: software_libs.qmd
 
     right: 
-      - text: CV
-        href: files/nsf-biosketch.pdf
+      # - text: CV
+      #   href: files/nsf-biosketch.pdf
       - icon: github
         href: https://github.com/simone-romiti
         target: _blank

@@ -1,0 +1,26 @@
+---
+title: "**ETMC 2025 update on scale setting**"
+description: "Invited speaker at the ETC* workshop"
+author: "Simone Romiti"
+date: "2025-04-03"
+categories: [workshop, presentation]
+# image: "/files/images/placeholder2.JPG"
+page-layout: full
+#css: /custom.css
+#draft: true
+---
+
+# Information about my talk
+
+In the week 3-7 March 2025 I attended a workshop at [ECT* (Trento)] about [_Scale setting: Precision lattice QCD for particle and nuclear physics_](https://indico.ectstar.eu/event/229/overview), as an **invited speaker**.
+
+In [my talk](https://indico.ectstar.eu/event/229/contributions/5308/), I reported on how in the ETM collaboration we had achieved a sub-permille level of precision on the lattice spacing in isoQCD, using the [Ebinburgh/FLAG consensus](https://arxiv.org/abs/2411.04268). 
+
+
+
+[![](https://indico.ectstar.eu/event/229/attachments/3505/5122/P1250259.JPG)](https://indico.ectstar.eu/event/229/)
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

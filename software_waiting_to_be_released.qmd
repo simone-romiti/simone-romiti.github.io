@@ -1,5 +1,5 @@
 ---
-title: "**Waiting to be released as open-source**"
+title: "**Ongoing projects**"
 subtitle: "Libraries that will become available soon"
 date: today
 categories: [C/C++, Python, streamlit, git, Makefile, LaTeX]

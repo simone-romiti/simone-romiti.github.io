@@ -1,0 +1,21 @@
+---
+title: "**HISKP weekly seminars**"
+description: "Organized of weekly physics seminars at HISKP, Bonn"
+author: "Simone Romiti"
+date: "2022"
+categories: [organization]
+page-layout: full
+---
+
+# Information
+
+**Between 2022 and 2024** I co-organized with [Maxim Mai](https://maxim-mai.github.io/) the [weekly physics seminars](https://indico.hiskp.uni-bonn.de/category/35/) at the [Helmholtz Institute for Radiation and Nuclear Physics (HISKP), at the University of Bonn](https://www.hiskp.uni-bonn.de/).
+Our work consisted in inviting speakers, broadcasting the events and chairing the sessions.
+
+
+[![](https://indico.hiskp.uni-bonn.de/category/35/logo-3080247932.png)](https://indico.hiskp.uni-bonn.de/category/35/)
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

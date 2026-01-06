@@ -1,0 +1,24 @@
+---
+title: "Outreach activity"
+listing:
+  id: presentations-listing
+  contents: 
+    - outreach/*.qmd
+  type: grid
+  categories: numbered
+  filter-ui: [date, title]
+  sort: "date desc"
+  # page-size: 15
+  fields: [title, subtitle, categories, description]
+---
+
+This document contains a listing of my outreach activity, namely:
+
+- The events I attended (conferences, workshops, etc.)
+- The presentations I made
+- My contributions as organizer
+- etc.
+
+
+:::{#presentations-listing}
+:::

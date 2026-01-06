@@ -6,7 +6,7 @@ author:
   - name: Simone Romiti
 date: "2025-10-30"
 categories: [paper]
-image: "featured.jpg"
+# image: "featured.jpg"
 # citation:
 #   type: article-journal
 #   container-title: "Physical Review"
