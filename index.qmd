@@ -59,12 +59,12 @@ listing:   # Comment the listing section and delete corresponding lines in the i
     #   contents: waiting_to_be_released.qmd
     #   title: ""
     contents: 
-      - outreach
-      - software_libs
+      - outreach/*.qmd
+      - software_libs/*.qmd
       # - posts
       # - posts/post-links.yml
     type: grid
-    max-items: 6
+    # max-items: 6
 #    image-height: 150px
     page-size: 5 #set same as max-times to remove the page number setting
     fields: [title, subtitle, categories]
