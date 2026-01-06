@@ -1,0 +1,25 @@
+---
+title: "**SU(N) eigenstates with Physics-Informed Neural Networks**"
+description: "Talk at ECT* workshop on Multi-canonical methods and lattice field theory"
+author: "Simone Romiti"
+date: "2025-12-05"
+categories: [workshop, presentation]
+# image: "/files/images/placeholder2.JPG"
+page-layout: full
+#css: /custom.css
+#draft: true
+---
+
+# Information about my talk
+
+I gave a [talk at ECT* in Trento](https://indico.ectstar.eu/event/248/contributions/6627/) about my recent arxiv submission [2510.26904](https://arxiv.org/abs/2510.26904).
+I discussed how one can perform an _adiabatic learning_ of a Physics-Informed Neural Network in order to find the renormalization flow of the eigenfunctions and energies of a SU(N) lattice gauge theory.
+
+
+
+[![](https://indico.ectstar.eu/event/248/attachments/4057/6014/20251203_152614.jpg)](https://indico.ectstar.eu/event/248/overview)
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

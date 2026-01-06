@@ -1,0 +1,24 @@
+---
+title: "**SIGN25 workshop**"
+description: "Attended 2025 SIGN workshop and helped in the organization"
+author: "Simone Romiti"
+date: "2025-01-20"
+categories: [workshop, organization]
+# image: "/files/images/placeholder2.JPG"
+page-layout: full
+#css: /custom.css
+#draft: true
+---
+
+# Information
+
+In the week 20-24 January 2025 I attended a workshop at the [ITP, University of Bern](https://www.itp.unibe.ch/): [_Workshop on the sign problem in QCD and beyond_](https://indico.global/event/9559/).
+I also provided support for the organization, handling the technical video and audio tasks necessary for the presentations of the other participants.
+
+
+[![](https://indico.global/event/9559/logo-1273009498.png)](https://indico.global/event/9559/)
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

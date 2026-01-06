@@ -1,0 +1,24 @@
+---
+title: "**Lattice 2021 conference**"
+description: "Talk at the 38th International Symposium on Lattice Field Theory"
+author: "Simone Romiti"
+date: "2021-07-26"
+categories: [conference, presentation]
+page-layout: full
+---
+
+# Information 
+
+
+**From the 26th July 2021 to the 30th July 2022** I attended the [Lattice 2021 international conference](https://indico.cern.ch/event/1006302/), at MIT.
+The conference took place remotely due to the [global emergency causeb by the COVID pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic).
+
+In [my talk](https://indico.cern.ch/event/1006302/contributions/4373299/) I talked about the part of my PhD thesis project consisting in the determination of the mass difference between neutron and proton with lattice calculations.
+I showed how it is possible to find this mass splitting by using a purely hadronic renormalization scheme and perturbation theory at 1st order in $\alpha_\text{em}$ and $\frac{(m_d-m_u)}{\Lambda_\text{QCD}}$ with the [RM123 method](https://arxiv.org/abs/1303.4896).
+
+
+[![](https://indico.cern.ch/event/1006302/logo-2832221814.png)](https://indico.cern.ch/event/1006302/logo-2832221814.png)
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

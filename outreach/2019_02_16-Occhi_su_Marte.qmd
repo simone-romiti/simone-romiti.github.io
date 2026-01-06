@@ -1,0 +1,28 @@
+---
+title: "**Eyes on Mars**"
+description: "Outreach event for the general public at Roma Tre University"
+author: "Simone Romiti"
+date: "2019-02-15"
+categories: [organization, presentation]
+page-layout: full
+---
+
+# Information
+
+On the **15th Feb. 2019 **I helped in the organization of the event [**Eyes on Mars** (_Occhi su Marte_ 🇮🇹)](https://matematicafisica.uniroma3.it/terza-missione/iniziative-per-tutti/occhi-su-marte/), at the [department of Mathematics and Physics](https://matematicafisica.uniroma3.it/) of the [Roma Tre University](https://www.uniroma3.it/).
+
+The event consisted in a series of seminars, presentation, hands-on activities for kids and observations with the telescope. 
+The even had a broad scope for the general audience, covering several talks and activities about science in general.
+
+I contributed to the organization of the whole event and presented myself a demonstration of the [Barkhausen effect](https://en.wikipedia.org/wiki/Barkhausen_effect), which provides a macroscopic evidence of the formation of Weiss domains in ferromagnetic materials.
+
+In my presentation with title [**Electromagnetic...  Attractions** (_Attrazioni… elettromagnetiche_ 🇮🇹)](https://matematicafisica.uniroma3.it/terza-missione/iniziative-per-tutti/occhi-su-marte/#:~:text=Attrazioni%E2%80%A6%20elettromagnetiche),
+I used a transformer connected to a loudspeaker and a magnet.
+Passing the magnet next to the metal surrounding the transformer me and [Alessio Rettaroli](https://inspirehep.net/authors/1874381) were able to reproduce in the loudspeaker the typical clicking noise of Weiss domains flip.
+
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/960px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png)
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

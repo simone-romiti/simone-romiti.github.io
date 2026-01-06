@@ -1,1 +1,1 @@
-Sitemap: https://github.com/simone-romiti/sitemap.xml
+Sitemap: https://simone-romiti.github.io/sitemap.xml

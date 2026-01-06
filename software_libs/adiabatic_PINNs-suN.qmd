@@ -1,0 +1,12 @@
+---
+title: "**Adiabatic PINNs for SU(N)**"
+subtitle: "Physics-Informed Neural Networks for the solution of U(1) and SU(2) on the lattice"
+date: 2025-10-30
+categories: [Python, Pytorch, git, Makefile, LaTeX]
+description: "_Creator and maintainer_"
+# image: images/data-analysis.png
+---
+
+The repository [adiabatic PINNs for SU(N)](https://github.com/simone-romiti/adiabatic_PINNs-suN) contains the open-source implementation of the algorithm described on my paper: [arxiv 2510.26904](https://arxiv.org/abs/2510.26904).
+
+
