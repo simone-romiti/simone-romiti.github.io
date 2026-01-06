@@ -1,0 +1,268 @@
+[
+  {
+    "objectID": "software_waiting_to_be_released.html",
+    "href": "software_waiting_to_be_released.html",
+    "title": "Ongoing projects",
+    "section": "",
+    "text": "Some libraries are still involved in the development of scientific (or personal) projects, and will become open-source as soon as the corresponding paper is published. Here I list them, providing the links that will become active in the future.\n\nHLbL contribution to \\((g-2)_\\mu\\): pole contribution at large distances | Creator and maintainer\nInstallation of ETM collaboration’s lattice QCD software stack: installation instructions and scripts for different machines | Creator and maintainer\nNutritionist software toolkit: a streamlit app to handle patients, their progresses and diet, nutrients conversions and equivalences | Creator and maintainer\nHamiltonian simulations of SU(2) lattice gauge theories: solvers and toolkit | Contributor"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n       Default\n         \n        \n         \n          Title\n        \n         \n          Team\n        \n         \n          Funder\n        \n         \n          Description\n        \n         \n          Start\n        \n         \n          End\n        \n         \n          Funding\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n \n\n\nTitle\n\n\nTeam\n\n\nFunder\n\n\nDescription\n\n\nFunding\n\n\nStart\n\n\nEnd\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "E-mail: simone.romiti.1994@gmail.com\nCompany: University of Bern, Bern, Switzerland. My webpage on their website\nAddress: Sidlerstrasse 5, 3012 Bern, Switzerland\nPersonal website: https://simone-romiti.github.io/"
+  },
+  {
+    "objectID": "publications/2025-arxiv_2510.26904.html",
+    "href": "publications/2025-arxiv_2510.26904.html",
+    "title": "\\(\\mathrm{SU(N)}\\) lattice gauge theories with Physics-Informed Neural Networks",
+    "section": "",
+    "text": "Preamble\nIn Quantum Mechanics the fundamental equations are the Schrödinger equations. One depends on time, determining the evolution of a physical state: \\[i \\partial_t \\ket{\\psi} = H \\ket{\\psi}\\]\nThe other is the eigenvalue equation for the \\(n\\)-th eigenstate \\(\\psi_n\\): \\[H \\ket{\\psi}_n = E \\ket{\\psi}_n\\]\nIf the are able to solve the latter, the time evolution reads: \\[\n\\ket{\\psi(0)} = \\sum_n c_n \\ket{\\psi}_n\n\\, \\to \\,\n\\ket{\\psi(t)} = \\sum_n c_n e^{-i E_n t} \\ket{\\psi}_n\n\\]\nNote: Solving the Schrödinger equations can be simpler for some values of the parameters in the Hamiltonian (e.g. eq can use perturbation theory). For others, we have to resort to numerical methods.\n\n\nSummary of the paper\nIn this paper I proposed an algorithm to solve the eigenvalue equation with a neural network. The usefulness is the ability to solve the eigenvalue equation with a form of unsupervised learning, for values the coupling where the analytic solution is not known.\nThe key elements of originality are:\n\nThis has never been done for lattice gauge theories, and has the potential of overcoming the exponential curse of the Hilbert space size scaling.\nI define and successfully test a procedure to compute the coupling dependence of the solution (i.e. the renormalization flow of the eigenfunctions and energies)\nThe method is general and can be applied also to learn the dependence on other parameters of the Hamiltonian\nThis is an Hamiltonian method. As such, it does not suffer from the typical Monte Carlo hindrances: critical slowing down, topological freezing, sign problem, etc."
+  },
+  {
+    "objectID": "outreach/2021-Lattice_conference.html",
+    "href": "outreach/2021-Lattice_conference.html",
+    "title": "Lattice 2021 conference",
+    "section": "",
+    "text": "Information\nFrom the 26th July 2021 to the 30th July 2022 I attended the Lattice 2021 international conference, at MIT. The conference took place remotely due to the global emergency causeb by the COVID pandemic.\nIn my talk I talked about the part of my PhD thesis project consisting in the determination of the mass difference between neutron and proton with lattice calculations. I showed how it is possible to find this mass splitting by using a purely hadronic renormalization scheme and perturbation theory at 1st order in \\(\\alpha_\\text{em}\\) and \\(\\frac{(m_d-m_u)}{\\Lambda_\\text{QCD}}\\) with the RM123 method."
+  },
+  {
+    "objectID": "outreach/2025-gm2_initiative.html",
+    "href": "outreach/2025-gm2_initiative.html",
+    "title": "ETMC update on the \\(a_\\mu^{\\text{HLbL}}\\) calculation",
+    "section": "",
+    "text": "Information about my talk\nI gave a talk at the IJC lab in Orsay for the 2025 \\((g-2)_\\mu\\) initiative workshop. I presented the the progress of the ETM collaboration on the HLbL contribution to \\((g-2)_\\mu\\), with focus on the flavor contribution coming from the light flavors (\\(u,d\\)) and the heavy quarks \\(s,c\\)."
+  },
+  {
+    "objectID": "outreach/2025-SIGN_workshop.html",
+    "href": "outreach/2025-SIGN_workshop.html",
+    "title": "SIGN25 workshop",
+    "section": "",
+    "text": "Information\nIn the week 20-24 January 2025 I attended a workshop at the ITP, University of Bern: Workshop on the sign problem in QCD and beyond. I also provided support for the organization, handling the technical video and audio tasks necessary for the presentations of the other participants."
+  },
+  {
+    "objectID": "outreach/2019_02_16-Occhi_su_Marte.html",
+    "href": "outreach/2019_02_16-Occhi_su_Marte.html",
+    "title": "Eyes on Mars",
+    "section": "",
+    "text": "Information\nOn the 15th Feb. 2019 I helped in the organization of the event Eyes on Mars (Occhi su Marte 🇮🇹), at the department of Mathematics and Physics of the Roma Tre University.\nThe event consisted in a series of seminars, presentation, hands-on activities for kids and observations with the telescope. The even had a broad scope for the general audience, covering several talks and activities about science in general.\nI contributed to the organization of the whole event and presented myself a demonstration of the Barkhausen effect, which provides a macroscopic evidence of the formation of Weiss domains in ferromagnetic materials.\nIn my presentation with title Electromagnetic… Attractions (Attrazioni… elettromagnetiche 🇮🇹), I used a transformer connected to a loudspeaker and a magnet. Passing the magnet next to the metal surrounding the transformer me and Alessio Rettaroli were able to reproduce in the loudspeaker the typical clicking noise of Weiss domains flip."
+  },
+  {
+    "objectID": "outreach/2025-workshop-ECTstar-Multi_Canonical_Methods.html",
+    "href": "outreach/2025-workshop-ECTstar-Multi_Canonical_Methods.html",
+    "title": "SU(N) eigenstates with Physics-Informed Neural Networks",
+    "section": "",
+    "text": "Information about my talk\nI gave a talk at ECT* in Trento about my recent arxiv submission 2510.26904. I discussed how one can perform an adiabatic learning of a Physics-Informed Neural Network in order to find the renormalization flow of the eigenfunctions and energies of a SU(N) lattice gauge theory."
+  },
+  {
+    "objectID": "outreach/2023-Lattice_conference.html",
+    "href": "outreach/2023-Lattice_conference.html",
+    "title": "Lattice 2023 conference",
+    "section": "",
+    "text": "Information\nFrom the 31st July 2023 to the 4th of August 2023 I attended the Lattice 2023 international conference at Fermilab, Batavia, Illinois, USA,.\nIn my talk I described the novel algorithm proposed in the ArXiV submission 2311.11928, later published on EPJC."
+  },
+  {
+    "objectID": "outreach/2022_2024-HISKP_weekly_seminars.html",
+    "href": "outreach/2022_2024-HISKP_weekly_seminars.html",
+    "title": "HISKP weekly seminars",
+    "section": "",
+    "text": "Information\nBetween 2022 and 2024 I co-organized with Maxim Mai the weekly physics seminars at the Helmholtz Institute for Radiation and Nuclear Physics (HISKP), at the University of Bonn. Our work consisted in inviting speakers, broadcasting the events and chairing the sessions."
+  },
+  {
+    "objectID": "outreach.html",
+    "href": "outreach.html",
+    "title": "Outreach activity",
+    "section": "",
+    "text": "This document contains a listing of my outreach activity, namely:\n\nThe events I attended (conferences, workshops, etc.)\nThe presentations I made\nMy contributions as organizer\netc.\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\nETMC update on the \\(a_\\mu^{\\text{HLbL}}\\) calculation\n\n\n\nworkshop\n\n\npresentation\n\n\n\nTalk at the 2025 \\((g-2)_\\mu\\) initiative workshop\n\n\n\n\n\n\n\n\n\n\nOrganization of the 2025 workshop Hamiltonian LGTs\n\n\n\nworkshop\n\n\norganization\n\n\npresentation\n\n\n\nLeading organizer of workshop at ECT* (Trento)\n\n\n\n\n\n\n\n\n\n\nSU(N) eigenstates with Physics-Informed Neural Networks\n\n\n\nworkshop\n\n\npresentation\n\n\n\nTalk at ECT* workshop on Multi-canonical methods and lattice field theory\n\n\n\n\n\n\n\n\n\n\nETMC 2025 update on scale setting\n\n\n\nworkshop\n\n\npresentation\n\n\n\nInvited speaker at the ETC* workshop\n\n\n\n\n\n\n\n\n\n\nGradient flow workshop\n\n\n\nworkshop\n\n\npresentation\n\n\n\nTalk 2023 gradient flow workshop\n\n\n\n\n\n\n\n\n\n\nGradient flow workshop\n\n\n\nworkshop\n\n\n\nAttended 2025 gradient flow workshop\n\n\n\n\n\n\n\n\n\n\nSIGN25 workshop\n\n\n\nworkshop\n\n\norganization\n\n\n\nAttended 2025 SIGN workshop and helped in the organization\n\n\n\n\n\n\n\n\n\n\nLattice 2024 conference\n\n\n\nconference\n\n\npresentation\n\n\n\nTalk at the 41st International Symposium on Lattice Field Theory\n\n\n\n\n\n\n\n\n\n\nLattice 2023 conference\n\n\n\nconference\n\n\npresentation\n\n\n\nTalk at the 40th International Symposium on Lattice Field Theory\n\n\n\n\n\n\n\n\n\n\nLattice 2022 conference\n\n\n\nconference\n\n\norganization\n\n\npresentation\n\n\n\nTalk at the 39th International Symposium on Lattice Field Theory\n\n\n\n\n\n\n\n\n\n\nHISKP weekly seminars\n\n\n\norganization\n\n\n\nOrganized of weekly physics seminars at HISKP, Bonn\n\n\n\n\n\n\n\n\n\n\nHadron 2021 conference\n\n\n\nconference\n\n\npresentation\n\n\n\nTalk at the 19th International Conference on Hadron Spectroscopy and Structure\n\n\n\n\n\n\n\n\n\n\nLattice 2021 conference\n\n\n\nconference\n\n\npresentation\n\n\n\nTalk at the 38th International Symposium on Lattice Field Theory\n\n\n\n\n\n\n\n\n\n\nEyes on Mars\n\n\n\norganization\n\n\npresentation\n\n\n\nOutreach event for the general public at Roma Tre University\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Work Experience",
+    "section": "",
+    "text": "On this page\n   \n  \n  Expertise Summary\n  Work positions\n  Awards and grants\n  \n\n\nExpertise Summary\n\n\n\n\n\n\nclick here to expand\n\n\n\n\n\nComputational Methods:\n\nMonte Carlo algorithms and code development\nMulti-dimensional integrals (Euclidean path integral)\nHamiltonian formulations (Kogut-Susskind)\nTensor networks and quantum computing\nMachine Learning (PINNs, normalizing flows)\nBayesian algorithms, Nested Sampling\n\nPhysics Areas:\n\nPrecision lattice phenomenology\nHadronic contributions to muon anomalous magnetic moment\nTransition Form Factors of pseudoscalar mesons\nIsospin breaking effects on the lattice\nLattice Hamiltonians and solution of Schrödinger equation on truncated Hilbert spaces\n\nTechnical Skills:\n\nHigh-performance computing (HPC): CPU and GPU parallel computing, Data Structures and Algorithms\nOpen-source software development: git version control, CI/Cd, DevOps\nCollaboration leadership and project management\nCross-disciplinary research integration\n\n\n\n\n\n\nWork positions\n\n\n\n\n\n\nPostdoctoral Researcher (April 2024 - present) | Bern – click here to expand\n\n\n\n\n\nApril 2024 – present · University of Bern, Switzerland\nDepartment:\nInstitute for Theoretical Physics, Albert Einstein Center for Fundamental Physics (AEC)\nKey Activities:\n\nMachine Learning applications:\n\nIndependently developed Physics-Informed Neural Networks (PINNs) method for solving eigenvalue problems in \\(\\mathrm{SU}(N)\\) lattice Hamiltonians | overcoming Hilbert space truncation exponential scaling\n\nHadronic contributions to muon \\((g-2)_\\mu\\):\n\nLeading contributor to Hadronic Vacuum Polarization (HVP) calculations for \\(u,d,s,c\\) flavors and Leading Isospin Breaking corrections. Reference person for Bern group in ETM collaboration’s blinded HVP analysis.\nImplementation and calculation of meson pole contributions to Hadronic Light-by-Light (HLbL) scattering. Represented collaboration at 2025 \\((g-2)_\\mu\\) Initiative workshop Included in author list of 2025 \\((g-2)_\\mu\\) Whitepaper\n\nTransition Form Factors (TFFs):\n\nPrincipal Investigator for CSCS computing time allocation of 240k GPU node hours, for the calculation of \\(P\\to\\gamma^*\\gamma^*\\) transition form factors for \\(\\eta,\\eta'\\) mesons: continuum limit over the ETM ensembles.\n\nNumerical developments:\n\nDeveloped open-source implementation of pseudoscalar meson pole contributions (infinite and finite volume)\nAdvanced work on precision lattice QCD at sub-permille level\nNested sampling algorithm for lattice field theories\n\nSupervision of PhD students\nInvited speaker at 2025 Scale Setting Workshop (ECT*)\nMain organizer of Hamiltonian lattice gauge theories workshop (ECT*)\nOrganization support for SIGN25 workshop at ITP Bern\n\n\n\n\n\n\n\n\n\n\nPostdoctoral Researcher (Nov. 2021 - Mar. 2024) | Bonn – click here to expand\n\n\n\n\n\nNov 2021 – Mar. 2024 · University of Bonn, Germany\nDepartment:\nHelmholtz Institute for Radiation and Nuclear Physics (HISKP)\nKey Activities:\n\nEnsemble production and analysis:\n\nContributed to generation and analysis of Extended Twisted Mass Collaboration (ETMC) gauge configurations\nCode development for tmLQCD library\n\nHamiltonian formulations:\n\nQuantum computing simulations of \\(\\mathrm{U}(1)\\) gauge theories in 2+1 dimensions\nMain developer and maintainer of specialized Monte Carlo library for Hamiltonian lattice gauge theories\nDeveloped novel algorithms for \\(\\mathrm{SU}(2)\\) gauge theories maximizing canonical commutation relations\nWork on Hilbert space truncations via group manifold partitioning\n\nSupervision of MS and PhD students\nTeaching:\n\nTutorial sessions for undergraduate courses (see teaching section)\n\n**Organization support for the Lattice 2022 international conference\n\n\n\n\n\n\n\n\n\n\nPh.D. Student (Nov. 2018 - Oct. 2021) | Rome – click here to expand\n\n\n\n\n\nNov 2018 – Oct 2021 · Roma Tre University, Rome, Italy\nDepartment:\nDepartment of Mathematics and Physics\nResearch Focus:\n\nLeading Isospin Breaking Effects (LIBEs):\n\nCalculated LIBEs on nucleon spectrum and \\(\\Delta(1232)\\) resonances using RM123 method\nProvided one of few lattice calculations of neutron-proton mass difference\nDetermined \\(\\Delta(1232)\\) mass splittings\n\nMethodological development:\n\nSpectral decomposition of Euclidean lattice correlators\nAdvanced understanding of isospin symmetry breaking in QCD\n\nTeaching:\n\nTutorial sessions for undergraduate courses\n\n\nOutcomes:: Successfully defended Ph.D. thesis | Submission: 31st Oct. 2021 | Dissertation: 22 Apr. 2022\n\n\n\n\n\nAwards and grants\n\n\n\n\n\n\nclick here to expand\n\n\n\n\n\n\n2025-2026: Principal Investigator (PI) of computing time allocation: \\(0.24 \\cdot 10^{6}\\) GPU node hours on ALPS - CSCS Swiss supercomputing cluster | Lattice calculation of the \\(\\eta,\\eta'\\) Transition form factors.\n2013-2016: Merit Scholarship for excellent students - Physics Department, Roma Tre University. Awarded for top high school marks and academic excellence."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Inspire HEP\nOrcid\nWeb Of Science\nGoogle Scholar\n\n\n\n\n\n\n\nPeer reviewer activity – click to expand\n\n\n\n\n\n\nPhysics Review D: one paper in 2023 and one in 2024 1."
+  },
+  {
+    "objectID": "publications.html#footnotes",
+    "href": "publications.html#footnotes",
+    "title": "Publications",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAs usual in peer review, in order to maintain anonymity I am not disclosing which papers I have reviewed.↩︎"
+  },
+  {
+    "objectID": "software_libs/tmLQCD.html",
+    "href": "software_libs/tmLQCD.html",
+    "title": "tmLQCD",
+    "section": "",
+    "text": "tmLQCD is a C library containing a set of Monte Carlo algorithms for twisted mass lattice QCD, and is part of the Lattice QFT software list. I have used it extensively since my PhD, and contributed to its development as a postdoc (check out my experience section)."
+  },
+  {
+    "objectID": "software_libs/QCDQED_diagrams.html",
+    "href": "software_libs/QCDQED_diagrams.html",
+    "title": "QCD+QED diagrams",
+    "section": "",
+    "text": "The repository for QCD+QED diagrams with the RM123 method contains the Jaxodraw diagrams (and the corresponding axodraw LaTeX code) for the Feynman diagrams used in the RM123 method, for the calculation of the Leading Isospin Breaking Effects at leading order in lattice QCD+QED."
+  },
+  {
+    "objectID": "software_libs/DJT_paper-code.html",
+    "href": "software_libs/DJT_paper-code.html",
+    "title": "DJT implementation for SU(2)",
+    "section": "",
+    "text": "The DJT_paper code repository contains the open-source implementation of the algorithm described on my paper: https://arxiv.org/abs/2311.11928"
+  },
+  {
+    "objectID": "software_libs/adiabatic_PINNs-suN.html",
+    "href": "software_libs/adiabatic_PINNs-suN.html",
+    "title": "Adiabatic PINNs for SU(N)",
+    "section": "",
+    "text": "The repository adiabatic PINNs for SU(N) contains the open-source implementation of the algorithm described on my paper: arxiv 2510.26904."
+  },
+  {
+    "objectID": "software_libs/su2_urbach.html",
+    "href": "software_libs/su2_urbach.html",
+    "title": "MC simulations for U(1), SU(2) and SU(3)",
+    "section": "",
+    "text": "This library with Monte Carlo algorithms for U(1), SU(2), SU(3) in d=2,3,4 dimensions was created by my former boss, C. Urbach, and I became its main maintainer when started working for him (check my experience section)."
+  },
+  {
+    "objectID": "software_libs/lattice_data_tools.html",
+    "href": "software_libs/lattice_data_tools.html",
+    "title": "Lattice Data Tools",
+    "section": "",
+    "text": "I am the creator and maintainer of the library lattice_data_tools, a software toolkit for the statistical analysis of lattice data. Some features are, for instance:\n\nExtraction of effective masses and amplitudes from lattice correlators\nStandard routines in the calculation of the hadronic contributions to \\((g-2)_\\mu\\)\nAnalysis of Monte Carlo trajectories\nBootstrap and jackknife sampling\nLeast-squares fit of functions \\(\\mathbb{R}^n \\to \\mathbb{R}^{m}\\)\nBayesian Model Averaging, Akaike’s Information Criterion\n\nlattice_data_tools is also part of the Lattice QFT software list."
+  },
+  {
+    "objectID": "software_libs.html",
+    "href": "software_libs.html",
+    "title": "Software libraries",
+    "section": "",
+    "text": "This document contains a listing of the open-source software I develop and maintain, as well as those libraries to which I have significantly contributed.\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\nOngoing projects\n\n\nLibraries that will become available soon\n\n\n\nC/C++\n\n\nPython\n\n\nstreamlit\n\n\ngit\n\n\nMakefile\n\n\nLaTeX\n\n\n\nCreator, Main developer, Contributor\n\n\n\n\n\n\n\n\n\n\nAdiabatic PINNs for SU(N)\n\n\nPhysics-Informed Neural Networks for the solution of U(1) and SU(2) on the lattice\n\n\n\nPython\n\n\nPytorch\n\n\ngit\n\n\nMakefile\n\n\nLaTeX\n\n\n\nCreator and maintainer\n\n\n\n\n\n\n\n\n\n\nDJT implementation for SU(2)\n\n\nDiscrete Jacobi Transform on the sphere \\(S^3\\)\n\n\n\nPython\n\n\ngit\n\n\nMakefile\n\n\nLaTeX\n\n\n\nCreator and maintainer\n\n\n\n\n\n\n\n\n\n\nQCD+QED diagrams\n\n\nFeynman diagrams for QCD+QED\n\n\n\nJaxodraw\n\n\ngit\n\n\nMakefile\n\n\nLaTeX\n\n\n\nCreator and maintainer\n\n\n\n\n\n\n\n\n\n\nLattice Data Tools\n\n\nStatistical analysis of lattice data\n\n\n\nPython\n\n\ngit\n\n\nR\n\n\nMakefile\n\n\nLaTeX\n\n\n\nCreator and maintainer\n\n\n\n\n\n\n\n\n\n\nMC simulations for U(1), SU(2) and SU(3)\n\n\nMonte Carlo algorithms for lattice gauge theories\n\n\n\nC/C++\n\n\nopenMP\n\n\nPython\n\n\ngit\n\n\nR\n\n\nMakefile\n\n\nLaTeX\n\n\nquarto\n\n\n\nMain Contributor\n\n\n\n\n\n\n\n\n\n\ntmLQCD\n\n\nMonte Carlo sampler for lattice QCD\n\n\n\nC/C++\n\n\nopenMP\n\n\nMPI\n\n\nCUDA\n\n\ngit\n\n\nR\n\n\nMakefile\n\n\nLaTeX\n\n\n\nContributor\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "outreach/2025-workshop-ECTstar-Hamiltonian_Lattice_Gauge_Theories.html",
+    "href": "outreach/2025-workshop-ECTstar-Hamiltonian_Lattice_Gauge_Theories.html",
+    "title": "Organization of the 2025 workshop Hamiltonian LGTs",
+    "section": "",
+    "text": "Information about the event\nIn the week 1-5 Sept. 2025 I was one of the leading organizers of the workshop on Hamiltonian Lattice Gauge Theories: Status, Novel Developments and Applications. On the last day me and C. Urbach gave a talk, summarizing the content of the workshop and the final considerations based on the talks and discussion sessions had during the week."
+  },
+  {
+    "objectID": "outreach/2025-scale_setting_workshop.html",
+    "href": "outreach/2025-scale_setting_workshop.html",
+    "title": "ETMC 2025 update on scale setting",
+    "section": "",
+    "text": "Information about my talk\nIn the week 3-7 March 2025 I attended a workshop at [ECT* (Trento)] about Scale setting: Precision lattice QCD for particle and nuclear physics, as an invited speaker.\nIn my talk, I reported on how in the ETM collaboration we had achieved a sub-permille level of precision on the lattice spacing in isoQCD, using the Ebinburgh/FLAG consensus."
+  },
+  {
+    "objectID": "outreach/2021-Hadron_conference.html",
+    "href": "outreach/2021-Hadron_conference.html",
+    "title": "Hadron 2021 conference",
+    "section": "",
+    "text": "Information\nFrom the 26th July 2021 to the 30th July 2022 I attended the Hadron 2021 international conference. The conference took place in the same days of the Lattice 2021 conference\nThe conference took place remotely due to the global emergency causeb by the COVID pandemic.\nIn my talk I talked about the lattice calculation of the mass splittings of the nucleons (i.e. the the mass difference between neutron and proton) and the ones of the \\(\\Delta(1232)\\) resonances. I showed how it is possible to find this mass splitting by using a purely hadronic renormalization scheme and perturbation theory at 1st order in \\(\\alpha_\\text{em}\\) and \\(\\frac{(m_d-m_u)}{\\Lambda_\\text{QCD}}\\) with the RM123 method. Furthermore, I showed how one can use leading order expensions to relate the \\(\\Delta\\)s mass splittings among each other."
+  },
+  {
+    "objectID": "outreach/2023-gradient_flow_workshop.html",
+    "href": "outreach/2023-gradient_flow_workshop.html",
+    "title": "Gradient flow workshop",
+    "section": "",
+    "text": "Information\nIn the week 20-24 March 2023 I attended a workshop at the ECT* in Trento: Gradient Flow Workshop 2023.\nIn my talk I discussed the application of gradient flow to determine the renormalized anisotropy for anisotropic lattices (i.e. with different spatial and temporal lattice spacings), with focus on the U(1) lattice gauge theories in 2+1 dimensions."
+  },
+  {
+    "objectID": "outreach/2022-Lattice_conference.html",
+    "href": "outreach/2022-Lattice_conference.html",
+    "title": "Lattice 2022 conference",
+    "section": "",
+    "text": "Information\nFrom the 8th Aug. 2022 to the 13th of August 2022 I attended the Lattice 2022 international conference in Bonn, Germany. As one of the locals (check my experience section) I contributed to the organization, providing support also for the technical tasks related to video and audio broadcasting during the presentations.\nIn my talk I talked about the Hamiltonian limit in lattice gauge theories, and how to obtain it in the Lagrangian formalism by sending the temporal lattice spacing to zero. This is relevant for match the Lagrangian and Hamiltonian formalisms at finite lattice spacing, where they differ for discretization effects."
+  },
+  {
+    "objectID": "outreach/2025-gradient_flow_workshop.html",
+    "href": "outreach/2025-gradient_flow_workshop.html",
+    "title": "Gradient flow workshop",
+    "section": "",
+    "text": "Information\nIn the week 12-14 February 2025 I attended a workshop at the University of Zurich UZH: Zürich Gradient Flow Workshop 2025."
+  },
+  {
+    "objectID": "outreach/2024-Lattice_conference.html",
+    "href": "outreach/2024-Lattice_conference.html",
+    "title": "Lattice 2024 conference",
+    "section": "",
+    "text": "Information\nFrom the 28th July 2024 to the 3rd of August 2024 I attended the Lattice 2024 international conference in Liverpool, UK.\nIn my talk I described the application of Nested Sampling to SU(N) lattice gauge theories, with focus on U(1) in 2+1 dimensions. My talk was the first of three talks on Nested Sampling that I co-authored with Urs Wenger and Gurtej Kanwar."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Simone Romiti, PhD",
+    "section": "",
+    "text": "E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     Uni-Bern\n  \n  \n      Inspire HEP\n  \n  \n      Orcid\n  \n  \n      Web of Science\n  \n  \n      Google Scholar\n  \n  \n      Comp. Phys.\n  \n\n  \n  \n\n\nI am a theoretical computational physicist in the field of High Energy Physics. In my work I use computers to provide high-precision quantitative predictions of physical quantities, in those regimes where analytic solutions are out of reach.\n\nCurrent employer: University of Bern\nJob title: Postdoctoral Researcher\nEducation: PhD in Theoretical Physics\n\nMy main areas of interest are:\n\nQuantum Field Theories on the lattice, QCD phenomenology\nMachine Learning for scientific applications, Physics-Informed Neural Networks\nMarkov chain Monte Carlo, Bayesian algorithms\n\nEducation | Experience | Publications | Teaching | Software\nMore information about me is available from the macro-sections on the top bar and my activity below."
+  },
+  {
+    "objectID": "index.html#activity",
+    "href": "index.html#activity",
+    "title": "Simone Romiti, PhD",
+    "section": "Activity",
+    "text": "Activity\n\n\n\n\n\n\n\n\nETMC update on the \\(a_\\mu^{\\text{HLbL}}\\) calculation\n\n\n\nworkshop\n\n\npresentation\n\n\n\n\n\n\n\n\n\n\n\nOrganization of the 2025 workshop Hamiltonian LGTs\n\n\n\nworkshop\n\n\norganization\n\n\npresentation\n\n\n\n\n\n\n\n\n\n\n\nSU(N) eigenstates with Physics-Informed Neural Networks\n\n\n\nworkshop\n\n\npresentation\n\n\n\n\n\n\n\n\n\n\n\nAdiabatic PINNs for SU(N)\n\n\nPhysics-Informed Neural Networks for the solution of U(1) and SU(2) on the lattice\n\n\n\nPython\n\n\nPytorch\n\n\ngit\n\n\nMakefile\n\n\nLaTeX\n\n\n\n\n\n\n\n\n\n\n\nETMC 2025 update on scale setting\n\n\n\nworkshop\n\n\npresentation\n\n\n\n\n\n\n\n\n\n\n\nGradient flow workshop\n\n\n\nworkshop\n\n\npresentation\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "education.html",
+    "href": "education.html",
+    "title": "Education",
+    "section": "",
+    "text": "PhD in Theoretical Physics (3 years)\n\n\n\n2018 - 2021: Roma Tre University, Rome, Italy\n\nDepartment of Mathematics and Physics\n\nThesis: The neutron proton mass difference in Lattice QCD+QED\nSupervisors: Vittorio Lubicz, Silvano Simula\n\nSubmission date: 31 October 2021\nDissertation defense:1 22 April 2022"
+  },
+  {
+    "objectID": "education.html#footnotes",
+    "href": "education.html#footnotes",
+    "title": "Education",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAs in many other countries, in Italy the PhD thesis dissertation takes place months after the submission, in order for the referees to evaluate your work. Upon positive evaluation, the exact date is decided by the Department’s committee. The day after the submission, I started a postdoc position in Germany (check out my experience section).↩︎"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching and students supervision",
+    "section": "",
+    "text": "During my postdoctoral activity [see my experience section], I have helped the team leader of my research group also by supervising the students. My support consisted in providing research guidance on both the theoretical understanding and the technical tasks. This was implemented with regular meetings, and higher-frequency updates on their progress with the project’s milestones.\n\n2024 - 2026: Supervision of PhD students: N. Kalntis, J. F. de la Garza, L. N. Filipovic.\n2022 - 2024: Supervision of Master’s and PhD students: T. Jakobs, O. Luniachek."
+  },
+  {
+    "objectID": "teaching.html#computational-physics",
+    "href": "teaching.html#computational-physics",
+    "title": "Teaching and students supervision",
+    "section": "Computational Physics",
+    "text": "Computational Physics\n\n2023 - 2024: Tutorial sessions for the Computational Physics course. | Professor: Carsten Urbach | University of Bonn, Department of Physics, Germany | 01/10/2023 - 01/02/2024."
+  },
+  {
+    "objectID": "teaching.html#quantum-computing",
+    "href": "teaching.html#quantum-computing",
+    "title": "Teaching and students supervision",
+    "section": "Quantum Computing",
+    "text": "Quantum Computing\n\n2022: Tutorial sessions for the Quantum Computing course | Professor: Lena Funke | University of Bonn, Department of Physics, Germany. | 01/04/2022 - 31/07/2022\n2021 - 2022: Tutorial sessions for the Quantum Computing course | Professor: Carsten Urbach | University of Bonn, Department of Physics, Germany | 01/10/2021 - 28/02/2022"
+  },
+  {
+    "objectID": "teaching.html#computer-science",
+    "href": "teaching.html#computer-science",
+    "title": "Teaching and students supervision",
+    "section": "Computer Science",
+    "text": "Computer Science\n2020 - 2021: Tutorial sessions for Laboratory of programming and calculus (Laboratorio di programmazione e calcolo 🇮🇹) |Professsor: Severino Bussino | Roma Tre University,\nDepartment of Physics, Rome, Italy | 01/10/2020 - 28/02/2021"
+  },
+  {
+    "objectID": "teaching.html#mathematical-analysis",
+    "href": "teaching.html#mathematical-analysis",
+    "title": "Teaching and students supervision",
+    "section": "Mathematical analysis",
+    "text": "Mathematical analysis\n2020 - 2021: Tutorial sessions for Mathematical analysis 1 (Analisi Matematica 1 🇮🇹) | Prof. Luigi Chierchia | Roma Tre University, Department of Physics, Rome, Italy | 01/10/2020 - 28/02/2021 | webpage of the course and github repository\n2019 - 2020: Tutorial sessions for Mathematical analysis 1 (Analisi Matematica 1 🇮🇹) | Prof. Ugo Bessi | Roma Tre University, Department of Physics, Rome, Italy | 01/10/2019 - 28/02/2020 | github repository\n2020 - 2021: Lecturer’s assistant for Fundamentals of Mathematics 2 (Istituzioni di Matematiche 2 🇮🇹) | Prof. Laura Tedeschini Lalli | Roma Tre University, Department of Architecture, Rome, Italy | 01/10/2020 - 28/02/2021 | webpage and github repository"
+  }
+]

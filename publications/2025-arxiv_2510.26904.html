@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.553">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Simone Romiti">
+<meta name="dcterms.date" content="2025-10-30">
+<meta name="description" content="Website of Simone Romiti">
+
+<title>Simone Romiti - \(\mathrm{SU(N)}\) lattice gauge theories with Physics-Informed Neural Networks</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Simone Romiti - \(\mathrm{SU(N)}\) lattice gauge theories with Physics-Informed Neural Networks">
+<meta property="og:description" content="Novel method to learn the solution of the Schrödinger equation with a neural network">
+<meta property="og:image" content="https://simone-romiti.github.io/publications/linkedin-profile_picture-2.png">
+<meta property="og:site_name" content="Simone Romiti">
+<meta name="twitter:title" content="Simone Romiti - \(\mathrm{SU(N)}\) lattice gauge theories with Physics-Informed Neural Networks">
+<meta name="twitter:description" content="Novel method to learn the solution of the Schrödinger equation with a neural network">
+<meta name="twitter:image" content="https://simone-romiti.github.io/publications/linkedin-profile_picture-2.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="citation_title" content="$\mathrm{SU(N)}$ lattice gauge theories with Physics-Informed Neural Networks">
+<meta name="citation_author" content="Simone Romiti">
+<meta name="citation_publication_date" content="2025-10-30">
+<meta name="citation_cover_date" content="2025-10-30">
+<meta name="citation_year" content="2025">
+<meta name="citation_online_date" content="2025-10-30">
+<meta name="citation_fulltext_html_url" content="https://simone-romiti.github.io//publications/2025-arxiv_2510.26904.html">
+<meta name="citation_language" content="en">
+<meta name="citation_reference" content="citation_title=HLbL contribution to the muon g-2 using twisted-mass fermions at the physical point;,citation_abstract=We present updated results for the hadronic light-by-light (HLbL) contribution to the muon anomalous magnetic moment. The calculations are based on ETMC’s $N_f=2+1+1$ Wilson-clover twisted-mass ensembles at the physical point. We perform continuum extrapolations for the strange- and charm-quark connected contributions and report on our results for the light-quark connected and light-quark 2+2 disconnected contributions at one lattice spacing.;,citation_author=N. Kalntis;,citation_author=G. Kanwar;,citation_author=M. Petschlies;,citation_author=S. Romiti;,citation_author=U. Wenger;,citation_publication_date=2025-12-24;,citation_cover_date=2025-12-24;,citation_year=2025;,citation_fulltext_html_url=http://arxiv.org/abs/2512.21155;,citation_doi=10.48550/arXiv.2512.21155;,citation_publisher=arXiv;">
+<meta name="citation_reference" content="citation_title=\mathrm{SU}(N) lattice gauge theories with Physics-Informed Neural Networks;,citation_abstract=We present an application of Physics-Informed Neural Networks (PINNs) to the study of $\mathrm{SU}(N_c)$ lattice gauge theories. Our method enables the learning of eigenfunctions and eigenvalues at arbitrary gauge couplings, smoothly moving from the analytically known strong-coupling regime towards weaker couplings. By encoding the Schr\&amp;amp;amp;quot;odinger equation and the symmetries of the eigenstates directly into the loss function, the network performs an unsupervised exploration of the spectrum. We validate the approach on the single-plaquette $\mathrm{U}(1)$ and $\mathrm{SU}(2)$ pure-gauge theories, showing that the PINNs successfully reproduce the hierarchy of energy levels and their corresponding wavefunctions.;,citation_author=Simone Romiti;,citation_publication_date=2025-10-30;,citation_cover_date=2025-10-30;,citation_year=2025;,citation_fulltext_html_url=http://arxiv.org/abs/2510.26904;,citation_doi=10.48550/arXiv.2510.26904;,citation_publisher=arXiv;">
+<meta name="citation_reference" content="citation_title=The anomalous magnetic moment of the muon in the standard model: An update;,citation_author=R. Aliberti;,citation_author=T. Aoyama;,citation_author=E. Balzani;,citation_author=A. Bashir;,citation_author=G. Benton;,citation_author=J. Bijnens;,citation_author=V. Biloshytskyi;,citation_author=T. Blum;,citation_author=D. Boito;,citation_author=M. Bruno;,citation_author=E. Budassi;,citation_author=S. Burri;,citation_author=L. Cappiello;,citation_author=C. M. Carloni Calame;,citation_author=M. Cè;,citation_author=V. Cirigliano;,citation_author=D. A. Clarke;,citation_author=G. Colangelo;,citation_author=L. Cotrozzi;,citation_author=M. Cottini;,citation_author=I. Danilkin;,citation_author=M. Davier;,citation_author=M. Della Morte;,citation_author=A. Denig;,citation_author=C. DeTar;,citation_author=V. Druzhinin;,citation_author=G. Eichmann;,citation_author=A. X. El-Khadra;,citation_author=E. Estrada;,citation_author=X. Feng;,citation_author=C. S. Fischer;,citation_author=R. Frezzotti;,citation_author=G. Gagliardi;,citation_author=A. Gérardin;,citation_author=M. Ghilardi;,citation_author=D. Giusti;,citation_author=M. Golterman;,citation_author=S. Gonzàlez-Solís;,citation_author=S. Gottlieb;,citation_author=R. Gruber;,citation_author=A. Guevara;,citation_author=V. Gülpers;,citation_author=A. Gurgone;,citation_author=F. Hagelstein;,citation_author=M. Hayakawa;,citation_author=N. Hermansson-Truedsson;,citation_author=A. Hoecker;,citation_author=M. Hoferichter;,citation_author=B.-L. Hoid;,citation_author=S. Holz;,citation_author=R. J. Hudspith;,citation_author=F. Ignatov;,citation_author=L. Jin;,citation_author=N. Kalntis;,citation_author=G. Kanwar;,citation_author=A. Keshavarzi;,citation_author=J. Komijani;,citation_author=J. Koponen;,citation_author=S. Kuberski;,citation_author=B. Kubis;,citation_author=A. Kupich;,citation_author=A. Kupść;,citation_author=S. Lahert;,citation_author=S. Laporta;,citation_author=C. Lehner;,citation_author=M. Lellmann;,citation_author=L. Lellouch;,citation_author=T. Leplumey;,citation_author=J. Leutgeb;,citation_author=T. Lin;,citation_author=Q. Liu;,citation_author=I. Logashenko;,citation_author=C. Y. London;,citation_author=G. López Castro;,citation_author=J. Lüdtke;,citation_author=A. Lusiani;,citation_author=A. Lutz;,citation_author=J. Mager;,citation_author=B. Malaescu;,citation_author=K. Maltman;,citation_author=M. K. Marinković;,citation_author=J. Márquez;,citation_author=P. Masjuan;,citation_author=H. B. Meyer;,citation_author=T. Mibe;,citation_author=N. Miller;,citation_author=A. Miramontes;,citation_author=A. Miranda;,citation_author=G. Montagna;,citation_author=S. E. Müller;,citation_author=E. T. Neil;,citation_author=A. V. Nesterenko;,citation_author=O. Nicrosini;,citation_author=M. Nio;,citation_author=D. Nomura;,citation_author=J. Paltrinieri;,citation_author=L. Parato;,citation_author=J. Parrino;,citation_author=V. Pascalutsa;,citation_author=M. Passera;,citation_author=S. Peris;,citation_author=P. Petit Rosàs;,citation_author=F. Piccinini;,citation_author=R. N. Pilato;,citation_author=L. Polat;,citation_author=A. Portelli;,citation_author=D. Portillo-Sánchez;,citation_author=M. Procura;,citation_author=L. Punzi;,citation_author=K. Raya;,citation_author=A. Rebhan;,citation_author=C. F. Redmer;,citation_author=B. L. Roberts;,citation_author=A. Rodríguez-Sánchez;,citation_author=P. Roig;,citation_author=J. Ruiz De Elvira;,citation_author=P. Sánchez-Puertas;,citation_author=A. Signer;,citation_author=J. W. Sitison;,citation_author=D. Stamen;,citation_author=D. Stöckinger;,citation_author=H. Stöckinger-Kim;,citation_author=P. Stoffer;,citation_author=Y. Sue;,citation_author=P. Tavella;,citation_author=T. Teubner;,citation_author=J.-N. Toelstede;,citation_author=G. Toledo;,citation_author=W. J. Torres Bobadilla;,citation_author=J. T. Tsang;,citation_author=F. P. Ucci;,citation_author=Y. Ulrich;,citation_author=R. S. Van De Water;,citation_author=G. Venanzoni;,citation_author=S. Volkov;,citation_author=G. Von Hippel;,citation_author=G. Wang;,citation_author=U. Wenger;,citation_author=H. Wittig;,citation_author=A. Wright;,citation_author=E. Zaid;,citation_author=M. Zanke;,citation_author=Z. Zhang;,citation_author=M. Zillinger;,citation_author=C. Alexandrou;,citation_author=A. Altherr;,citation_author=M. Anderson;,citation_author=C. Aubin;,citation_author=S. Bacchio;,citation_author=P. Beltrame;,citation_author=A. Beltran;,citation_author=P. Boyle;,citation_author=I. Campos Plasencia;,citation_author=I. Caprini;,citation_author=B. Chakraborty;,citation_author=G. Chanturia;,citation_author=A. Crivellin;,citation_author=A. Czarnecki;,citation_author=L.- Y. Dai;,citation_author=T. Dave;,citation_author=L. Del Debbio;,citation_author=K. Demory;,citation_author=D. Djukanovic;,citation_author=T. Draper;,citation_author=A. Driutti;,citation_author=M. Endo;,citation_author=F. Erben;,citation_author=K. Ferraby;,citation_author=J. Finkenrath;,citation_author=L. Flower;,citation_author=A. Francis;,citation_author=E. Gámiz;,citation_author=J. Gogniat;,citation_author=A. V. Grebe;,citation_author=S. Gündogdu;,citation_author=M. T. Hansen;,citation_author=S. Hashimoto;,citation_author=H. Hayashii;,citation_author=D. W. Hertzog;,citation_author=L. A. Heuser;,citation_author=L. Hostetler;,citation_author=X. T. Hou;,citation_author=G. S. Huang;,citation_author=T. Iijima;,citation_author=K. Inami;,citation_author=A. Jüttner;,citation_author=R. Kitano;,citation_author=M. Knecht;,citation_author=S. Kollatzsch;,citation_author=A. S. Kronfeld;,citation_author=T. Lenz;,citation_author=G. Levati;,citation_author=Q. M. Li;,citation_author=Y. P. Liao;,citation_author=J. Libby;,citation_author=K. F. Liu;,citation_author=V. Lubicz;,citation_author=M. T. Lynch;,citation_author=A. T. Lytle;,citation_author=J. L. Ma;,citation_author=K. Miura;,citation_author=K. Möhling;,citation_author=J. Muskalla;,citation_author=F. Noël;,citation_author=K. Ottnad;,citation_author=P. Paradisi;,citation_author=C. T. Peterson;,citation_author=A. Pich;,citation_author=S. Pitelis;,citation_author=S. Plura;,citation_author=A. Price;,citation_author=D. Radic;,citation_author=A. Radzhabov;,citation_author=A. Risch;,citation_author=S. Romiti;,citation_author=S. Sahoo;,citation_author=F. Sannino;,citation_author=H. Schäfer;,citation_author=Y. Schelhaas;,citation_author=S. I. Serednyakov;,citation_author=O. Shekhovtsova;,citation_author=J. N. Simone;,citation_author=S. Simula;,citation_author=E. P. Solodov;,citation_author=F. M. Stokes;,citation_author=M. Vanderhaeghen;,citation_author=A. Vaquero;,citation_author=N. Vestergaard;,citation_author=W. P. Wang;,citation_author=Z. Wa̧s;,citation_author=K. Yamashita;,citation_author=Y. B. Yang;,citation_author=T. Yoshioka;,citation_author=C. Z. Yuan;,citation_author=A. S. Zhevlakov;,citation_publication_date=2025-09-10;,citation_cover_date=2025-09-10;,citation_year=2025;,citation_fulltext_html_url=https://linkinghub.elsevier.com/retrieve/pii/S0370157325002157;,citation_doi=10.1016/j.physrep.2025.08.002;,citation_issn=03701573;,citation_volume=1143;,citation_language=en-US;,citation_journal_title=Physics Reports;,citation_journal_abbrev=Physics Reports;">
+<meta name="citation_reference" content="citation_title=Strange and charm quark contributions to the muon anomalous magnetic moment in lattice QCD with twisted-mass fermions;,citation_author=C. Alexandrou;,citation_author=S. Bacchio;,citation_author=A. De Santis;,citation_author=A. Evangelista;,citation_author=J. Finkenrath;,citation_author=R. Frezzotti;,citation_author=G. Gagliardi;,citation_author=M. Garofalo;,citation_author=N. Kalntis;,citation_author=B. Kostrzewa;,citation_author=V. Lubicz;,citation_author=F. Pittler;,citation_author=S. Romiti;,citation_author=F. Sanfilippo;,citation_author=S. Simula;,citation_author=N. Tantalo;,citation_author=C. Urbach;,citation_author=U. Wenger;,citation_author=Extended Twisted Mass Collaboration;,citation_publication_date=2025-03-04;,citation_cover_date=2025-03-04;,citation_year=2025;,citation_fulltext_html_url=https://link.aps.org/doi/10.1103/PhysRevD.111.054502;,citation_issue=5;,citation_doi=10.1103/PhysRevD.111.054502;,citation_issn=2470-0010, 2470-0029;,citation_volume=111;,citation_language=en-US;,citation_journal_title=Physical Review D;,citation_journal_abbrev=Phys. Rev. D;">
+<meta name="citation_reference" content="citation_title=Towards determining the (2+1)-dimensional quantum electrodynamics running coupling with monte carlo and quantum computing methods;,citation_author=Arianna Crippa;,citation_author=Simone Romiti;,citation_author=Lena Funcke;,citation_author=Karl Jansen;,citation_author=Stefan Kühn;,citation_author=Paolo Stornati;,citation_author=Carsten Urbach;,citation_publication_date=2025-09-11;,citation_cover_date=2025-09-11;,citation_year=2025;,citation_fulltext_html_url=https://www.nature.com/articles/s42005-025-02243-6;,citation_issue=1;,citation_doi=10.1038/s42005-025-02243-6;,citation_issn=2399-3650;,citation_volume=8;,citation_language=en-US;,citation_journal_title=Nature Communications Physics;,citation_journal_abbrev=Nature Commun Phys;">
+<meta name="citation_reference" content="citation_title=A comprehensive stress test of truncated hilbert space bases against green’s function monte carlo in u(1) lattice gauge theory;,citation_abstract=A representation of Lattice Gauge Theories (LGT) suitable for simulations with tensor network state methods or with quantum computers requires a truncation of the Hilbert space to a finite dimensional approximation. In particular for U(1) LGTs, several such truncation schemes are known, which we compare with each other using tensor network states. We show that a functional basis obtained from single plaquette Hamiltonians – which we call plaquette state basis – outperforms the other schemes in two spatial dimensions for plaquette, ground state energy and mass gap, as it is delivering accurate results for a wide range of coupling strengths with a minimal number of basis states. We also show that this functional basis can be efficiently used in three spatial dimensions. Green’s function Monte Carlo appears to be a highly useful tool to verify tensor network states results, which deserves further investigation in the future.;,citation_author=Timo Jakobs;,citation_author=Marco Garofalo;,citation_author=Tobias Hartung;,citation_author=Karl Jansen;,citation_author=Paul Ludwig;,citation_author=Johann Ostmeyer;,citation_author=Simone Romiti;,citation_author=Carsten Urbach;,citation_publication_date=2025-10-31;,citation_cover_date=2025-10-31;,citation_year=2025;,citation_fulltext_html_url=https://arxiv.org/abs/2510.27611;,citation_doi=10.48550/ARXIV.2510.27611;,citation_publisher=arXiv;">
+<meta name="citation_reference" content="citation_title=Matching lagrangian and hamiltonian simulations in (2+1)-dimensional u(1) gauge theory;,citation_abstract=At finite lattice spacing, Lagrangian and Hamiltonian predictions differ due to discretization effects. In the Hamiltonian limit, i.e. at vanishing temporal lattice spacing $a_t$, the path integral approach in the Lagrangian formalism reproduces the results of the Hamiltonian theory. In this work, we numerically calculate the Hamiltonian limit of a U$(1)$ gauge theory in $(2+1)$ dimensions. This is achieved by Monte Carlo simulations in the Lagrangian formalism with lattices that are anisotropic in the time direction. For each ensemble, we determine the ratio between the temporal and spatial scale with the static quark potential and extrapolate to $a_t \to 0$. Our results are compared with the data from Hamiltonian simulations at small volumes, showing agreement within $&amp;amp;amp;lt;2\sigma$. These results can be used to match the two formalisms.;,citation_author=C. F. Groß;,citation_author=S. Romiti;,citation_author=L. Funcke;,citation_author=K. Jansen;,citation_author=A. Kan;,citation_author=S. Kühn;,citation_author=C. Urbach;,citation_publication_date=2025-03-14;,citation_cover_date=2025-03-14;,citation_year=2025;,citation_fulltext_html_url=http://arxiv.org/abs/2503.11480;,citation_doi=10.48550/arXiv.2503.11480;,citation_publisher=arXiv;">
+<meta name="citation_reference" content="citation_title=Dynamics in hamiltonian lattice gauge theory: Approaching the continuum limit with partitionings of SU$(2)$;,citation_abstract=In this paper, we investigate a digitised SU$(2)$ lattice gauge theory in the Hamiltonian formalism. We use partitionings to digitise the gauge degrees of freedom and show how to define a penalty term based on finite element methods to project onto physical states of the system. Moreover, we show for a single plaquette system that in this framework the limit $g\to0$ can be approached at constant cost.;,citation_author=Timo Jakobs;,citation_author=Marco Garofalo;,citation_author=Tobias Hartung;,citation_author=Karl Jansen;,citation_author=Johann Ostmeyer;,citation_author=Simone Romiti;,citation_author=Carsten Urbach;,citation_publication_date=2025-03-05;,citation_cover_date=2025-03-05;,citation_year=2025;,citation_fulltext_html_url=http://arxiv.org/abs/2503.03397;,citation_doi=10.48550/arXiv.2503.03397;,citation_publisher=arXiv;">
+<meta name="citation_reference" content="citation_title=Autotuning multigrid parameters in the HMC on different architectures;,citation_author=Marco Garofalo;,citation_author=Bartosz Kostrzewa;,citation_author=Simone Romiti;,citation_author=Aniket Sen;,citation_publication_date=2025-02-21;,citation_cover_date=2025-02-21;,citation_year=2025;,citation_fulltext_html_url=https://pos.sissa.it/466/276;,citation_doi=10.22323/1.466.0276;,citation_language=en-US;,citation_conference_title=Proceedings of the 41st international symposium on lattice field theory — PoS(LATTICE2024);,citation_conference=Sissa Medialab;">
+<meta name="citation_reference" content="citation_title=Valence leading isospin breaking contributions to $a_{\mu}^{\mathrm{HVP-LO}}$;,citation_author=Antonio Evangelista;,citation_author=Simone Bacchio;,citation_author=Roberto Frezzotti;,citation_author=Giuseppe Gagliardi;,citation_author=Marco Garofalo;,citation_author=Nikolaos Kalntis;,citation_author=Simone Romiti;,citation_author=Francesco Sanfilippo;,citation_author=Nazario Tantalo;,citation_author=Extended Twisted Mass Collaboration;,citation_publication_date=2025-02-17;,citation_cover_date=2025-02-17;,citation_year=2025;,citation_fulltext_html_url=https://pos.sissa.it/466/260;,citation_doi=10.22323/1.466.0260;,citation_language=en-US;,citation_conference_title=Proceedings of the 41st international symposium on lattice field theory — PoS(LATTICE2024);,citation_conference=Sissa Medialab;">
+<meta name="citation_reference" content="citation_title=Hadronic light-by-light contribution to the muon g-2 using twisted-mass fermions;,citation_author=Nikolaos Kalntis;,citation_author=Gurtej Kanwar;,citation_author=Marcus Petschlies;,citation_author=Simone Romiti;,citation_author=Urs Wenger;,citation_publication_date=2025-01-06;,citation_cover_date=2025-01-06;,citation_year=2025;,citation_fulltext_html_url=https://pos.sissa.it/466/228;,citation_doi=10.22323/1.466.0228;,citation_language=en-US;,citation_conference_title=Proceedings of the 41st international symposium on lattice field theory — PoS(LATTICE2024);,citation_conference=Sissa Medialab;">
+<meta name="citation_reference" content="citation_title=Inclusive hadronic decay rate of the τ lepton from lattice QCD: The u ¯ s flavor channel and the cabibbo angle;,citation_author=Constantia Alexandrou;,citation_author=Simone Bacchio;,citation_author=Alessandro De Santis;,citation_author=Antonio Evangelista;,citation_author=Jacob Finkenrath;,citation_author=Roberto Frezzotti;,citation_author=Giuseppe Gagliardi;,citation_author=Marco Garofalo;,citation_author=Bartosz Kostrzewa;,citation_author=Vittorio Lubicz;,citation_author=Simone Romiti;,citation_author=Francesco Sanfilippo;,citation_author=Silvano Simula;,citation_author=Nazario Tantalo;,citation_author=Carsten Urbach;,citation_author=Urs Wenger;,citation_author=Extended Twisted Mass Collaboration;,citation_publication_date=2024-06-25;,citation_cover_date=2024-06-25;,citation_year=2024;,citation_fulltext_html_url=https://link.aps.org/doi/10.1103/PhysRevLett.132.261901;,citation_issue=26;,citation_doi=10.1103/PhysRevLett.132.261901;,citation_issn=0031-9007, 1079-7114;,citation_volume=132;,citation_language=en-US;,citation_journal_title=Physical Review Letters;,citation_journal_abbrev=Phys. Rev. Lett.;">
+<meta name="citation_reference" content="citation_title=Digitizing lattice gauge theories in the magnetic basis: Reducing the breaking of the fundamental commutation relations;,citation_author=Simone Romiti;,citation_author=Carsten Urbach;,citation_publication_date=2024-07-17;,citation_cover_date=2024-07-17;,citation_year=2024;,citation_fulltext_html_url=https://link.springer.com/10.1140/epjc/s10052-024-13037-5;,citation_issue=7;,citation_doi=10.1140/epjc/s10052-024-13037-5;,citation_issn=1434-6052;,citation_volume=84;,citation_language=en-US;,citation_journal_title=The European Physical Journal C;,citation_journal_abbrev=Eur. Phys. J. C;">
+<meta name="citation_reference" content="citation_title=Testing the $\mathrm{SU}(2)$ lattice hamiltonian built from $s_3$ partitionings;,citation_author=Marco Garofalo;,citation_author=Tobias Hartung;,citation_author=Timo Jakobs;,citation_author=Karl Jansen;,citation_author=Johann Ostmeyer;,citation_author=Dominik Rolfes;,citation_author=Simone Romiti;,citation_author=Carsten Urbach;,citation_publication_date=2024-05-04;,citation_cover_date=2024-05-04;,citation_year=2024;,citation_fulltext_html_url=https://pos.sissa.it/453/231;,citation_doi=10.22323/1.453.0231;,citation_language=en-US;,citation_conference_title=Proceedings of the 40th international symposium on lattice field theory — PoS(LATTICE2023);,citation_conference=Sissa Medialab;">
+<meta name="citation_reference" content="citation_title=Canonical momenta in digitized su(2) lattice gauge theory: Definition and free theory;,citation_author=Timo Jakobs;,citation_author=Marco Garofalo;,citation_author=Tobias Hartung;,citation_author=Karl Jansen;,citation_author=Johann Ostmeyer;,citation_author=Dominik Rolfes;,citation_author=Simone Romiti;,citation_author=Carsten Urbach;,citation_publication_date=2023-07-27;,citation_cover_date=2023-07-27;,citation_year=2023;,citation_fulltext_html_url=https://link.springer.com/10.1140/epjc/s10052-023-11829-9;,citation_issue=7;,citation_doi=10.1140/epjc/s10052-023-11829-9;,citation_issn=1434-6052;,citation_volume=83;,citation_language=en-US;,citation_journal_title=The European Physical Journal C;,citation_journal_abbrev=Eur. Phys. J. C;">
+<meta name="citation_reference" content="citation_title=Hamiltonian limit of lattice QED in 2+1 dimensions;,citation_author=Lena Funcke;,citation_author=Christiane Groß;,citation_author=Karl Jansen;,citation_author=Stefan Kühn;,citation_author=Simone Romiti;,citation_author=Carsten Urbach;,citation_publication_date=2023-03-22;,citation_cover_date=2023-03-22;,citation_year=2023;,citation_fulltext_html_url=https://pos.sissa.it/430/292;,citation_doi=10.22323/1.430.0292;,citation_language=en-US;,citation_conference_title=Proceedings of the 39th international symposium on lattice field theory — PoS(LATTICE2022);,citation_conference=Sissa Medialab;">
+<meta name="citation_reference" content="citation_title=Twisted mass ensemble generation on GPU machines;,citation_author=Bartosz Kostrzewa;,citation_author=Simone Bacchio;,citation_author=Jacob Finkenrath;,citation_author=Marco Garofalo;,citation_author=Ferenc Pittler;,citation_author=Simone Romiti;,citation_author=Carsten Urbach;,citation_author=ETM Collaboration;,citation_publication_date=2023-01-03;,citation_cover_date=2023-01-03;,citation_year=2023;,citation_fulltext_html_url=https://pos.sissa.it/430/340;,citation_doi=10.22323/1.430.0340;,citation_language=en-US;,citation_conference_title=Proceedings of the 39th international symposium on lattice field theory — PoS(LATTICE2022);,citation_conference=Sissa Medialab;">
+<meta name="citation_reference" content="citation_title=Leading isospin breaking effects in nucleon and ∆ masses;,citation_author=Simone Romiti;,citation_publication_date=2022-05-25;,citation_cover_date=2022-05-25;,citation_year=2022;,citation_fulltext_html_url=https://rmf.smf.mx/ojs/index.php/rmf-s/article/view/6256;,citation_issue=3;,citation_doi=10.31349/SuplRevMexFis.3.0308030;,citation_issn=2683-2585;,citation_volume=3;,citation_journal_title=Suplemento de la Revista Mexicana de Física;,citation_journal_abbrev=Supl. Rev. Mex. Fis.;">
+<meta name="citation_reference" content="citation_title=Defining canonical momenta for discretised SU$(2)$ gauge fields;,citation_author=Marco Garofalo;,citation_author=Tobias Hartung;,citation_author=Karl Jansen;,citation_author=Johann Ostmeyer;,citation_author=Simone Romiti;,citation_author=Carsten Urbach;,citation_publication_date=2022-11-08;,citation_cover_date=2022-11-08;,citation_year=2022;,citation_fulltext_html_url=https://pos.sissa.it/430/040;,citation_doi=10.22323/1.430.0040;,citation_language=en-US;,citation_conference_title=Proceedings of the 39th international symposium on lattice field theory — PoS(LATTICE2022);,citation_conference=Sissa Medialab;">
+<meta name="citation_reference" content="citation_title=The neutron-proton mass difference;,citation_author=Simone Romiti;,citation_publication_date=2022-05-16;,citation_cover_date=2022-05-16;,citation_year=2022;,citation_fulltext_html_url=https://pos.sissa.it/396/543;,citation_doi=10.22323/1.396.0543;,citation_language=en-US;,citation_conference_title=Proceedings of the 38th international symposium on lattice field theory — PoS(LATTICE2021);,citation_conference=Sissa Medialab;">
+<meta name="citation_reference" content="citation_title=Extraction of multiple exponential signals from lattice correlation functions;,citation_author=S. Romiti;,citation_author=S. Simula;,citation_publication_date=2019-09-30;,citation_cover_date=2019-09-30;,citation_year=2019;,citation_fulltext_html_url=https://link.aps.org/doi/10.1103/PhysRevD.100.054515;,citation_issue=5;,citation_doi=10.1103/PhysRevD.100.054515;,citation_issn=2470-0010, 2470-0029;,citation_volume=100;,citation_language=en-US;,citation_journal_title=Physical Review D;,citation_journal_abbrev=Phys. Rev. D;">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Simone Romiti</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-me" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About me</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about-me">    
+        <li>
+    <a class="dropdown-item" href="../education.html">
+ <span class="dropdown-text">Education 📚</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../experience.html">
+ <span class="dropdown-text">Experience 🧑‍💼</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../contact.html">
+ <span class="dropdown-text">Contact 📧</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-academia" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Academia</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-academia">    
+        <li>
+    <a class="dropdown-item" href="../publications.html">
+ <span class="dropdown-text">Publications 📃</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../outreach.html">
+ <span class="dropdown-text">Outreach 📈</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../teaching.html">
+ <span class="dropdown-text">Teaching 👨‍🏫</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../software_libs.html"> 
+<span class="menu-text">Software</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/simone-romiti" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/simone-romiti/" target="_blank"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#preamble" id="toc-preamble" class="nav-link active" data-scroll-target="#preamble">Preamble</a></li>
+  <li><a href="#summary-of-the-paper" id="toc-summary-of-the-paper" class="nav-link" data-scroll-target="#summary-of-the-paper">Summary of the paper</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="math inline">\(\mathrm{SU(N)}\)</span> lattice gauge theories with Physics-Informed Neural Networks</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">paper</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Novel method to learn the solution of the Schrödinger equation with a neural network
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Simone Romiti </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 30, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!--Include academic icons or bottons-->
+<!-- 
+Load Academicons v1: https://jpswalsh.github.io/academicons/
+-->
+<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></p>
+<p><link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"></p>
+<!---
+The following code are needed to show dimension citation and altmetrics.
+https://api.altmetric.com/embeds.html
+https://badge.dimensions.ai/
+--->
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+<section id="preamble" class="level1">
+<h1>Preamble</h1>
+<p>In Quantum Mechanics the fundamental equations are the Schrödinger equations. One depends on time, determining the evolution of a physical state: <span class="math display">\[i \partial_t \ket{\psi} = H \ket{\psi}\]</span></p>
+<p>The other is the eigenvalue equation for the <span class="math inline">\(n\)</span>-th eigenstate <span class="math inline">\(\psi_n\)</span>: <span class="math display">\[H \ket{\psi}_n = E \ket{\psi}_n\]</span></p>
+<p>If the are able to solve the latter, the time evolution reads: <span class="math display">\[
+\ket{\psi(0)} = \sum_n c_n \ket{\psi}_n
+\, \to \,
+\ket{\psi(t)} = \sum_n c_n e^{-i E_n t} \ket{\psi}_n
+\]</span></p>
+<p><strong>Note</strong>: Solving the Schrödinger equations can be simpler for some values of the parameters in the Hamiltonian (e.g.&nbsp;eq can use perturbation theory). For others, we have to resort to numerical methods.</p>
+</section>
+<section id="summary-of-the-paper" class="level1">
+<h1>Summary of the paper</h1>
+<p>In <a href="https://arxiv.org/abs/2510.26904">this paper</a> I proposed an algorithm to solve the eigenvalue equation with a neural network. The usefulness is the ability to solve the eigenvalue equation with a form of unsupervised learning, for values the coupling where the analytic solution is not known.</p>
+<p>The key elements of originality are:</p>
+<ol type="1">
+<li>This has never been done for lattice gauge theories, and has the potential of overcoming the <em>exponential curse</em> of the Hilbert space size scaling.</li>
+<li>I define and successfully test a procedure to compute the coupling dependence of the solution (i.e.&nbsp;the renormalization flow of the eigenfunctions and energies)</li>
+<li>The method is general and can be applied also to learn the dependence on other parameters of the Hamiltonian</li>
+<li>This is an Hamiltonian method. As such, it does not suffer from the typical Monte Carlo hindrances: critical slowing down, topological freezing, sign problem, etc.</li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/simone-romiti\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<a href="https://simone-romiti.github.io/">Simone Romiti</a> ©
+<script>document.write(new Date().getFullYear())</script>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/simone-romiti/simone-romiti.github.io" target="_blank">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://orcid.org/0000-0002-6509-447X">
+<p><i class="ai  ai-orcid"></i></p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=B95wK7wAAAAJ&amp;hl=en">
+<p><i class="ai  ai-google-scholar"></i></p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://inspirehep.net/authors/1755571" target="_blank">
+<p><i class="ai  ai-inspire"></i></p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
