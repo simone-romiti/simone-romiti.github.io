@@ -93,7 +93,7 @@ website:
   #   tracking-id: ""  # Please delete or replace with your own tracking ID
   #   anonymize-ip: true 
 
-bibliography: references.bib  # Add references.bib to the root folder to enable the bibliography function
+bibliography: publications.bib  # Add references.bib to the root folder to enable the bibliography function
 
 format:
   html:

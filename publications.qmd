@@ -6,7 +6,7 @@ description-meta: "Information, pdfs, and social metrics of papers"
 title-block-banner: false
 css: custom.css
 bibliography: publications.bib
-csl: american-physics-society.csl
+csl: aps-chronological.csl
 nocite: '@*'
 ---
 

@@ -11,7 +11,7 @@ page-layout: full
 
 
 **From the 8th Aug. 2022 to the 13th of August 2022** I attended the [Lattice 2022 international conference](https://indico.hiskp.uni-bonn.de/event/40/) in Bonn, Germany.
-As one of the locals (check my [experience](./experience.qmd) section) I contributed to the organization, providing support also for the technical tasks related to video and audio broadcasting during the presentations.
+As one of the locals (check my [experience](/experience.qmd) section) I contributed to the organization, providing support also for the technical tasks related to video and audio broadcasting during the presentations.
 
 In [my talk](https://indico.hiskp.uni-bonn.de/event/40/contributions/704/) I talked about the Hamiltonian limit in lattice gauge theories, and how to obtain it in the Lagrangian formalism by sending the temporal lattice spacing to zero.
 This is relevant for match the Lagrangian and Hamiltonian formalisms at finite lattice spacing, where they differ for discretization effects.

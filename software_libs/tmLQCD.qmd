@@ -8,5 +8,5 @@ description: "_Contributor_"
 ---
 
 [`tmLQCD`](https://github.com/etmc/tmLQCD) is a `C` library containing a set of Monte Carlo algorithms for [twisted mass lattice QCD](https://arxiv.org/abs/0905.3331), and is part of the [Lattice QFT software list](https://lattice-software.github.io/list/).
-I have used it extensively since my PhD, and contributed to its development as a postdoc (check out my [experience section](experience.qmd)).
+I have used it extensively since my PhD, and contributed to its development as a postdoc (check out my [experience section](/experience.qmd)).
 
