@@ -18,11 +18,9 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Install TinyTeX
-        uses: xu-cheng/latex-action@v4
-
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
+        uses: xu-cheng/latex-action@v4        
         with:
           target: gh-pages
         env:
