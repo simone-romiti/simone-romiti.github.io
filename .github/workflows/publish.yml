@@ -18,8 +18,8 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Load LaTeX
-        uses: xu-cheng/latex-action@v4
+      - name: Install TinyTeX
+        uses: r-lib/actions/setup-tinytex@v2
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
