@@ -1,7 +1,7 @@
 ---
 format: 
   pdf: 
-    pdf-engine: pdflatex
+    latex-tinytex: true
     keep-tex: true
     documentclass: article
     geometry:
@@ -12,7 +12,7 @@ format:
       - heightrounded
     fontfamily: libertine
     colorlinks: true
-    fontsize: '20'
+    fontsize: '18'
     include-in-header: 
       text: |
         \usepackage{multicol}
@@ -25,7 +25,7 @@ format:
         % Source - https://tex.stackexchange.com/a/831
         \usepackage{enumitem}
         \setlist{nolistsep}
-        \setlength{\columnsep}{-2.5cm}
+        \setlength{\columnsep}{-2.8cm}
 
 ---
 
@@ -49,7 +49,7 @@ format:
     \begin{flushleft}{\href{https://www.uniroma3.it/}{\textit{Roma Tre University}}}\end{flushleft}
     \begin{flushright}Rome, Italy\end{flushright}
   \end{multicols}
-  \vspace{-0.10cm}
+  \vspace{-0.15cm}
   \begin{multicols}{2}
     \begin{flushleft}
     \textbf{PhD in Theoretical Physics} (Dissertation 22 April 2022) 
@@ -68,7 +68,7 @@ format:
     \begin{flushleft}{\href{https://www.uniroma3.it/}{\textit{Roma Tre University}}}\end{flushleft}
     \begin{flushright}Rome, Italy\end{flushright}
   \end{multicols}
-  \vspace{-0.10cm}
+  \vspace{-0.15cm}
   \begin{multicols}{2}
     \begin{flushleft}
     \textbf{M.S.\ in Theoretical Physics of Elementary Particles}
@@ -85,7 +85,7 @@ format:
     \begin{flushleft}{\href{https://www.uniroma3.it/}{\textit{Roma Tre University}}}\end{flushleft}
     \begin{flushright}Rome, Italy\end{flushright}
   \end{multicols}
-  \vspace{-0.10cm}
+  \vspace{-0.15cm}
   \begin{multicols}{2}
     \begin{flushleft}
     \textbf{B.S.\ in Physics}
@@ -113,7 +113,7 @@ format:
     \begin{flushleft}{\bf University of Bern}\end{flushleft}
     \begin{flushright}Apr 2024--Present\end{flushright}
   \end{multicols}
-  \vspace{-0.10cm}
+  \vspace{-0.15cm}
   \begin{multicols}{2}
     \begin{flushleft}\textit{Postdoctoral Researcher}\end{flushleft}
     \begin{flushright}Bern, Switzerland\end{flushright}
@@ -135,7 +135,7 @@ format:
     \begin{flushleft}{\bf University of Bonn}\end{flushleft}
     \begin{flushright}Nov 2021--Mar 2024\end{flushright}
   \end{multicols}
-  \vspace{-0.10cm}
+  \vspace{-0.15cm}
   \begin{multicols}{2}
     \begin{flushleft}\textit{Postdoctoral Researcher}\end{flushleft}
     \begin{flushright}Bonn, Germany\end{flushright}
@@ -156,25 +156,25 @@ format:
   \hrule
   \vspace{5pt}
 \end{large}
-\vspace{-0.10cm}
+\vspace{-0.15cm}
 
 \normalfont
 
 \textbf{Programming Languages} - C, C++, Python, Bash, R
 
-\vspace{-0.10cm}
+\vspace{-0.15cm}
 \textbf{High-Performance Computing} - openMP, MPI, CUDA, EasyBuild, SLURM
 
-\vspace{-0.10cm}
+\vspace{-0.15cm}
 \textbf{Tools} - \LaTeX, Markdown, RMarkdown, Quarto
 
-\vspace{-0.10cm}
+\vspace{-0.15cm}
 \textbf{Frameworks and Libraries} - Jupyter, NumPy, SymPy, SciPy, Pandas, Matplotlib, Plotly, PyTorch, Streamlit
 
-\vspace{-0.10cm}
+\vspace{-0.15cm}
 \textbf{Tools \& DevOps} - Docker, Git, GitHub Actions
 
-\vspace{-0.10cm}
+\vspace{-0.15cm}
 \textbf{Languages} - Italian (native), English (proficient), German (A1)
 
 
@@ -195,7 +195,7 @@ format:
     \href{https://www.ectstar.eu/}{ECT*} | March 2025\end{flushright}
   \end{multicols}
 
-    \vspace{-0.10cm}
+    \vspace{-0.15cm}
 
   \begin{multicols}{2}
     \begin{flushleft}    
@@ -205,7 +205,7 @@ format:
   \end{multicols}
 
 
-  \vspace{-0.10cm}
+  \vspace{-0.15cm}
 
   \begin{multicols}{2}
     \begin{flushleft}    
@@ -215,7 +215,7 @@ format:
   \end{multicols}
 
 
-  \vspace{-0.10cm}
+  \vspace{-0.15cm}
 
   \begin{multicols}{2}
     \begin{flushleft}    
