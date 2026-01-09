@@ -1,0 +1,229 @@
+---
+format: 
+  pdf: 
+    pdf-engine: pdflatex
+    keep-tex: true
+    documentclass: article
+    geometry:
+      - top=10mm
+      - left=15mm
+      - right=15mm
+      - bottom=5mm
+      - heightrounded
+    fontfamily: libertine
+    colorlinks: true
+    fontsize: '20'
+    include-in-header: 
+      text: |
+        \usepackage{multicol}
+        \usepackage{lipsum}
+        \usepackage{hyperref}
+        \usepackage{libertine}
+        \pagestyle{empty}
+        \setlength{\multicolsep}{2pt plus 1.0pt minus 0.75pt}% 50% of original values
+        \setlength{\columnsep}{3em}
+        % Source - https://tex.stackexchange.com/a/831
+        \usepackage{enumitem}
+        \setlist{nolistsep}
+        \setlength{\columnsep}{-2.5cm}
+
+---
+
+<!-- TITLE -->
+\begin{huge}\begin{center}{\bf SIMONE ROMITI}\end{center}\end{huge}
+
+<!-- CONTACT INFO -->
+\begin{center} simone.romiti.1994@gmail.com | \href{https://simone-romiti.github.io/}{Webpage} | \href{https://github.com/simone-romiti}{Github} | \href{https://www.linkedin.com/in/simone-romiti/}{LinkedIn} | \href{https://orcid.org/0000-0002-6509-447X}{Orcid} 
+\end{center}
+\vspace{15pt}
+
+<!-- EDUCATION: 1ST BULLET -->
+\begin{large}
+  {\bf EDUCATION}
+  \vspace{5pt}
+  \hrule
+  \vspace{5pt}
+
+  %---------------- PhD ----------------%
+  \begin{multicols}{2}
+    \begin{flushleft}{\href{https://www.uniroma3.it/}{\textit{Roma Tre University}}}\end{flushleft}
+    \begin{flushright}Rome, Italy\end{flushright}
+  \end{multicols}
+  \vspace{-0.10cm}
+  \begin{multicols}{2}
+    \begin{flushleft}
+    \textbf{PhD in Theoretical Physics} (Dissertation 22 April 2022) 
+    \end{flushleft}
+    \begin{flushright}2018 -- 2021\end{flushright}
+  \end{multicols}
+  \vspace{-0.2cm}
+  \begin{itemize}
+    \item \textbf{1st in ranking} for public admission exam to PhD program
+    \item Affiliation with \href{https://www.infn.it/}{\textbf{INFN (INFN - Istituto Nazionale di Fisica Nucleare)}}{}
+    \item \textbf{Tutorial sessions and teaching assistant} for undergraduate courses
+  \end{itemize}
+
+  %---------------- Master ----------------%
+  \begin{multicols}{2}
+    \begin{flushleft}{\href{https://www.uniroma3.it/}{\textit{Roma Tre University}}}\end{flushleft}
+    \begin{flushright}Rome, Italy\end{flushright}
+  \end{multicols}
+  \vspace{-0.10cm}
+  \begin{multicols}{2}
+    \begin{flushleft}
+    \textbf{M.S.\ in Theoretical Physics of Elementary Particles}
+    \end{flushleft}
+    \begin{flushright}2016 -- 2018\end{flushright}
+  \end{multicols}
+  \vspace{-0.2cm}
+  \begin{itemize}
+    \item \textbf{Final grade}: 110/110 \emph{cum laude}, \textbf{GPA: 29.85/30}
+  \end{itemize}
+
+  %---------------- Bachelor ----------------%
+  \begin{multicols}{2}
+    \begin{flushleft}{\href{https://www.uniroma3.it/}{\textit{Roma Tre University}}}\end{flushleft}
+    \begin{flushright}Rome, Italy\end{flushright}
+  \end{multicols}
+  \vspace{-0.10cm}
+  \begin{multicols}{2}
+    \begin{flushleft}
+    \textbf{B.S.\ in Physics}
+    \end{flushleft}
+    \begin{flushright}2013 -- 2016\end{flushright}
+  \end{multicols}
+  \vspace{-0.2cm}
+  \begin{itemize}
+    \item \textbf{Final grade}: 110/110 \emph{cum laude}, \textbf{GPA: 28.84 / 30}
+    \item \textbf{Merit Scholarship} awarded for top high school marks and academic excellence.
+  \end{itemize}
+
+\end{large}
+
+\vspace{0.05cm}
+
+
+
+<!-- EXPERIENCE : 1ST BULLET-->
+\begin{large}{\bf WORK EXPERIENCE}
+  \vspace{5pt}
+  \hrule
+  \vspace{5pt}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf University of Bern}\end{flushleft}
+    \begin{flushright}Apr 2024--Present\end{flushright}
+  \end{multicols}
+  \vspace{-0.10cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Postdoctoral Researcher}\end{flushleft}
+    \begin{flushright}Bern, Switzerland\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.09cm}
+* [**Innovative method** using **Physics-Informed Neural Networks (PINNs)**](https://inspirehep.net/literature/3075565) $\to$ exponential to polynomial scaling of memory
+* **Reference scientist** for [Hadronic Vacuum Polarization (HVP)](https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author%3Aromiti%20fulltext%3AHVP&ui-citation-summary=true&ui-exclude-self-citations=true) analysis of Bern group $\to$ sub-permille precision achievement
+* **Pole contribution** to [Hadronic Light-by-Light contribution to $(g-2)_\mu$](https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author%3Aromiti%20fulltext%3AHLbL&ui-citation-summary=true&ui-exclude-self-citations=true) $\to$ achieved $N^6$ to $N \log(N)$ scaling improvement 
+* [**Main developer** of open-source libraries](https://github.com/simone-romiti) $\to$ my code for and Monte Carlo simulations and analysis led to scientific publications
+* **Supervision of PhD students**
+
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 2ND BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf University of Bonn}\end{flushleft}
+    \begin{flushright}Nov 2021--Mar 2024\end{flushright}
+  \end{multicols}
+  \vspace{-0.10cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Postdoctoral Researcher}\end{flushleft}
+    \begin{flushright}Bonn, Germany\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.09cm}
+* ETMC ensembles generation $\to$ fine tuned simulation and obtained $O(a)$-improved configurations
+* [GPU code optimization](https://inspirehep.net/literature/2613828) $\to$ achieved $\sim 1.5$ improvement by auto-tuning of Multigrid parematers
+* [**Novel method for SU(2) Hamiltonians**](https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author%3Aromiti%20title%3ASU%282%29%20OR%20title%3Adigitizing&ui-citation-summary=true&ui-exclude-self-citations=true) $\to$ achieved machine-precision exactness for canonical commutation relations
+* [**Monte Carlo and Quantum Computing**](https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author%3Aromiti%20fulltext%3Amatching&ui-citation-summary=true&ui-exclude-self-citations=true)
+\vspace{7pt} $\to$ obtained Hamiltonian limit and high-statistics calculations of glueball spectrum
+* **Supervision of Master's and PhD students**
+
+
+<!-- SKILLS -->
+\begin{large}{\bf SKILLS}
+  \vspace{5pt}
+  \hrule
+  \vspace{5pt}
+\end{large}
+\vspace{-0.10cm}
+
+\normalfont
+
+\textbf{Programming Languages} - C, C++, Python, Bash, R
+
+\vspace{-0.10cm}
+\textbf{High-Performance Computing} - openMP, MPI, CUDA, EasyBuild, SLURM
+
+\vspace{-0.10cm}
+\textbf{Tools} - \LaTeX, Markdown, RMarkdown, Quarto
+
+\vspace{-0.10cm}
+\textbf{Frameworks and Libraries} - Jupyter, NumPy, SymPy, SciPy, Pandas, Matplotlib, Plotly, PyTorch, Streamlit
+
+\vspace{-0.10cm}
+\textbf{Tools \& DevOps} - Docker, Git, GitHub Actions
+
+\vspace{-0.10cm}
+\textbf{Languages} - Italian (native), English (proficient), German (A1)
+
+
+
+\vspace{7pt}
+
+<!-- EXTRA STUFF : 1ST BULLET -->
+\begin{large}
+{\bf EXTRA ACTIVITIES AND AWARDS}
+  \vspace{5pt}
+  \hrule
+  \vspace{5pt}
+  \begin{multicols}{2}
+    \begin{flushleft}    
+    \textbf{Invited speaker} at \href{https://indico.ectstar.eu/event/229/}{Scale Setting workshop}
+    \end{flushleft}
+    \begin{flushright}
+    \href{https://www.ectstar.eu/}{ECT*} | March 2025\end{flushright}
+  \end{multicols}
+
+    \vspace{-0.10cm}
+
+  \begin{multicols}{2}
+    \begin{flushleft}    
+      \textbf{Main organizer} of \href{https://indico.ectstar.eu/event/242/}{Hamiltonian LGTs workshop}
+    \end{flushleft}
+    \begin{flushright} \href{https://www.ectstar.eu/}{ECT*} | September 2025\end{flushright}
+  \end{multicols}
+
+
+  \vspace{-0.10cm}
+
+  \begin{multicols}{2}
+    \begin{flushleft}    
+      \textbf{Principal Investigator} for 240k GPU node-hours allocation
+    \end{flushleft}
+    \begin{flushright}\href{https://www.cscs.ch/computers/alps}{CSCS (ALPS)} | October 2025\end{flushright}
+  \end{multicols}
+
+
+  \vspace{-0.10cm}
+
+  \begin{multicols}{2}
+    \begin{flushleft}    
+      \textbf{Leading organizer} of \href{https://indico.hiskp.uni-bonn.de/category/35/}{weekly seminars at HISKP department} 
+    \end{flushleft}
+    \begin{flushright}\href{https://www.hiskp.uni-bonn.de/}{HISKP} | 2022 - 2024\end{flushright}
+  \end{multicols}
+
+
+\end{large}
+

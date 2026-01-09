@@ -93,7 +93,7 @@ My main areas of interest are:
 - **Machine Learning** for scientific applications, Physics-Informed Neural Networks
 - **Markov chain Monte Carlo**, Bayesian algorithms
 
-[Education](./education.qmd) | [Experience](./experience.qmd) | [Publications](./publications.qmd) | [Teaching](teaching.qmd) | [Software](./software_libs.qmd)
+[Curriculum](./curriculum_pdf.qmd) | [Education](./education.qmd) | [Experience](./experience.qmd) | [Publications](./publications.qmd) | [Teaching](teaching.qmd) | [Software](./software_libs.qmd)
 
 More information about me is available from the macro-sections on the top bar and my activity below.
 

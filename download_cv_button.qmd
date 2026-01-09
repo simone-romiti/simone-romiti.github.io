@@ -1,0 +1,1 @@
+<button type="button"> [Click here to download my CV as PDF](./curriculum_pdf.qmd) </button>

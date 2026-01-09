@@ -1,0 +1,409 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  20,
+]{article}
+\usepackage{xcolor}
+\usepackage[top=10mm,left=15mm,right=15mm,bottom=5mm,heightrounded]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage[]{libertine}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{libertine}
+\pagestyle{empty}
+\setlength{\multicolsep}{2pt plus 1.0pt minus 0.75pt}% 50% of original values
+\setlength{\columnsep}{3em}
+% Source - https://tex.stackexchange.com/a/831
+\usepackage{enumitem}
+\setlist{nolistsep}
+\setlength{\columnsep}{-2.5cm}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdfauthor={Dr.~Simone Romiti},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\author{}
+\date{}
+\begin{document}
+
+
+\begin{huge}\begin{center}{\bf SIMONE ROMITI}\end{center}\end{huge}
+
+\begin{center} simone.romiti.1994@gmail.com | \href{https://simone-romiti.github.io/}{Webpage} | \href{https://github.com/simone-romiti}{Github} | \href{https://www.linkedin.com/in/simone-romiti/}{LinkedIn} | \href{https://orcid.org/0000-0002-6509-447X}{Orcid} 
+\end{center}
+\vspace{15pt}
+
+\begin{large}
+  {\bf EDUCATION}
+  \vspace{5pt}
+  \hrule
+  \vspace{5pt}
+
+  %---------------- PhD ----------------%
+  \begin{multicols}{2}
+    \begin{flushleft}{\href{https://www.uniroma3.it/}{\textit{Roma Tre University}}}\end{flushleft}
+    \begin{flushright}Rome, Italy\end{flushright}
+  \end{multicols}
+  \vspace{-0.10cm}
+  \begin{multicols}{2}
+    \begin{flushleft}
+    \textbf{PhD in Theoretical Physics} (Dissertation 22 April 2022) 
+    \end{flushleft}
+    \begin{flushright}2018 -- 2021\end{flushright}
+  \end{multicols}
+  \vspace{-0.2cm}
+  \begin{itemize}
+    \item \textbf{1st in ranking} for public admission exam to PhD program
+    \item Affiliation with \href{https://www.infn.it/}{\textbf{INFN (INFN - Istituto Nazionale di Fisica Nucleare)}}{}
+    \item \textbf{Tutorial sessions and teaching assistant} for undergraduate courses
+  \end{itemize}
+
+  %---------------- Master ----------------%
+  \begin{multicols}{2}
+    \begin{flushleft}{\href{https://www.uniroma3.it/}{\textit{Roma Tre University}}}\end{flushleft}
+    \begin{flushright}Rome, Italy\end{flushright}
+  \end{multicols}
+  \vspace{-0.10cm}
+  \begin{multicols}{2}
+    \begin{flushleft}
+    \textbf{M.S.\ in Theoretical Physics of Elementary Particles}
+    \end{flushleft}
+    \begin{flushright}2016 -- 2018\end{flushright}
+  \end{multicols}
+  \vspace{-0.2cm}
+  \begin{itemize}
+    \item \textbf{Final grade}: 110/110 \emph{cum laude}, \textbf{GPA: 29.85/30}
+  \end{itemize}
+
+  %---------------- Bachelor ----------------%
+  \begin{multicols}{2}
+    \begin{flushleft}{\href{https://www.uniroma3.it/}{\textit{Roma Tre University}}}\end{flushleft}
+    \begin{flushright}Rome, Italy\end{flushright}
+  \end{multicols}
+  \vspace{-0.10cm}
+  \begin{multicols}{2}
+    \begin{flushleft}
+    \textbf{B.S.\ in Physics}
+    \end{flushleft}
+    \begin{flushright}2013 -- 2016\end{flushright}
+  \end{multicols}
+  \vspace{-0.2cm}
+  \begin{itemize}
+    \item \textbf{Final grade}: 110/110 \emph{cum laude}, \textbf{GPA: 28.84 / 30}
+    \item \textbf{Merit Scholarship} awarded for top high school marks and academic excellence.
+  \end{itemize}
+
+\end{large}
+
+\vspace{0.05cm}
+
+\begin{large}{\bf WORK EXPERIENCE}
+  \vspace{5pt}
+  \hrule
+  \vspace{5pt}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf University of Bern}\end{flushleft}
+    \begin{flushright}Apr 2024--Present\end{flushright}
+  \end{multicols}
+  \vspace{-0.10cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Postdoctoral Researcher}\end{flushleft}
+    \begin{flushright}Bern, Switzerland\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.09cm}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://inspirehep.net/literature/3075565}{\textbf{Innovative
+  method} using \textbf{Physics-Informed Neural Networks (PINNs)}}
+  \(\to\) exponential to polynomial scaling of memory
+\item
+  \textbf{Reference scientist} for
+  \href{https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author\%3Aromiti\%20fulltext\%3AHVP&ui-citation-summary=true&ui-exclude-self-citations=true}{Hadronic
+  Vacuum Polarization (HVP)} analysis of Bern group \(\to\) sub-permille
+  precision achievement
+\item
+  \textbf{Pole contribution} to
+  \href{https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author\%3Aromiti\%20fulltext\%3AHLbL&ui-citation-summary=true&ui-exclude-self-citations=true}{Hadronic
+  Light-by-Light contribution to \((g-2)_\mu\)} \(\to\) achieved \(N^6\)
+  to \(N \log(N)\) scaling improvement
+\item
+  \href{https://github.com/simone-romiti}{\textbf{Main developer} of
+  open-source libraries} \(\to\) my code for and Monte Carlo simulations
+  and analysis led to scientific publications
+\item
+  \textbf{Supervision of PhD students}
+\end{itemize}
+
+\vspace{7pt}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf University of Bonn}\end{flushleft}
+    \begin{flushright}Nov 2021--Mar 2024\end{flushright}
+  \end{multicols}
+  \vspace{-0.10cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Postdoctoral Researcher}\end{flushleft}
+    \begin{flushright}Bonn, Germany\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.09cm}
+
+\begin{itemize}
+\tightlist
+\item
+  ETMC ensembles generation \(\to\) fine tuned simulation and obtained
+  \(O(a)\)-improved configurations
+\item
+  \href{https://inspirehep.net/literature/2613828}{GPU code
+  optimization} \(\to\) achieved \(\sim 1.5\) improvement by auto-tuning
+  of Multigrid parematers
+\item
+  \href{https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author\%3Aromiti\%20title\%3ASU\%282\%29\%20OR\%20title\%3Adigitizing&ui-citation-summary=true&ui-exclude-self-citations=true}{\textbf{Novel
+  method for SU(2) Hamiltonians}} \(\to\) achieved machine-precision
+  exactness for canonical commutation relations
+\item
+  \href{https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author\%3Aromiti\%20fulltext\%3Amatching&ui-citation-summary=true&ui-exclude-self-citations=true}{\textbf{Monte
+  Carlo and Quantum Computing}} \vspace{7pt} \(\to\) obtained
+  Hamiltonian limit and high-statistics calculations of glueball
+  spectrum
+\item
+  \textbf{Supervision of Master's and PhD students}
+\end{itemize}
+
+\begin{large}{\bf SKILLS}
+  \vspace{5pt}
+  \hrule
+  \vspace{5pt}
+\end{large}
+\vspace{-0.10cm}
+
+\normalfont
+
+\textbf{Programming Languages} - C, C++, Python, Bash, R
+
+\vspace{-0.10cm}
+
+\textbf{High-Performance Computing} - openMP, MPI, CUDA, EasyBuild,
+SLURM
+
+\vspace{-0.10cm}
+
+\textbf{Tools} - \LaTeX, Markdown, RMarkdown, Quarto
+
+\vspace{-0.10cm}
+
+\textbf{Frameworks and Libraries} - Jupyter, NumPy, SymPy, SciPy,
+Pandas, Matplotlib, Plotly, PyTorch, Streamlit
+
+\vspace{-0.10cm}
+
+\textbf{Tools \& DevOps} - Docker, Git, GitHub Actions
+
+\vspace{-0.10cm}
+
+\textbf{Languages} - Italian (native), English (proficient), German (A1)
+
+\vspace{7pt}
+
+\begin{large}
+{\bf EXTRA ACTIVITIES AND AWARDS}
+  \vspace{5pt}
+  \hrule
+  \vspace{5pt}
+  \begin{multicols}{2}
+    \begin{flushleft}    
+    \textbf{Invited speaker} at \href{https://indico.ectstar.eu/event/229/}{Scale Setting workshop}
+    \end{flushleft}
+    \begin{flushright}
+    \href{https://www.ectstar.eu/}{ECT*} | March 2025\end{flushright}
+  \end{multicols}
+
+    \vspace{-0.10cm}
+
+  \begin{multicols}{2}
+    \begin{flushleft}    
+      \textbf{Main organizer} of \href{https://indico.ectstar.eu/event/242/}{Hamiltonian LGTs workshop}
+    \end{flushleft}
+    \begin{flushright} \href{https://www.ectstar.eu/}{ECT*} | September 2025\end{flushright}
+  \end{multicols}
+
+
+  \vspace{-0.10cm}
+
+  \begin{multicols}{2}
+    \begin{flushleft}    
+      \textbf{Principal Investigator} for 240k GPU node-hours allocation
+    \end{flushleft}
+    \begin{flushright}\href{https://www.cscs.ch/computers/alps}{CSCS (ALPS)} | October 2025\end{flushright}
+  \end{multicols}
+
+
+  \vspace{-0.10cm}
+
+  \begin{multicols}{2}
+    \begin{flushleft}    
+      \textbf{Leading organizer} of \href{https://indico.hiskp.uni-bonn.de/category/35/}{weekly seminars at HISKP department} 
+    \end{flushleft}
+    \begin{flushright}\href{https://www.hiskp.uni-bonn.de/}{HISKP} | 2022 - 2024\end{flushright}
+  \end{multicols}
+
+
+\end{large}
+
+
+
+
+\end{document}
