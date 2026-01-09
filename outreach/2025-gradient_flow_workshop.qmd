@@ -1,0 +1,23 @@
+---
+title: "**Gradient flow workshop**"
+description: "Attended 2025 gradient flow workshop"
+author: "Simone Romiti"
+date: "2025-02-12"
+categories: [workshop]
+# image: "/files/images/placeholder2.JPG"
+page-layout: full
+#css: /custom.css
+#draft: true
+---
+
+# Information 
+
+In the week 12-14 February 2025 I attended a workshop at the [University of Zurich UZH](https://www.uzh.ch/en.html): [_Zürich Gradient Flow Workshop 2025_](https://indico.psi.ch/event/16749/overview).
+
+
+[![](https://indico.psi.ch/event/16749/attachments/29075/57950/IMG_8421.jpg)](https://indico.psi.ch/event/16749/overview)
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

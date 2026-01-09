@@ -1,0 +1,11 @@
+---
+title: "**DJT implementation for SU(2)**"
+subtitle: "Discrete Jacobi Transform on the sphere $S^3$"
+date: 2025-01-10
+categories: [Python, git, Makefile, LaTeX]
+description: "_Creator and maintainer_"
+---
+
+
+The [DJT_paper code repository](https://github.com/simone-romiti/DJT_paper-code) contains the open-source implementation of the algorithm described on my paper: https://arxiv.org/abs/2311.11928
+

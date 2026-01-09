@@ -1,0 +1,25 @@
+---
+title: "**Gradient flow workshop**"
+description: "Talk 2023 gradient flow workshop"
+author: "Simone Romiti"
+date: "2025-03-20"
+categories: [workshop, presentation]
+# image: "/files/images/placeholder2.JPG"
+page-layout: full
+#css: /custom.css
+#draft: true
+---
+
+# Information 
+
+In the week 20-24 March 2023 I attended a workshop at the [ECT* in Trento](https://www.ectstar.eu/): [_Gradient Flow Workshop 2023_](https://indico.ectstar.eu/event/164/).
+
+In [my talk](https://indico.ectstar.eu/event/164/contributions/3536/) I discussed the application of gradient flow to determine the renormalized anisotropy for anisotropic lattices (i.e. with different spatial and temporal lattice spacings), with focus on the U(1) lattice gauge theories in 2+1 dimensions.
+
+
+[![](https://indico.ectstar.eu/event/164/attachments/2170/3082/DSC00885.JPG)](https://indico.ectstar.eu/event/164/)
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

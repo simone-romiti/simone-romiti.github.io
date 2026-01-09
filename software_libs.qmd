@@ -1,0 +1,20 @@
+---
+title: "Software libraries"
+listing:
+  id: software-listing
+  contents: 
+    - software_libs/*.qmd
+    - ./software_waiting_to_be_released.qmd
+  type: grid
+  categories: unnumbered
+  filter-ui: [date, title]
+  sort: "date desc"
+  # page-size: 15
+  fields: [title, subtitle, categories, description]
+---
+
+This document contains a listing of the **open-source** software I develop and maintain, as well as those libraries to which I have significantly contributed. 
+
+
+:::{#software-listing}
+:::

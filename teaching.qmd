@@ -1,0 +1,58 @@
+---
+title: "Teaching and students supervision"
+subtitle: "My teaching activity | Supervision of Master's and PhD students"
+author: Simone Romiti
+title-block-banner: false
+toc-depth: 4
+toc-location: body
+---
+
+
+# Supervision and mentoring
+
+
+During my postdoctoral activity [see my [experience section](./experience.qmd)], I have helped the team leader of my research group also by supervising the students. 
+My support consisted in providing research guidance on both the theoretical understanding and the technical tasks.
+This was implemented with regular meetings, and higher-frequency updates on their progress with the project's milestones.
+
+- **2024 - 2026**: **Supervision of PhD students**: N. Kalntis, J. F. de la Garza, L. N. Filipovic.  
+
+- **2022 - 2024**:  **Supervision of Master’s and PhD students**: T. Jakobs, O. Luniachek.  
+
+
+
+# Teaching activity
+
+## Computational Physics
+
+- **2023 - 2024**: Tutorial sessions for the **Computational Physics** course. | Professor: **Carsten Urbach** | University of Bonn, Department of Physics, Germany | 01/10/2023 - 01/02/2024.
+
+
+## Quantum  Computing 
+
+- **2022**: Tutorial sessions for the **Quantum Computing** course | Professor: **Lena Funke** | University of Bonn, Department of Physics, Germany. | 01/04/2022 - 31/07/2022
+- **2021 - 2022**: Tutorial sessions for the **Quantum Computing** course | Professor: **Carsten Urbach** | University of Bonn, Department of Physics, Germany | 01/10/2021 - 28/02/2022
+
+## Computer Science
+
+
+**2020 - 2021**: Tutorial sessions for _Laboratory of programming and calculus_ (Laboratorio di programmazione e calcolo 🇮🇹) |Professsor: Severino Bussino | Roma Tre University,  
+Department of Physics, Rome, Italy | 01/10/2020 - 28/02/2021
+
+## Mathematical analysis
+
+**2020 - 2021**: Tutorial sessions for **Mathematical analysis 1** (Analisi Matematica 1 🇮🇹) | Prof. **Luigi Chierchia** | Roma Tre University, Department of Physics, Rome, Italy | 01/10/2020 - 28/02/2021 | [webpage of the course](https://www.mat.uniroma3.it/users/chierchia/AM110_20_21/AM110_20_21.htm) and [github repository](https://github.com/simone-romiti/Tutorato_AM1_2020_2021)
+
+ 
+**2019 - 2020**: Tutorial sessions for **Mathematical analysis 1** (Analisi Matematica 1 🇮🇹) | Prof. **Ugo Bessi** | Roma Tre University, Department of Physics, Rome, Italy | 01/10/2019 -
+28/02/2020 | [github repository](https://github.com/simone-romiti/AM1_RM3FIS_Tutorato)
+
+
+**2020 - 2021**: Lecturer's assistant for **Fundamentals of Mathematics 2** (Istituzioni di Matematiche 2 🇮🇹) | Prof. **Laura Tedeschini Lalli** | Roma Tre University, Department of Architecture, Rome, Italy | 01/10/2020 - 28/02/2021 | [webpage](https://www.formulas.it/sito/istituzioni-di-matematiche-2/) and [github repository](https://github.com/simone-romiti/Python-2020_2021-Istituzioni_2)
+
+# Physics
+
+
+**2020**: Tutorial sessions for **Physics 1** (Fisica 1 🇮🇹) | Prof. **Wolfango Plastino** | Roma Tre University, Department of Mathematics, Rome, Italy | 01/02/2020 - 30/06/2020 | [github repository](https://github.com/simone-romiti/FIS1_RM3MAT_Tutorato)
+
+

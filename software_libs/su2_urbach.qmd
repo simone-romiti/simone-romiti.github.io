@@ -1,0 +1,14 @@
+---
+title: "**MC simulations for U(1), SU(2) and SU(3)**"
+subtitle: "Monte Carlo algorithms for lattice gauge theories"
+date: 2021-11-01
+categories: [C/C++, openMP, Python, git, R, Makefile, LaTeX, quarto]
+description: "_Main Contributor_"
+# image: images/data-analysis.png
+---
+
+
+This [library with Monte Carlo algorithms for U(1), SU(2), SU(3) in d=2,3,4 dimensions](https://github.com/HISKP-LQCD/su2) was created by my former boss, [C. Urbach](https://www.hiskp.uni-bonn.de/index.php?id=urbach), and I became its main maintainer when started working for him (check my [experience section](/experience.qmd)).
+
+
+

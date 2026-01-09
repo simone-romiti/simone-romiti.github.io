@@ -1,7 +1,7 @@
 ---
-title: "Simone Romiti"
-description-meta: "Personal webpage of Simone Romiti"
-image: "./io_a_Colonia.jpg"
+title: "Simone Romiti, PhD"
+description-meta: "Website of Simone Romiti"
+image: "files/images/linkedin-profile_picture-2.png"
 page-navigation: false
 toc: false
 #sidebar: false
@@ -12,86 +12,100 @@ about:
   template: trestles
   image-width: 70%
   links:
-    - icon: github
-      text: Github
-      href: https://github.com/simone-romiti
     # - icon: globe
     #   text: Uprofile
     #   href: https://baruch.cuny.edu
     #   target: _blank
     - icon: envelope
       text: E-mail
-      href: "mailto:simone.romiti.1994@gmail.com"
-    # - icon: linkedin
-    #   text: LinkedIn
-    #   href: https://linkedin.com
-    # target: _blank
-    # - icon: youtube
-    #   text: YouTube
-    #   href: https://www.youtube.com     
-    #   target: _blank 
-    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org/0000-0002-6509-447X
+      href: mailto:simone.romiti.1994@gmail.com    
+    - icon: linkedin
+      text: LinkedIn
+      href: http://www.linkedin.com/in/simone-romiti
       target: _blank
-    # - text: "{{< ai clarivate >}} Web of Science"
-    #   href: https://www.webofscience.com  
-    #   target: _blank
-    # - text: "{{< ai scopus >}} Scopus"
-    #   href: https://www.scopus.com
-    #   target: _blank
-    # - text: "{{< ai google-scholar >}} Google Scholar"
-    #   href: https://scholar.google.com
-    #   target: _blank
-#    - text: "{{< ai researchgate >}} Research Gate"
-#      href: https://www.researchgate.net
-#      target: _blank
-    - icon: pencil-fill
-      text: Publications List
-      href: https://inspirehep.net/authors/1755571?ui-citation-summary=false&ui-exclude-self-citations=false
+    - icon: github
+      text: "Github"
+      href: https://github.com/simone-romiti     
+      target: _blank 
     - icon: sun
       text: Uni-Bern
       href: https://www.itp.unibe.ch/about_us/people/people/index_eng.html?id=265
+      target: _blank
+    - text: "{{< ai inspire >}} Inspire HEP"   # use academic icons, "" are needed, you also need to install the fontawesome extension
+      href: https://inspirehep.net/authors/1755571
+      target: _blank
+    - text: "{{< ai orcid >}} Orcid"
+      href: https://orcid.org/0000-0002-6509-447X
+      target: _blank
+    - text: "{{< ai clarivate >}} Web of Science"
+      href: https://www.webofscience.com/wos/author/record/PFK-1395-2025  
+      target: _blank
+    # - text: "{{< ai scopus >}} Scopus"
+    #   href: https://www.scopus.com
+    #   target: _blank
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=B95wK7wAAAAJ&hl=en
+      target: _blank
+    - text: "{{< fa people-group >}} Comp. Phys."
+      href: https://lqcd.hiskp.uni-bonn.de/people/
+      target: _blank
+# - text: "{{< ai researchgate >}} Research Gate"
+    #   href: https://scholar.google.com/citations?hl=en&user=B95wK7wAAAAJ
+    #   target: _blank
 
-# listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
-#   - id: recent-posts
-#     contents: 
-#       - posts
-#       - posts/post-links.yml
-#     exclude:
-#       title: ""
-#     type: grid
-#     max-items: 3
-# #    image-height: 150px
-#     page-size: 3 #set same as max-times to remove the page number setting
-#     fields: [image, date, title, subtitle]
-#     max-description-length: 75
-#     sort: 
-#       - "date desc"
-#       - "title asc"
+listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
+  - id: my-recent-activity
+    # exclude:
+    #   contents: waiting_to_be_released.qmd
+    #   title: ""
+    contents: 
+      - outreach/*.qmd
+      - software_libs/*.qmd
+      # - posts
+      # - posts/post-links.yml
+    type: grid
+    # max-items: 6
+#    image-height: 150px
+    page-size: 5 #set same as max-times to remove the page number setting
+    fields: [title, subtitle, categories]
+    max-description-length: 75
+    sort: 
+      - "date desc"
+      - "title asc"
 ---
 
 :::{#hero-heading}
 
-## Welcome to my website! 😊
 
-I am a theoretical physicist in High Energy Physics, with experience in Quantum Field Theories on the lattice, QCD phenomenology, and computational methods. 
+# Welcome to my website
 
-I have expertise in developing and optimizing numerical algorithms for large-scale simulations, with strong programming skills in `C/C++`, `Python`, Machine Learning for scientific applications, and daily work on GNU/Linux systems. 
+I am a theoretical computational physicist in the field of High Energy Physics.
+In my work I use computers to provide high-precision quantitative predictions of physical quantities, in those regimes where analytic solutions are out of reach.
 
-I have a proven track record in collaborative research, publications in well recognizerd scientific journals, and I contribute to major international physics collaborations. 
+- **Current employer**: [University of Bern](https://www.itp.unibe.ch/about_us/people/people/index_eng.html?id=265)
+- **Job title**: Postdoctoral Researcher
+- **Education**: PhD in Theoretical Physics
 
-Over the years, I also gained significant experience in mentoring students and teaching.
+
+My main areas of interest are: 
+
+- Quantum Field Theories on the **lattice**, **QCD** phenomenology
+- **Machine Learning** for scientific applications, Physics-Informed Neural Networks
+- **Markov chain Monte Carlo**, Bayesian algorithms
+
+[Education](./education.qmd) | [Experience](./experience.qmd) | [Publications](./publications.qmd) | [Teaching](teaching.qmd) | [Software](./software_libs.qmd)
+
+More information about me is available from the macro-sections on the top bar and my activity below.
+
 
 :::
 
 
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-<!-- ## More information -->
+## Activity
 
+<!-- Check out the latest [Papers](posts.qmd#category=paper), [News](posts.qmd#category=news), [Events](posts.qmd#category=event), and [More »](/posts.qmd) -->
 
-<!-- Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
-
-:::{#recent-posts}
+:::{#my-recent-activity}
 :::
 
-<p align="right">[All Posts »](/posts.qmd)</p> -->
+<!-- <p align="right">[All Posts »](/posts.qmd)</p> -->

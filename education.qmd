@@ -1,33 +1,45 @@
 ---
 title: "Education"
-author: "Simone Romiti"
+author: Simone Romiti
+format: html
+toc: false
 ---
 
+::: {.callout-note appearance="minimal"}
+# PhD in Theoretical Physics (3 years)
 
-## Ph.D. in Theoretical Physics  
-**Roma Tre University**, Rome, Italy  
-*2018 – 2022* (thesis submission: 31st October 2021)
+2018 - 2021: [**Roma Tre University**, Rome, Italy](https://www.uniroma3.it/int/)
 
-**Thesis:** *The neutron–proton mass difference in Lattice QCD+QED*  
-**Supervisors:** Prof. Vittorio Lubicz, Prof. Silvano Simula  
+- [Department of Mathematics and Physics](https://matematicafisica.uniroma3.it/)  
+- **Thesis:** *The neutron proton mass difference in Lattice QCD+QED*
+- **Supervisors:** Vittorio Lubicz, Silvano Simula  
+- **Submission date:** 31 October 2021
+- **Dissertation defense:**[^1] 22 April 2022  
 
----
+[^1]: As in many other countries, in Italy the PhD thesis dissertation takes place months after the submission, in order for the referees to evaluate your work. Upon positive evaluation, the exact date is decided by the Department's committee. The day after the submission, I started a postdoc position in Germany (check out my [experience section](experience.qmd)).
 
-## M.Sc. in Theoretical Physics *(110/110 cum laude)*  
-**Roma Tre University**, Rome, Italy  
-*2016 – 2018*
+:::
 
-**Thesis:** Optimization techniques in lattice QCD calculations  
-**Supervisor:** Prof. Cecilia Tarantino  
+::: {.callout-note appearance="minimal"}
+# Master’s Degree (MS) in Theoretical Physics of Elementary Particles  (2 years)
 
----
+*2016–2018*: [**Roma Tre University**, Rome, Italy](https://www.uniroma3.it/int/)
 
-## B.Sc. in Physics *(110/110 cum laude)*  
-**Roma Tre University**, Rome, Italy  
-*2013 – 2016*
+- **Thesis:** *Optimization techniques in the lattice calculation of the hadronic contribution to the muon anomaly*  
+- **Supervisor:** Cecilia Tarantino  
+- **Final grade:** 110/110 *cum laude*  
+- **Dissertation defense:** 18 October 2018  
 
-**Supervisor:** Giorgio Matt  
+:::
 
-**Honors:** Bachelor’s Merit Scholarship – Students Excellence Program
+::: {.callout-note appearance="minimal"}
+# Bachelor’s Degree (BS) in Physics (3 years)
 
+*2013–2016*: [**Roma Tre University**, Rome, Italy](https://www.uniroma3.it/int/)
 
+- **Thesis:** *Astro-Archaeology of the Galactic Centre*  
+- **Supervisor:** Giorgio Matt  
+- **Final grade:** 110/110 *cum laude*  
+- **Dissertation defense:** 21 July 2016  
+
+:::

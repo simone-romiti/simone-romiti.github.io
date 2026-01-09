@@ -1,0 +1,20 @@
+---
+title: "**Lattice 2023 conference**"
+description: "Talk at the 40th International Symposium on Lattice Field Theory"
+author: "Simone Romiti"
+date: "2023-07-31"
+categories: [conference, presentation]
+page-layout: full
+---
+
+# Information 
+
+
+***From the 31st July 2023 to the 4th of August 2023*** I attended the [Lattice 2023 international conference](https://indico.fnal.gov/event/57249/) at [Fermilab](https://www.fnal.gov/), Batavia, Illinois, USA,.
+
+In [my talk](https://indico.fnal.gov/event/57249/contributions/268337/) I described the novel algorithm proposed in the [ArXiV submission 2311.11928](https://arxiv.org/abs/2311.11928), later [published on EPJC](https://link.springer.com/article/10.1140/epjc/s10052-024-13037-5).
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

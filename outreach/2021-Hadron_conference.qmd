@@ -1,0 +1,23 @@
+---
+title: "**Hadron 2021 conference**"
+description: "Talk at the 19th International Conference on Hadron Spectroscopy and Structure"
+author: "Simone Romiti"
+date: "2021-07-26"
+categories: [conference, presentation]
+page-layout: full
+---
+
+# Information 
+
+
+**From the 26th July 2021 to the 30th July 2022** I attended the [Hadron 2021 international conference](https://indico.cern.ch/event/1006302/). The conference took place in the same days of the [Lattice 2021 conference](https://indico.cern.ch/event/1006302/)
+
+The conference took place remotely due to the [global emergency causeb by the COVID pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic).
+
+In [my talk](https://indico.nucleares.unam.mx/event/1541/session/28/contribution/226) I talked about the lattice calculation of the mass splittings of the nucleons (i.e. the the mass difference between neutron and proton) and the ones of the $\Delta(1232)$ resonances.
+I showed how it is possible to find this mass splitting by using a purely hadronic renormalization scheme and perturbation theory at 1st order in $\alpha_\text{em}$ and $\frac{(m_d-m_u)}{\Lambda_\text{QCD}}$ with the [RM123 method](https://arxiv.org/abs/1303.4896).
+Furthermore, I showed how one can use leading order expensions to relate the $\Delta$s mass splittings among each other.
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

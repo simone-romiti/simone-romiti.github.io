@@ -1,0 +1,14 @@
+---
+title: "Contact"
+description-meta: "Reach out to me with questions and comments"
+title-block-banner: false
+---
+
+
+- **E-mail**: `simone.romiti.1994@gmail.com`
+
+- **Company**: University of Bern, Bern, Switzerland. [My webpage on their website](https://www.itp.unibe.ch/about_us/people/people/index_eng.html?id=265)
+
+- **Address**: [Sidlerstrasse 5, 3012 Bern, Switzerland](https://maps.app.goo.gl/34DMGZVPFH5fytxb7)
+
+- **Personal website**: [https://simone-romiti.github.io/](https://simone-romiti.github.io/)
