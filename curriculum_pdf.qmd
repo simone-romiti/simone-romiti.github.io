@@ -59,7 +59,7 @@ format:
   \vspace{-0.2cm}
   \begin{itemize}
     \item \textbf{1st in ranking} for public admission exam to PhD program
-    \item Affiliation with \href{https://www.infn.it/}{\textbf{INFN (INFN - Istituto Nazionale di Fisica Nucleare)}}{}
+    \item Affiliation with \href{https://www.infn.it/}{\textbf{INFN (Istituto Nazionale di Fisica Nucleare)}}{}
     \item \textbf{Tutorial sessions and teaching assistant} for undergraduate courses
   \end{itemize}
 
