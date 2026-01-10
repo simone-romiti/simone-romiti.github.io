@@ -123,7 +123,7 @@ format:
 * [**Innovative method** using **Physics-Informed Neural Networks (PINNs)**](https://inspirehep.net/literature/3075565) $\to$ exponential to polynomial scaling of memory
 * **Reference scientist** for [Hadronic Vacuum Polarization (HVP)](https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author%3Aromiti%20fulltext%3AHVP&ui-citation-summary=true&ui-exclude-self-citations=true) analysis of Bern group $\to$ sub-permille precision achievement
 * **Pole contribution** to [Hadronic Light-by-Light contribution to $(g-2)_\mu$](https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author%3Aromiti%20fulltext%3AHLbL&ui-citation-summary=true&ui-exclude-self-citations=true) $\to$ achieved $N^6$ to $N \log(N)$ scaling improvement 
-* [**Main developer** of open-source libraries](https://github.com/simone-romiti) $\to$ my code for and Monte Carlo simulations led to scientific publications
+* [**Main developer** of open-source libraries](https://github.com/simone-romiti) $\to$ my code for Monte Carlo simulations led to scientific publications
 * **Supervision of PhD students**
 
 
@@ -142,12 +142,12 @@ format:
   \end{multicols}
 \end{large}
 \vspace{-0.09cm}
-* ETMC ensembles generation $\to$ fine tuned simulation and obtained $O(a)$-improved configurations
-* [GPU code optimization](https://inspirehep.net/literature/2613828) $\to$ achieved $\sim 1.5$ improvement by auto-tuning of Multigrid parematers
-* [**Novel method for SU(2) Hamiltonians**](https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author%3Aromiti%20title%3ASU%282%29%20OR%20title%3Adigitizing&ui-citation-summary=true&ui-exclude-self-citations=true) $\to$ achieved machine-precision exactness for canonical commutation relations
-* [**Monte Carlo and Quantum Computing**](https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author%3Aromiti%20fulltext%3Amatching&ui-citation-summary=true&ui-exclude-self-citations=true)
+- ETMC ensembles generation $\to$ fine tuned simulation and obtained $O(a)$-improved configurations
+- [GPU code optimization](https://inspirehep.net/literature/2613828) $\to$ achieved $\sim 1.5$ improvement by auto-tuning of Multigrid parematers
+- [**Novel method for SU(2) Hamiltonians**](https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author%3Aromiti%20title%3ASU%282%29%20OR%20title%3Adigitizing&ui-citation-summary=true&ui-exclude-self-citations=true) $\to$ achieved machine-precision exactness for canonical commutation relations
+- [**Monte Carlo and Quantum Computing**](https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author%3Aromiti%20fulltext%3Amatching&ui-citation-summary=true&ui-exclude-self-citations=true)
 \vspace{7pt} $\to$ obtained Hamiltonian limit and calculations of glueballs spectrum
-* **Supervision of Master's and PhD students**
+- **Supervision of Master's and PhD students**, **tutorial sessions of undergraduate courses**
 
 
 <!-- SKILLS -->
@@ -166,16 +166,16 @@ format:
 \textbf{High-Performance Computing} - openMP, MPI, CUDA, EasyBuild, SLURM
 
 \vspace{-0.15cm}
-\textbf{Tools} - \LaTeX, Markdown, RMarkdown, Quarto
-
-\vspace{-0.15cm}
 \textbf{Frameworks and Libraries} - Jupyter, NumPy, SymPy, SciPy, Pandas, Matplotlib, Plotly, PyTorch, Streamlit
 
 \vspace{-0.15cm}
-\textbf{Tools \& DevOps} - Docker, Git, GitHub Actions
+\textbf{Computational Methods} - Monte Carlo, Bayesian statistics, Machine Learning (PyTorch): PINNs, VAEs, diffusion models
 
 \vspace{-0.15cm}
-\textbf{Languages} - Italian (native), English (proficient), German (A1)
+\textbf{Tools \& DevOps} - \LaTeX, Markdown, RMarkdown, Quarto, Docker, Git, GitHub Actions 
+
+\vspace{-0.15cm}
+\textbf{Languages} - Italian (native), English (proficient), German (A2.1)
 
 
 
