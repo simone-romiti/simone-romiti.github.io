@@ -110,7 +110,7 @@ format:
   \hrule
   \vspace{5pt}
   \begin{multicols}{2}
-    \begin{flushleft}{\bf \href{https://www.unibe.ch/}{University of Bern}}\end{flushleft}
+    \begin{flushleft}{\bf \href{https://www.unibe.ch/index_eng.html}{University of Bern}}\end{flushleft}
     \begin{flushright}Apr 2024--Present\end{flushright}
   \end{multicols}
   \vspace{-0.15cm}
