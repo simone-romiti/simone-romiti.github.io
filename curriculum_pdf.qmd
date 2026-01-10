@@ -169,7 +169,7 @@ format:
 \textbf{Frameworks and Libraries} - Jupyter, NumPy, SymPy, SciPy, Pandas, Matplotlib, Plotly, PyTorch, Streamlit
 
 \vspace{-0.15cm}
-\textbf{Computational Methods} - Monte Carlo, Bayesian statistics, Machine Learning (PyTorch): PINNs, VAEs, diffusion models
+\textbf{Computational Methods} - Monte Carlo, Bayesian statistics |  Machine Learning (PyTorch): PINNs, VAEs, diffusion models
 
 \vspace{-0.15cm}
 \textbf{Tools \& DevOps} - \LaTeX, Markdown, RMarkdown, Quarto, Docker, Git, GitHub Actions 
