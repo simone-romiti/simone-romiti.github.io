@@ -132,7 +132,7 @@ format:
 <!-- EXPERIENCE : 2ND BULLET -->
 \begin{large}
   \begin{multicols}{2}
-    \begin{flushleft}{\bf \href{https://www.uni-bonn.de/de}{University of Bonn}}\end{flushleft}
+    \begin{flushleft}{\bf \href{https://www.uni-bonn.de/en/home?set_language=en}{University of Bonn}}\end{flushleft}
     \begin{flushright}Nov 2021--Mar 2024\end{flushright}
   \end{multicols}
   \vspace{-0.15cm}
