@@ -45,8 +45,8 @@ website:
         href: software_libs.qmd
 
     right: 
-      # - text: CV
-      #   href: files/nsf-biosketch.pdf
+      - text: CV
+        href: /curriculum_pdf.pdf
       - icon: github
         href: https://github.com/simone-romiti
         target: _blank
