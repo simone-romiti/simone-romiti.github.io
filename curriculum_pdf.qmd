@@ -205,7 +205,7 @@ Passionate about expanding expertise and tackling complex computational challeng
 \textbf{Programming Languages} - C, C++, Python, Bash, R
 
 \vspace{-0.15cm}
-\textbf{High-Performance Computing} - openMP, MPI, CUDA, EasyBuild, SLURM
+\textbf{High-Performance Computing} - openMP, MPI, CUDA, GNU/Linux, EasyBuild, SLURM
 
 \vspace{-0.15cm}
 \textbf{Frameworks and Libraries} - Jupyter, NumPy, SymPy, SciPy, Pandas, Matplotlib, Plotly, PyTorch, Streamlit

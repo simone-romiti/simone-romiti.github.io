@@ -1,6 +1,7 @@
 /.quarto/
 docs/*
 docs/
+site_libs/
 
 *.js
 curriculum_pdf.tex
