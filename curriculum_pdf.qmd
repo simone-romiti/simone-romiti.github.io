@@ -44,7 +44,7 @@ format:
 
 \begin{large}
 
-Theoretical physicist specialized in lattice QCD and high-performance computing, with proven expertise in Monte Carlo simulations, Machine Learning (PINNs, VAEs), and code optimization. 
+Theoretical physicist specialized in lattice QCD and high-performance computing, with proven expertise in Monte Carlo simulations, Machine Learning (PINNs, VAEs, diffusion models), and code optimization. 
 Track record of developing innovative algorithms that achieved substantial performance improvements, and leading collaborative research projects across international institutions.
 Passionate about expanding expertise and tackling complex computational challenges in collaborative, interdisciplinary environments.
 
