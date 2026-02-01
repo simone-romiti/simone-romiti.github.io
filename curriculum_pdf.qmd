@@ -36,7 +36,13 @@ format:
 \begin{huge}\begin{center}{\bf SIMONE ROMITI}\end{center}\end{huge}
 
 <!-- CONTACT INFO -->
-\begin{center} simone.romiti.1994@gmail.com | \href{https://simone-romiti.github.io/}{Webpage} | \href{https://github.com/simone-romiti}{Github} | \href{https://www.linkedin.com/in/simone-romiti/}{LinkedIn} | \href{https://orcid.org/0000-0002-6509-447X}{Orcid} 
+\begin{center}
+Born: 25 Aug. 1994 | 
+simone.romiti.1994@gmail.com |
+\href{https://simone-romiti.github.io/}{Webpage} | 
+\href{https://github.com/simone-romiti}{Github} | 
+\href{https://www.linkedin.com/in/simone-romiti/}{LinkedIn} | 
+\href{https://orcid.org/0000-0002-6509-447X}{Orcid} 
 \end{center}
 \vspace{15pt}
 
