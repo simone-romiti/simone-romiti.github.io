@@ -50,7 +50,7 @@ simone.romiti.1994@gmail.com |
 
 \begin{large}
 
-Theoretical physicist specialized in lattice QCD and high-performance computing, with proven expertise in Monte Carlo simulations, Machine Learning (PINNs, VAEs, diffusion models), and code optimization. 
+Theoretical physicist specialized in lattice QCD and high-performance computing, expert in Monte Carlo simulations, Machine Learning (PINNs, VAEs, diffusion models), and code optimization. 
 Track record of developing innovative algorithms that achieved substantial performance improvements, and leading collaborative research projects across international institutions.
 Passionate about expanding expertise and tackling complex computational challenges in collaborative, interdisciplinary environments.
 
@@ -148,7 +148,7 @@ Passionate about expanding expertise and tackling complex computational challeng
   \item \textbf{Reference scientist} for \href{https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author\%3Aromiti\%20fulltext\%3AHVP&ui-citation-summary=true&ui-exclude-self-citations=true}{Hadronic Vacuum Polarization (HVP)} analysis of Bern group $\to$ sub-permille precision achievement
   \item \textbf{Pole contribution} to \href{https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author\%3Aromiti\%20fulltext\%3AHLbL&ui-citation-summary=true&ui-exclude-self-citations=true}{Hadronic Light-by-Light contribution to $(g-2)_\mu$} $\to$ achieved $N^6$ to $N \log(N)$ scaling improvement 
   \item \href{https://github.com/simone-romiti}{\textbf{Main developer} of open-source libraries} $\to$ my code for Monte Carlo simulations led to scientific publications
-  \item \textbf{Supervision of PhD students}
+  \item \textbf{Supervision of 3 PhD students}
   \end{itemize}
 
 \end{large}
@@ -262,14 +262,31 @@ Passionate about expanding expertise and tackling complex computational challeng
     \begin{flushright}\href{https://www.cscs.ch/computers/alps}{CSCS (ALPS)} | October 2025\end{flushright}
   \end{multicols}
 
+  \vspace{-0.15cm}
+
+  \begin{multicols}{2}
+    \begin{flushleft}    
+      \textbf{Developer} of Patient and Medical History Software
+    \end{flushleft}
+    \begin{flushright} \href{https://nutrizionistafrancescobartolazzi.webnode.it/}{Nutritional Biologist Practice} | 2026 \end{flushright}
+  \end{multicols}
 
   \vspace{-0.15cm}
 
   \begin{multicols}{2}
     \begin{flushleft}    
-      \textbf{Leading organizer} of \href{https://indico.hiskp.uni-bonn.de/category/35/}{weekly seminars at HISKP department} 
+      \textbf{Invited speaker} at \href{https://indico.cern.ch/category/376/}{CERN's Lattice seminar}
     \end{flushleft}
-    \begin{flushright}\href{https://www.hiskp.uni-bonn.de/}{HISKP} | 2022 - 2024\end{flushright}
+    \begin{flushright} \href{https://home.cern/}{CERN} | 2026 \end{flushright}
+  \end{multicols}
+
+  \vspace{-0.15cm}
+
+  \begin{multicols}{2}
+    \begin{flushleft}    
+      \textbf{UniBe visiting grant} \href{https://www.philnat.unibe.ch/research/support_for_early_career_scientists/open_round/index_eng.html}{Open round 2026/1}
+    \end{flushleft}
+    \begin{flushright} \href{https://www.tuwien.at/}{TU Wien} | 2026 \end{flushright}
   \end{multicols}
 
 
