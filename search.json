@@ -98,25 +98,53 @@
     "text": "Mathematical analysis\n2020 - 2021: Tutorial sessions for Mathematical analysis 1 (Analisi Matematica 1 🇮🇹) | Prof. Luigi Chierchia | Roma Tre University, Department of Physics, Rome, Italy | 01/10/2020 - 28/02/2021 | webpage of the course and github repository\n2019 - 2020: Tutorial sessions for Mathematical analysis 1 (Analisi Matematica 1 🇮🇹) | Prof. Ugo Bessi | Roma Tre University, Department of Physics, Rome, Italy | 01/10/2019 - 28/02/2020 | github repository\n2020 - 2021: Lecturer’s assistant for Fundamentals of Mathematics 2 (Istituzioni di Matematiche 2 🇮🇹) | Prof. Laura Tedeschini Lalli | Roma Tre University, Department of Architecture, Rome, Italy | 01/10/2020 - 28/02/2021 | webpage and github repository"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Simone Romiti, PhD",
+    "objectID": "outreach.html",
+    "href": "outreach.html",
+    "title": "Outreach activity",
     "section": "",
-    "text": "E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     Uni-Bern\n  \n  \n      Inspire HEP\n  \n  \n      Orcid\n  \n  \n      Web of Science\n  \n  \n      Google Scholar\n  \n  \n      Comp. Phys.\n  \n\n  \n  \n\n\nI am a theoretical computational physicist in the field of High Energy Physics. In my work I use computers to provide high-precision quantitative predictions of physical quantities, in those regimes where analytic solutions are out of reach.\n\nCurrent employer: University of Bern\nJob title: Postdoctoral Researcher\nEducation: PhD in Theoretical Physics\n\nMy main areas of interest are:\n\nQuantum Field Theories on the lattice, QCD phenomenology\nMachine Learning for scientific applications, Physics-Informed Neural Networks\nMarkov chain Monte Carlo, Bayesian algorithms\n\nCurriculum | Education | Experience | Publications | Teaching | Software\nMore information about me is available from the macro-sections on the top bar and my activity below."
+    "text": "This document contains a listing of my outreach activity, namely:\n\nThe events I attended (conferences, workshops, etc.)\nThe presentations I made\nMy contributions as organizer\netc.\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\nETMC update on the \\(a_\\mu^{\\text{HLbL}}\\) calculation\n\n\n\nworkshop\n\npresentation\n\n\n\nTalk at the 2025 \\((g-2)_\\mu\\) initiative workshop\n\n\n\n\n\n\n\n\n\nOrganization of the 2025 workshop Hamiltonian LGTs\n\n\n\nworkshop\n\norganization\n\npresentation\n\n\n\nLeading organizer of workshop at ECT* (Trento)\n\n\n\n\n\n\n\n\n\nSU(N) eigenstates with Physics-Informed Neural Networks\n\n\n\nworkshop\n\npresentation\n\n\n\nTalk at ECT* workshop on Multi-canonical methods and lattice field theory\n\n\n\n\n\n\n\n\n\nETMC 2025 update on scale setting\n\n\n\nworkshop\n\npresentation\n\n\n\nInvited speaker at the ETC* workshop\n\n\n\n\n\n\n\n\n\nGradient flow workshop\n\n\n\nworkshop\n\npresentation\n\n\n\nTalk 2023 gradient flow workshop\n\n\n\n\n\n\n\n\n\nGradient flow workshop\n\n\n\nworkshop\n\n\n\nAttended 2025 gradient flow workshop\n\n\n\n\n\n\n\n\n\nSIGN25 workshop\n\n\n\nworkshop\n\norganization\n\n\n\nAttended 2025 SIGN workshop and helped in the organization\n\n\n\n\n\n\n\n\n\nLattice 2024 conference\n\n\n\nconference\n\npresentation\n\n\n\nTalk at the 41st International Symposium on Lattice Field Theory\n\n\n\n\n\n\n\n\n\nLattice 2023 conference\n\n\n\nconference\n\npresentation\n\n\n\nTalk at the 40th International Symposium on Lattice Field Theory\n\n\n\n\n\n\n\n\n\nLattice 2022 conference\n\n\n\nconference\n\norganization\n\npresentation\n\n\n\nTalk at the 39th International Symposium on Lattice Field Theory\n\n\n\n\n\n\n\n\n\nHISKP weekly seminars\n\n\n\norganization\n\n\n\nOrganized of weekly physics seminars at HISKP, Bonn\n\n\n\n\n\n\n\n\n\nHadron 2021 conference\n\n\n\nconference\n\npresentation\n\n\n\nTalk at the 19th International Conference on Hadron Spectroscopy and Structure\n\n\n\n\n\n\n\n\n\nLattice 2021 conference\n\n\n\nconference\n\npresentation\n\n\n\nTalk at the 38th International Symposium on Lattice Field Theory\n\n\n\n\n\n\n\n\n\nEyes on Mars\n\n\n\norganization\n\npresentation\n\n\n\nOutreach event for the general public at Roma Tre University\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html#activity",
-    "href": "index.html#activity",
-    "title": "Simone Romiti, PhD",
-    "section": "Activity",
-    "text": "Activity\n\n\n\n\n\n\n\n\nETMC update on the \\(a_\\mu^{\\text{HLbL}}\\) calculation\n\n\n\nworkshop\n\npresentation\n\n\n\n\n\n\n\n\n\n\nOrganization of the 2025 workshop Hamiltonian LGTs\n\n\n\nworkshop\n\norganization\n\npresentation\n\n\n\n\n\n\n\n\n\n\nSU(N) eigenstates with Physics-Informed Neural Networks\n\n\n\nworkshop\n\npresentation\n\n\n\n\n\n\n\n\n\n\nAdiabatic PINNs for SU(N)\n\n\nPhysics-Informed Neural Networks for the solution of U(1) and SU(2) on the lattice\n\n\n\nPython\n\nPytorch\n\ngit\n\nMakefile\n\nLaTeX\n\n\n\n\n\n\n\n\n\n\nETMC 2025 update on scale setting\n\n\n\nworkshop\n\npresentation\n\n\n\n\n\n\n\n\n\n\nGradient flow workshop\n\n\n\nworkshop\n\npresentation\n\n\n\n\n\n\n\n\n\n\nGradient flow workshop\n\n\n\nworkshop\n\n\n\n\n\n\n\n\n\n\nSIGN25 workshop\n\n\n\nworkshop\n\norganization\n\n\n\n\n\n\n\n\n\n\nDJT implementation for SU(2)\n\n\nDiscrete Jacobi Transform on the sphere \\(S^3\\)\n\n\n\nPython\n\ngit\n\nMakefile\n\nLaTeX\n\n\n\n\n\n\n\n\n\n\nLattice 2024 conference\n\n\n\nconference\n\npresentation\n\n\n\n\n\n\n\n\n\n\nLattice 2023 conference\n\n\n\nconference\n\npresentation\n\n\n\n\n\n\n\n\n\n\nQCD+QED diagrams\n\n\nFeynman diagrams for QCD+QED\n\n\n\nJaxodraw\n\ngit\n\nMakefile\n\nLaTeX\n\n\n\n\n\n\n\n\n\n\nLattice 2022 conference\n\n\n\nconference\n\norganization\n\npresentation\n\n\n\n\n\n\n\n\n\n\nHISKP weekly seminars\n\n\n\norganization\n\n\n\n\n\n\n\n\n\n\nLattice Data Tools\n\n\nStatistical analysis of lattice data\n\n\n\nPython\n\ngit\n\nR\n\nMakefile\n\nLaTeX\n\n\n\n\n\n\n\n\n\n\nMC simulations for U(1), SU(2) and SU(3)\n\n\nMonte Carlo algorithms for lattice gauge theories\n\n\n\nC/C++\n\nopenMP\n\nPython\n\ngit\n\nR\n\nMakefile\n\nLaTeX\n\nquarto\n\n\n\n\n\n\n\n\n\n\ntmLQCD\n\n\nMonte Carlo sampler for lattice QCD\n\n\n\nC/C++\n\nopenMP\n\nMPI\n\nCUDA\n\ngit\n\nR\n\nMakefile\n\nLaTeX\n\n\n\n\n\n\n\n\n\n\nHadron 2021 conference\n\n\n\nconference\n\npresentation\n\n\n\n\n\n\n\n\n\n\nLattice 2021 conference\n\n\n\nconference\n\npresentation\n\n\n\n\n\n\n\n\n\n\nEyes on Mars\n\n\n\norganization\n\npresentation\n\n\n\n\n\n\nNo matching items"
+    "objectID": "software_libs/lattice_data_tools.html",
+    "href": "software_libs/lattice_data_tools.html",
+    "title": "Lattice Data Tools",
+    "section": "",
+    "text": "I am the creator and maintainer of the library lattice_data_tools, a software toolkit for the statistical analysis of lattice data. Some features are, for instance:\n\nExtraction of effective masses and amplitudes from lattice correlators\nStandard routines in the calculation of the hadronic contributions to \\((g-2)_\\mu\\)\nAnalysis of Monte Carlo trajectories\nBootstrap and jackknife sampling\nLeast-squares fit of functions \\(\\mathbb{R}^n \\to \\mathbb{R}^{m}\\)\nBayesian Model Averaging, Akaike’s Information Criterion\n\nlattice_data_tools is also part of the Lattice QFT software list."
   },
   {
-    "objectID": "software_libs.html",
-    "href": "software_libs.html",
-    "title": "Software libraries",
+    "objectID": "software_libs/QCDQED_diagrams.html",
+    "href": "software_libs/QCDQED_diagrams.html",
+    "title": "QCD+QED diagrams",
     "section": "",
-    "text": "This document contains a listing of the open-source software I develop and maintain, as well as those libraries to which I have significantly contributed.\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\nOngoing projects\n\n\nLibraries that will become available soon\n\n\n\nC/C++\n\nPython\n\nstreamlit\n\ngit\n\nMakefile\n\nLaTeX\n\n\n\nCreator, Main developer, Contributor\n\n\n\n\n\n\n\n\n\nAdiabatic PINNs for SU(N)\n\n\nPhysics-Informed Neural Networks for the solution of U(1) and SU(2) on the lattice\n\n\n\nPython\n\nPytorch\n\ngit\n\nMakefile\n\nLaTeX\n\n\n\nCreator and maintainer\n\n\n\n\n\n\n\n\n\nDJT implementation for SU(2)\n\n\nDiscrete Jacobi Transform on the sphere \\(S^3\\)\n\n\n\nPython\n\ngit\n\nMakefile\n\nLaTeX\n\n\n\nCreator and maintainer\n\n\n\n\n\n\n\n\n\nQCD+QED diagrams\n\n\nFeynman diagrams for QCD+QED\n\n\n\nJaxodraw\n\ngit\n\nMakefile\n\nLaTeX\n\n\n\nCreator and maintainer\n\n\n\n\n\n\n\n\n\nLattice Data Tools\n\n\nStatistical analysis of lattice data\n\n\n\nPython\n\ngit\n\nR\n\nMakefile\n\nLaTeX\n\n\n\nCreator and maintainer\n\n\n\n\n\n\n\n\n\nMC simulations for U(1), SU(2) and SU(3)\n\n\nMonte Carlo algorithms for lattice gauge theories\n\n\n\nC/C++\n\nopenMP\n\nPython\n\ngit\n\nR\n\nMakefile\n\nLaTeX\n\nquarto\n\n\n\nMain Contributor\n\n\n\n\n\n\n\n\n\ntmLQCD\n\n\nMonte Carlo sampler for lattice QCD\n\n\n\nC/C++\n\nopenMP\n\nMPI\n\nCUDA\n\ngit\n\nR\n\nMakefile\n\nLaTeX\n\n\n\nContributor\n\n\n\n\n\nNo matching items"
+    "text": "The repository for QCD+QED diagrams with the RM123 method contains the Jaxodraw diagrams (and the corresponding axodraw LaTeX code) for the Feynman diagrams used in the RM123 method, for the calculation of the Leading Isospin Breaking Effects at leading order in lattice QCD+QED."
+  },
+  {
+    "objectID": "software_libs/adiabatic_PINNs-suN.html",
+    "href": "software_libs/adiabatic_PINNs-suN.html",
+    "title": "Adiabatic PINNs for SU(N)",
+    "section": "",
+    "text": "The repository adiabatic PINNs for SU(N) contains the open-source implementation of the algorithm described on my paper: arxiv 2510.26904."
+  },
+  {
+    "objectID": "software_libs/su2_urbach.html",
+    "href": "software_libs/su2_urbach.html",
+    "title": "MC simulations for U(1), SU(2) and SU(3)",
+    "section": "",
+    "text": "This library with Monte Carlo algorithms for U(1), SU(2), SU(3) in d=2,3,4 dimensions was created by my former boss, C. Urbach, and I became its main maintainer when started working for him (check my experience section)."
+  },
+  {
+    "objectID": "software_libs/tmLQCD.html",
+    "href": "software_libs/tmLQCD.html",
+    "title": "tmLQCD",
+    "section": "",
+    "text": "tmLQCD is a C library containing a set of Monte Carlo algorithms for twisted mass lattice QCD, and is part of the Lattice QFT software list. I have used it extensively since my PhD, and contributed to its development as a postdoc (check out my experience section)."
+  },
+  {
+    "objectID": "software_libs/DJT_paper-code.html",
+    "href": "software_libs/DJT_paper-code.html",
+    "title": "DJT implementation for SU(2)",
+    "section": "",
+    "text": "The DJT_paper code repository contains the open-source implementation of the algorithm described on my paper: https://arxiv.org/abs/2311.11928"
   },
   {
     "objectID": "education.html",
@@ -133,53 +161,25 @@
     "text": "Footnotes\n\n\nAs in many other countries, in Italy the PhD thesis dissertation takes place months after the submission, in order for the referees to evaluate your work. Upon positive evaluation, the exact date is decided by the Department’s committee. The day after the submission, I started a postdoc position in Germany (check out my experience section).↩︎"
   },
   {
-    "objectID": "software_libs/DJT_paper-code.html",
-    "href": "software_libs/DJT_paper-code.html",
-    "title": "DJT implementation for SU(2)",
+    "objectID": "software_libs.html",
+    "href": "software_libs.html",
+    "title": "Software libraries",
     "section": "",
-    "text": "The DJT_paper code repository contains the open-source implementation of the algorithm described on my paper: https://arxiv.org/abs/2311.11928"
+    "text": "This document contains a listing of the open-source software I develop and maintain, as well as those libraries to which I have significantly contributed.\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\nOngoing projects\n\n\nLibraries that will become available soon\n\n\n\nC/C++\n\nPython\n\nstreamlit\n\ngit\n\nMakefile\n\nLaTeX\n\n\n\nCreator, Main developer, Contributor\n\n\n\n\n\n\n\n\n\nAdiabatic PINNs for SU(N)\n\n\nPhysics-Informed Neural Networks for the solution of U(1) and SU(2) on the lattice\n\n\n\nPython\n\nPytorch\n\ngit\n\nMakefile\n\nLaTeX\n\n\n\nCreator and maintainer\n\n\n\n\n\n\n\n\n\nDJT implementation for SU(2)\n\n\nDiscrete Jacobi Transform on the sphere \\(S^3\\)\n\n\n\nPython\n\ngit\n\nMakefile\n\nLaTeX\n\n\n\nCreator and maintainer\n\n\n\n\n\n\n\n\n\nQCD+QED diagrams\n\n\nFeynman diagrams for QCD+QED\n\n\n\nJaxodraw\n\ngit\n\nMakefile\n\nLaTeX\n\n\n\nCreator and maintainer\n\n\n\n\n\n\n\n\n\nLattice Data Tools\n\n\nStatistical analysis of lattice data\n\n\n\nPython\n\ngit\n\nR\n\nMakefile\n\nLaTeX\n\n\n\nCreator and maintainer\n\n\n\n\n\n\n\n\n\nMC simulations for U(1), SU(2) and SU(3)\n\n\nMonte Carlo algorithms for lattice gauge theories\n\n\n\nC/C++\n\nopenMP\n\nPython\n\ngit\n\nR\n\nMakefile\n\nLaTeX\n\nquarto\n\n\n\nMain Contributor\n\n\n\n\n\n\n\n\n\ntmLQCD\n\n\nMonte Carlo sampler for lattice QCD\n\n\n\nC/C++\n\nopenMP\n\nMPI\n\nCUDA\n\ngit\n\nR\n\nMakefile\n\nLaTeX\n\n\n\nContributor\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "software_libs/tmLQCD.html",
-    "href": "software_libs/tmLQCD.html",
-    "title": "tmLQCD",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Simone Romiti, PhD",
     "section": "",
-    "text": "tmLQCD is a C library containing a set of Monte Carlo algorithms for twisted mass lattice QCD, and is part of the Lattice QFT software list. I have used it extensively since my PhD, and contributed to its development as a postdoc (check out my experience section)."
+    "text": "E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     Uni-Bern\n  \n  \n      Inspire HEP\n  \n  \n      Orcid\n  \n  \n      Web of Science\n  \n  \n      Google Scholar\n  \n  \n      Comp. Phys.\n  \n\n  \n  \n\n\nI am a theoretical computational physicist in the field of High Energy Physics. In my work I use computers to provide high-precision quantitative predictions of physical quantities, in those regimes where analytic solutions are out of reach.\n\nCurrent employer: University of Bern\nJob title: Postdoctoral Researcher\nEducation: PhD in Theoretical Physics\n\nMy main areas of interest are:\n\nQuantum Field Theories on the lattice, QCD phenomenology\nMachine Learning for scientific applications, Physics-Informed Neural Networks\nMarkov chain Monte Carlo, Bayesian algorithms\n\nCurriculum | Education | Experience | Publications | Teaching | Software\nMore information about me is available from the macro-sections on the top bar and my activity below."
   },
   {
-    "objectID": "software_libs/su2_urbach.html",
-    "href": "software_libs/su2_urbach.html",
-    "title": "MC simulations for U(1), SU(2) and SU(3)",
-    "section": "",
-    "text": "This library with Monte Carlo algorithms for U(1), SU(2), SU(3) in d=2,3,4 dimensions was created by my former boss, C. Urbach, and I became its main maintainer when started working for him (check my experience section)."
-  },
-  {
-    "objectID": "software_libs/adiabatic_PINNs-suN.html",
-    "href": "software_libs/adiabatic_PINNs-suN.html",
-    "title": "Adiabatic PINNs for SU(N)",
-    "section": "",
-    "text": "The repository adiabatic PINNs for SU(N) contains the open-source implementation of the algorithm described on my paper: arxiv 2510.26904."
-  },
-  {
-    "objectID": "software_libs/QCDQED_diagrams.html",
-    "href": "software_libs/QCDQED_diagrams.html",
-    "title": "QCD+QED diagrams",
-    "section": "",
-    "text": "The repository for QCD+QED diagrams with the RM123 method contains the Jaxodraw diagrams (and the corresponding axodraw LaTeX code) for the Feynman diagrams used in the RM123 method, for the calculation of the Leading Isospin Breaking Effects at leading order in lattice QCD+QED."
-  },
-  {
-    "objectID": "software_libs/lattice_data_tools.html",
-    "href": "software_libs/lattice_data_tools.html",
-    "title": "Lattice Data Tools",
-    "section": "",
-    "text": "I am the creator and maintainer of the library lattice_data_tools, a software toolkit for the statistical analysis of lattice data. Some features are, for instance:\n\nExtraction of effective masses and amplitudes from lattice correlators\nStandard routines in the calculation of the hadronic contributions to \\((g-2)_\\mu\\)\nAnalysis of Monte Carlo trajectories\nBootstrap and jackknife sampling\nLeast-squares fit of functions \\(\\mathbb{R}^n \\to \\mathbb{R}^{m}\\)\nBayesian Model Averaging, Akaike’s Information Criterion\n\nlattice_data_tools is also part of the Lattice QFT software list."
-  },
-  {
-    "objectID": "outreach.html",
-    "href": "outreach.html",
-    "title": "Outreach activity",
-    "section": "",
-    "text": "This document contains a listing of my outreach activity, namely:\n\nThe events I attended (conferences, workshops, etc.)\nThe presentations I made\nMy contributions as organizer\netc.\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\nETMC update on the \\(a_\\mu^{\\text{HLbL}}\\) calculation\n\n\n\nworkshop\n\npresentation\n\n\n\nTalk at the 2025 \\((g-2)_\\mu\\) initiative workshop\n\n\n\n\n\n\n\n\n\nOrganization of the 2025 workshop Hamiltonian LGTs\n\n\n\nworkshop\n\norganization\n\npresentation\n\n\n\nLeading organizer of workshop at ECT* (Trento)\n\n\n\n\n\n\n\n\n\nSU(N) eigenstates with Physics-Informed Neural Networks\n\n\n\nworkshop\n\npresentation\n\n\n\nTalk at ECT* workshop on Multi-canonical methods and lattice field theory\n\n\n\n\n\n\n\n\n\nETMC 2025 update on scale setting\n\n\n\nworkshop\n\npresentation\n\n\n\nInvited speaker at the ETC* workshop\n\n\n\n\n\n\n\n\n\nGradient flow workshop\n\n\n\nworkshop\n\npresentation\n\n\n\nTalk 2023 gradient flow workshop\n\n\n\n\n\n\n\n\n\nGradient flow workshop\n\n\n\nworkshop\n\n\n\nAttended 2025 gradient flow workshop\n\n\n\n\n\n\n\n\n\nSIGN25 workshop\n\n\n\nworkshop\n\norganization\n\n\n\nAttended 2025 SIGN workshop and helped in the organization\n\n\n\n\n\n\n\n\n\nLattice 2024 conference\n\n\n\nconference\n\npresentation\n\n\n\nTalk at the 41st International Symposium on Lattice Field Theory\n\n\n\n\n\n\n\n\n\nLattice 2023 conference\n\n\n\nconference\n\npresentation\n\n\n\nTalk at the 40th International Symposium on Lattice Field Theory\n\n\n\n\n\n\n\n\n\nLattice 2022 conference\n\n\n\nconference\n\norganization\n\npresentation\n\n\n\nTalk at the 39th International Symposium on Lattice Field Theory\n\n\n\n\n\n\n\n\n\nHISKP weekly seminars\n\n\n\norganization\n\n\n\nOrganized of weekly physics seminars at HISKP, Bonn\n\n\n\n\n\n\n\n\n\nHadron 2021 conference\n\n\n\nconference\n\npresentation\n\n\n\nTalk at the 19th International Conference on Hadron Spectroscopy and Structure\n\n\n\n\n\n\n\n\n\nLattice 2021 conference\n\n\n\nconference\n\npresentation\n\n\n\nTalk at the 38th International Symposium on Lattice Field Theory\n\n\n\n\n\n\n\n\n\nEyes on Mars\n\n\n\norganization\n\npresentation\n\n\n\nOutreach event for the general public at Roma Tre University\n\n\n\n\n\nNo matching items"
+    "objectID": "index.html#activity",
+    "href": "index.html#activity",
+    "title": "Simone Romiti, PhD",
+    "section": "Activity",
+    "text": "Activity\n\n\n\n\n\n\n\n\nETMC update on the \\(a_\\mu^{\\text{HLbL}}\\) calculation\n\n\n\nworkshop\n\npresentation\n\n\n\n\n\n\n\n\n\n\nOrganization of the 2025 workshop Hamiltonian LGTs\n\n\n\nworkshop\n\norganization\n\npresentation\n\n\n\n\n\n\n\n\n\n\nSU(N) eigenstates with Physics-Informed Neural Networks\n\n\n\nworkshop\n\npresentation\n\n\n\n\n\n\n\n\n\n\nAdiabatic PINNs for SU(N)\n\n\nPhysics-Informed Neural Networks for the solution of U(1) and SU(2) on the lattice\n\n\n\nPython\n\nPytorch\n\ngit\n\nMakefile\n\nLaTeX\n\n\n\n\n\n\n\n\n\n\nETMC 2025 update on scale setting\n\n\n\nworkshop\n\npresentation\n\n\n\n\n\n\n\n\n\n\nGradient flow workshop\n\n\n\nworkshop\n\npresentation\n\n\n\n\n\n\n\n\n\n\nGradient flow workshop\n\n\n\nworkshop\n\n\n\n\n\n\n\n\n\n\nSIGN25 workshop\n\n\n\nworkshop\n\norganization\n\n\n\n\n\n\n\n\n\n\nDJT implementation for SU(2)\n\n\nDiscrete Jacobi Transform on the sphere \\(S^3\\)\n\n\n\nPython\n\ngit\n\nMakefile\n\nLaTeX\n\n\n\n\n\n\n\n\n\n\nLattice 2024 conference\n\n\n\nconference\n\npresentation\n\n\n\n\n\n\n\n\n\n\nLattice 2023 conference\n\n\n\nconference\n\npresentation\n\n\n\n\n\n\n\n\n\n\nQCD+QED diagrams\n\n\nFeynman diagrams for QCD+QED\n\n\n\nJaxodraw\n\ngit\n\nMakefile\n\nLaTeX\n\n\n\n\n\n\n\n\n\n\nLattice 2022 conference\n\n\n\nconference\n\norganization\n\npresentation\n\n\n\n\n\n\n\n\n\n\nHISKP weekly seminars\n\n\n\norganization\n\n\n\n\n\n\n\n\n\n\nLattice Data Tools\n\n\nStatistical analysis of lattice data\n\n\n\nPython\n\ngit\n\nR\n\nMakefile\n\nLaTeX\n\n\n\n\n\n\n\n\n\n\nMC simulations for U(1), SU(2) and SU(3)\n\n\nMonte Carlo algorithms for lattice gauge theories\n\n\n\nC/C++\n\nopenMP\n\nPython\n\ngit\n\nR\n\nMakefile\n\nLaTeX\n\nquarto\n\n\n\n\n\n\n\n\n\n\ntmLQCD\n\n\nMonte Carlo sampler for lattice QCD\n\n\n\nC/C++\n\nopenMP\n\nMPI\n\nCUDA\n\ngit\n\nR\n\nMakefile\n\nLaTeX\n\n\n\n\n\n\n\n\n\n\nHadron 2021 conference\n\n\n\nconference\n\npresentation\n\n\n\n\n\n\n\n\n\n\nLattice 2021 conference\n\n\n\nconference\n\npresentation\n\n\n\n\n\n\n\n\n\n\nEyes on Mars\n\n\n\norganization\n\npresentation\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "contact.html",
