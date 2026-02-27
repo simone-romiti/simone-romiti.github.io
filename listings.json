@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/projects.html",
-    "items": []
-  },
-  {
     "listing": "/outreach.html",
     "items": [
       "/outreach/2025-gm2_initiative.html",
@@ -20,18 +16,6 @@
       "/outreach/2021-Hadron_conference.html",
       "/outreach/2021-Lattice_conference.html",
       "/outreach/2019_02_16-Occhi_su_Marte.html"
-    ]
-  },
-  {
-    "listing": "/software_libs.html",
-    "items": [
-      "/software_waiting_to_be_released.html",
-      "/software_libs/adiabatic_PINNs-suN.html",
-      "/software_libs/DJT_paper-code.html",
-      "/software_libs/QCDQED_diagrams.html",
-      "/software_libs/lattice_data_tools.html",
-      "/software_libs/su2_urbach.html",
-      "/software_libs/tmLQCD.html"
     ]
   },
   {
@@ -57,6 +41,22 @@
       "/outreach/2021-Hadron_conference.html",
       "/outreach/2021-Lattice_conference.html",
       "/outreach/2019_02_16-Occhi_su_Marte.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/software_libs.html",
+    "items": [
+      "/software_waiting_to_be_released.html",
+      "/software_libs/adiabatic_PINNs-suN.html",
+      "/software_libs/DJT_paper-code.html",
+      "/software_libs/QCDQED_diagrams.html",
+      "/software_libs/lattice_data_tools.html",
+      "/software_libs/su2_urbach.html",
+      "/software_libs/tmLQCD.html"
     ]
   }
 ]
