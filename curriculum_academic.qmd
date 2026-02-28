@@ -50,9 +50,14 @@ simone.romiti.1994@gmail.com |
 
 \begin{large}
 
+<<<<<<< HEAD
+Theoretical physicist specialized in lattice QCD and high-performance computing. Expert in Monte Carlo simulations, Machine Learning (PINNs, VAEs, diffusion models), and code optimization. 
+Track record of developing innovative algorithms that achieved substantial performance improvements, and leading collaborative research projects across international institutions.
+=======
 Theoretical physicist specialized in lattice QCD and high-performance computing, expert in Monte Carlo simulations, Machine Learning (PINNs, VAEs, diffusion models), and code optimization. 
 Track record of developing innovative algorithms that achieved substantial performance improvements, and leading collaborative research projects across international institutions.
 Passionate about expanding expertise and tackling complex computational challenges in collaborative, interdisciplinary environments.
+>>>>>>> a74fe5fc7c4c5eee067f6a41383ed5cf6e46d3e3
 
 \end{large}
 
@@ -73,7 +78,11 @@ Passionate about expanding expertise and tackling complex computational challeng
     \begin{flushleft}
     \textbf{PhD in Theoretical Physics} (Dissertation 22 April 2022) 
     \end{flushleft}
+<<<<<<< HEAD
+    \begin{flushright} Nov. 2018 -- Oct. 2021\end{flushright}
+=======
     \begin{flushright}2018 -- 2021\end{flushright}
+>>>>>>> a74fe5fc7c4c5eee067f6a41383ed5cf6e46d3e3
   \end{multicols}
   \vspace{-0.2cm}
   \begin{itemize}
@@ -92,7 +101,11 @@ Passionate about expanding expertise and tackling complex computational challeng
     \begin{flushleft}
     \textbf{M.S.\ in Theoretical Physics of Elementary Particles}
     \end{flushleft}
+<<<<<<< HEAD
+    \begin{flushright} Oct. 2016 -- Oct. 2018\end{flushright}
+=======
     \begin{flushright}2016 -- 2018\end{flushright}
+>>>>>>> a74fe5fc7c4c5eee067f6a41383ed5cf6e46d3e3
   \end{multicols}
   \vspace{-0.2cm}
   \begin{itemize}
@@ -109,7 +122,11 @@ Passionate about expanding expertise and tackling complex computational challeng
     \begin{flushleft}
     \textbf{B.S.\ in Physics}
     \end{flushleft}
+<<<<<<< HEAD
+    \begin{flushright} Oct. 2013 -- Jul. 2016\end{flushright}
+=======
     \begin{flushright}2013 -- 2016\end{flushright}
+>>>>>>> a74fe5fc7c4c5eee067f6a41383ed5cf6e46d3e3
   \end{multicols}
   \vspace{-0.2cm}
   \begin{itemize}
@@ -181,7 +198,11 @@ Passionate about expanding expertise and tackling complex computational challeng
 
 \end{large}
 
+<<<<<<< HEAD
+<!-- \begin{large}{\bf SELECTED PUBLICATIONS}
+=======
 \begin{large}{\bf SELECTED PUBLICATIONS}
+>>>>>>> a74fe5fc7c4c5eee067f6a41383ed5cf6e46d3e3
   \vspace{9pt}
   \hrule
   \vspace{9pt}
@@ -196,7 +217,11 @@ Passionate about expanding expertise and tackling complex computational challeng
     \item \href{https://inspirehep.net/literature/2781250}{Towards determining the (2+1)-dimensional Quantum Electrodynamics running coupling with Monte Carlo and quantum computing methods}
     \item \href{https://inspirehep.net/literature/2724218}{Digitizing lattice gauge theories in the magnetic basis: reducing the breaking of the fundamental commutation relations}
   \end{itemize}
+<<<<<<< HEAD
+\end{large} -->
+=======
 \end{large}
+>>>>>>> a74fe5fc7c4c5eee067f6a41383ed5cf6e46d3e3
 
 <!-- SKILLS -->
 \begin{large}{\bf SKILLS}
@@ -266,7 +291,11 @@ Passionate about expanding expertise and tackling complex computational challeng
 
   \begin{multicols}{2}
     \begin{flushleft}    
+<<<<<<< HEAD
+      \textbf{Developer} of \texttt{streamlit} app for patients management
+=======
       \textbf{Developer} of Patient and Medical History Software
+>>>>>>> a74fe5fc7c4c5eee067f6a41383ed5cf6e46d3e3
     \end{flushleft}
     \begin{flushright} \href{https://nutrizionistafrancescobartolazzi.webnode.it/}{Nutritional Biologist Practice} | 2026 \end{flushright}
   \end{multicols}

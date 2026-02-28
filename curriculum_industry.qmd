@@ -2,7 +2,7 @@
 format: 
   pdf: 
     pdf-engine: xelatex
-    keep-tex: true
+    keep-tex: false
     documentclass: article
     geometry:
       - top=10mm
@@ -49,16 +49,7 @@ simone.romiti.1994@gmail.com |
 
 \begin{large}
 
-
-```{python}
-#| echo: false
-from datetime import date
-years = (date.today() - date(2018, 11, 1)).days // 365
-```
-
-
-Computational scientist and software engineer with `{python} f"{years}"`+ experience in high-performance computing, large-scale numerical simulations and machine learning. 
-Proven track record of designing algorithms that delivered order-of-magnitude performance gains, building open-source scientific software used in peer-reviewed research, and leading collaborative projects across international research institutions.
+Computational scientist and software engineer with 6+ years of experience in high-performance computing, machine learning, and large-scale numerical simulations. Proven track record of designing algorithms that delivered order-of-magnitude performance gains, building open-source scientific software used in peer-reviewed research, and leading cross-institutional projects. Experienced in parallel computing and deep learning (PyTorch).
 
 \end{large}
 
@@ -80,16 +71,16 @@ Proven track record of designing algorithms that delivered order-of-magnitude pe
 \textbf{HPC \& Systems} - CUDA, MPI, OpenMP, SLURM, EasyBuild, GNU/Linux
 
 \vspace{-0.15cm}
-\textbf{ML \& Data} - PINNs, VAEs, Diffusion Models, Bayesian Statistics, Markov Chain Monte Carlo, Nested Sampling
+\textbf{ML \& Data} - PyTorch, Physics-Informed Neural Networks (PINNs), VAEs, Diffusion Models, Bayesian Statistics, Monte Carlo
 
 \vspace{-0.15cm}
-\textbf{Libraries \& Frameworks} - Pytorch, NumPy, SciPy, Pandas, Matplotlib, Plotly, Streamlit, SymPy, Jupyter
+\textbf{Libraries \& Frameworks} - NumPy, SciPy, Pandas, Matplotlib, Plotly, Streamlit, SymPy, Jupyter
 
 \vspace{-0.15cm}
-\textbf{DevOps \& Tools} - Git, GitHub Actions, CI/CD Docker, \LaTeX, Quarto, Markdown
+\textbf{DevOps \& Tools} - Git, GitHub Actions, Docker, \LaTeX, Quarto, Markdown
 
 \vspace{-0.15cm}
-\textbf{Languages} - Italian (native), English (fluent), German (basic)
+\textbf{Languages} - Italian (native), English (proficient), German (basic)
 
 \end{large}
 
@@ -107,7 +98,7 @@ Proven track record of designing algorithms that delivered order-of-magnitude pe
   \end{multicols}
   \vspace{-0.15cm}
   \begin{multicols}{2}
-    \begin{flushleft}\textit{Postdoctoral Research Scientist}\end{flushleft}
+    \begin{flushleft}\textit{Postdoctoral Research Engineer}\end{flushleft}
     \begin{flushright}Bern, Switzerland\end{flushright}
   \end{multicols}
 \end{large}
@@ -116,10 +107,10 @@ Proven track record of designing algorithms that delivered order-of-magnitude pe
 
 \begin{large}
   \begin{itemize}
-    \item \textbf{Reduced memory complexity from exponential to polynomial} by designing a novel algorithm using Physics-Informed Neural Networks (PINNs) in PyTorch
-    \item \textbf{Achieved sub-permille numerical precision} as lead engineer for a high-accuracy scientific computation pipeline
-    \item \textbf{Improved algorithm scaling from $O(N^6)$ to $O(N \log N)$} through a novel mathematical reformulation
-    \item \textbf{Built and maintained open-source simulation libraries} (Python/C++) adopted for several peer-reviewed scientific publications
+    \item \textbf{Reduced memory complexity from exponential to polynomial} by designing a novel algorithm using Physics-Informed Neural Networks (PINNs) in PyTorch, unlocking simulations previously infeasible at scale
+    \item \textbf{Achieved sub-permille numerical precision} as lead engineer for a high-accuracy scientific computation pipeline, coordinating analysis across a multi-institution research group
+    \item \textbf{Improved algorithm scaling from $O(N^6)$ to $O(N \log N)$} through a novel mathematical reformulation, cutting compute costs by orders of magnitude for large-$N$ workloads
+    \item \textbf{Built and maintained open-source simulation libraries} (Python/C++) adopted by multiple research teams and directly enabling peer-reviewed publications
     \item \textbf{Mentored 3 PhD students} on software engineering practices, numerical methods, and project delivery
   \end{itemize}
 \end{large}
@@ -133,7 +124,7 @@ Proven track record of designing algorithms that delivered order-of-magnitude pe
   \end{multicols}
   \vspace{-0.15cm}
   \begin{multicols}{2}
-    \begin{flushleft}\textit{Postdoctoral Research Scientist}\end{flushleft}
+    \begin{flushleft}\textit{Postdoctoral Research Engineer}\end{flushleft}
     \begin{flushright}Bonn, Germany\end{flushright}
   \end{multicols}
 \end{large}
@@ -143,8 +134,8 @@ Proven track record of designing algorithms that delivered order-of-magnitude pe
 \begin{large}
   \begin{itemize}
     \item \textbf{Optimized GPU kernels (CUDA)} achieving a $\sim$1.5$\times$ throughput improvement via auto-tuning of Multigrid solver parameters on HPC clusters
-    \item \textbf{Designed and ran large-scale distributed simulations} (MPI/OpenMP) on international computing centers
-    \item \textbf{Developed a novel numerical method} achieving machine-precision exactness for a class of operator algebra constraints
+    \item \textbf{Designed and ran large-scale distributed simulations} (MPI/OpenMP) on national supercomputing infrastructure, generating datasets used across a European research collaboration
+    \item \textbf{Developed a novel numerical method} achieving machine-precision exactness for a class of operator algebra constraints, published in a peer-reviewed journal
     \item \textbf{Integrated Monte Carlo simulations with quantum computing workflows}, delivering end-to-end prototype pipelines bridging classical HPC and quantum backends
     \item \textbf{Mentored 3 graduate students} and delivered tutorial sessions for undergraduate computing courses
   \end{itemize}
@@ -170,7 +161,7 @@ Proven track record of designing algorithms that delivered order-of-magnitude pe
 
 \begin{large}
   \begin{itemize}
-    \item Built a full-stack \textbf{Streamlit} web application for a nutritionist's practice to manage patient records, appointment history, and nutritional assessments. Delivered solo from requirements to deployment
+    \item Built a full-stack \textbf{Streamlit} web application for a nutritionist practice to manage patient records, appointment history, and nutritional assessments — delivered solo from requirements to deployment
   \end{itemize}
 \end{large}
 
@@ -242,11 +233,9 @@ Proven track record of designing algorithms that delivered order-of-magnitude pe
   \hrule
   \vspace{9pt}
 
-\setlength{\columnsep}{-4.5cm}
-
   \begin{multicols}{2}
     \begin{flushleft}    
-      \textbf{Principal Investigator} -- 0.24M GPU node-hours compute grant
+      \textbf{Principal Investigator} -- 240,000 GPU node-hours compute grant
     \end{flushleft}
     \begin{flushright}\href{https://www.cscs.ch/computers/alps}{CSCS ALPS} | 2025\end{flushright}
   \end{multicols}
@@ -255,16 +244,16 @@ Proven track record of designing algorithms that delivered order-of-magnitude pe
 
   \begin{multicols}{2}
     \begin{flushleft}    
-      \textbf{Workshop Organizer} -- HPC \& Quantum Computing workshop
+      \textbf{Workshop Organizer} -- International HPC \& Quantum Computing workshop (30+ attendees)
     \end{flushleft}
-    \begin{flushright}\href{https://indico.ectstar.eu/event/242/}{ECT*} | 2025\end{flushright}
+    \begin{flushright}\href{https://www.ectstar.eu/}{ECT*} | 2025\end{flushright}
   \end{multicols}
 
   \vspace{-0.15cm}
 
   \begin{multicols}{2}
     \begin{flushleft}    
-      \textbf{Invited Speaker} -- Scientific seminars at \href{https://indico.cern.ch/category/376/}{CERN} and \href{https://indico.ectstar.eu/event/229/contributions/5308/}{ECT*}
+      \textbf{Invited Speaker} -- Technical seminars at CERN and ECT*
     \end{flushleft}
     \begin{flushright}2025 -- 2026\end{flushright}
   \end{multicols}
@@ -278,13 +267,5 @@ Proven track record of designing algorithms that delivered order-of-magnitude pe
     \begin{flushright}\href{https://www.tuwien.at/}{TU Wien} | 2026\end{flushright}
   \end{multicols}
 
-  \vspace{-0.15cm}
-
-  \begin{multicols}{2}
-    \begin{flushleft}    
-      \textbf{5+ peer-reviewed publications} -- \href{https://orcid.org/0000-0002-6509-447X}{full list on ORCID}
-    \end{flushleft}
-    \begin{flushright}2021 -- Present\end{flushright}
-  \end{multicols}
 
 \end{large}
