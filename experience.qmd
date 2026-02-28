@@ -35,7 +35,7 @@ toc-expand: 3
 **Technical Skills:**
 
 - High-performance computing (HPC): CPU and GPU parallel computing, Data Structures and Algorithms
-- Open-source software development: `git` version control, CI/Cd, DevOps
+- Open-source software development: `git` version control, CI/CD, DevOps
 - Collaboration leadership and project management
 - Cross-disciplinary research integration
 

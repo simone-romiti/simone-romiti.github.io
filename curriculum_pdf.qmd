@@ -86,7 +86,7 @@ Proven track record of designing algorithms that delivered order-of-magnitude pe
 \textbf{Libraries \& Frameworks} - Pytorch, NumPy, SciPy, Pandas, Matplotlib, Plotly, Streamlit, SymPy, Jupyter
 
 \vspace{-0.15cm}
-\textbf{DevOps \& Tools} - Git, GitHub Actions, Docker, \LaTeX, Quarto, RMarkdown, Markdown
+\textbf{DevOps \& Tools} - Git, GitHub Actions, CI/CD Docker, \LaTeX, Quarto, Markdown
 
 \vspace{-0.15cm}
 \textbf{Languages} - Italian (native), English (fluent), German (basic)
