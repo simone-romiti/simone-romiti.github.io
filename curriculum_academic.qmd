@@ -37,12 +37,11 @@ format:
 
 <!-- CONTACT INFO -->
 \begin{center}
-Born: 25 Aug. 1994 | 
 simone.romiti.1994@gmail.com |
-\href{https://simone-romiti.github.io/}{Webpage} | 
-\href{https://github.com/simone-romiti}{Github} | 
-\href{https://www.linkedin.com/in/simone-romiti/}{LinkedIn} | 
-\href{https://orcid.org/0000-0002-6509-447X}{Orcid} 
+\href{https://simone-romiti.github.io/}{Website} | 
+\href{https://github.com/simone-romiti}{GitHub} | 
+\href{https://www.linkedin.com/in/simone-romiti/}{LinkedIn} |
+\href{https://orcid.org/0000-0002-6509-447X}{ORCID}
 \end{center}
 \vspace{15pt}
 
@@ -50,25 +49,145 @@ simone.romiti.1994@gmail.com |
 
 \begin{large}
 
-<<<<<<< HEAD
-Theoretical physicist specialized in lattice QCD and high-performance computing. Expert in Monte Carlo simulations, Machine Learning (PINNs, VAEs, diffusion models), and code optimization. 
-Track record of developing innovative algorithms that achieved substantial performance improvements, and leading collaborative research projects across international institutions.
-=======
-Theoretical physicist specialized in lattice QCD and high-performance computing, expert in Monte Carlo simulations, Machine Learning (PINNs, VAEs, diffusion models), and code optimization. 
-Track record of developing innovative algorithms that achieved substantial performance improvements, and leading collaborative research projects across international institutions.
-Passionate about expanding expertise and tackling complex computational challenges in collaborative, interdisciplinary environments.
->>>>>>> a74fe5fc7c4c5eee067f6a41383ed5cf6e46d3e3
+
+```{python}
+#| echo: false
+#| output: asis
+
+from datetime import date
+years = (date.today() - date(2018, 3, 1)).days // 365
+
+print(f"""
+
+Theoretical physicist specialized in the field of lattice gauge theories and lattice QCD predictions.Multi-year  experience in high-performance computing, large-scale numerical simulations and machine learning. 
+Proven track record of designing algorithms that delivered order-of-magnitude performance gains.
+Building open-source scientific software used in peer-reviewed research, and leading collaborative projects across international research institutions.
+
+""")
+
+```
+
 
 \end{large}
 
-<!-- EDUCATION: 1ST BULLET -->
+\vspace{9pt}
+
+<!-- SKILLS - moved up for recruiter scanning -->
+\begin{large}{\bf TECHNICAL SKILLS}
+  \vspace{9pt}
+  \hrule
+  \vspace{9pt}
+\end{large}
+\vspace{-0.15cm}
+
 \begin{large}
-  {\bf EDUCATION}
+
+\textbf{Languages} - C, C++, Python, Bash, R
+
+\vspace{-0.15cm}
+\textbf{HPC \& Systems} - CUDA, MPI, OpenMP, SLURM, EasyBuild, GNU/Linux
+
+\vspace{-0.15cm}
+\textbf{ML \& Data} - PINNs, VAEs, Diffusion Models, Bayesian Statistics, Markov Chain Monte Carlo, Nested Sampling
+
+\vspace{-0.15cm}
+\textbf{Libraries \& Frameworks} - Pytorch, NumPy, SciPy, Pandas, Matplotlib, Plotly, Streamlit, SymPy, Jupyter
+
+\vspace{-0.15cm}
+\textbf{DevOps \& Tools} - Git, GitHub Actions, CI/CD Docker, \LaTeX, Quarto, Markdown
+
+\vspace{-0.15cm}
+\textbf{Languages} - Italian (native), English (fluent), German (basic)
+
+\end{large}
+
+\vspace{9pt}
+
+<!-- EXPERIENCE -->
+\begin{large}{\bf WORK EXPERIENCE}
   \vspace{9pt}
   \hrule
   \vspace{9pt}
 
-  %---------------- PhD ----------------%
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://www.unibe.ch/index_eng.html}{University of Bern}}\end{flushleft}
+    \begin{flushright}Apr 2024 -- Present\end{flushright}
+  \end{multicols}
+  \vspace{-0.15cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Postdoctoral Research Scientist}\end{flushleft}
+    \begin{flushright}Bern, Switzerland\end{flushright}
+  \end{multicols}
+\end{large}
+
+\vspace{-0.09cm}
+
+\begin{large}
+  \begin{itemize}
+    \item \textbf{Reduced memory complexity from exponential to polynomial} by designing a novel algorithm using Physics-Informed Neural Networks (PINNs) in PyTorch
+    \item \textbf{Achieved sub-permille numerical precision} as lead engineer for a high-accuracy scientific computation pipeline
+    \item \textbf{Improved algorithm scaling from $O(N^6)$ to $O(N \log N)$} through a novel mathematical reformulation
+    \item \textbf{Built and maintained open-source simulation libraries} (Python/C++) adopted for several peer-reviewed scientific publications
+    \item \textbf{Mentored 3 PhD students} on software engineering practices, numerical methods, and project delivery
+  \end{itemize}
+\end{large}
+
+\vspace{9pt}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://www.uni-bonn.de/en/home?set_language=en}{University of Bonn}}\end{flushleft}
+    \begin{flushright}Nov 2021 -- Mar 2024\end{flushright}
+  \end{multicols}
+  \vspace{-0.15cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Postdoctoral Research Scientist}\end{flushleft}
+    \begin{flushright}Bonn, Germany\end{flushright}
+  \end{multicols}
+\end{large}
+
+\vspace{-0.09cm}
+
+\begin{large}
+  \begin{itemize}
+    \item \textbf{Optimized GPU kernels (CUDA)} achieving a $\sim$1.5$\times$ throughput improvement via auto-tuning of Multigrid solver parameters on HPC clusters
+    \item \textbf{Designed and ran large-scale distributed simulations} (MPI/OpenMP) on international computing centers
+    \item \textbf{Developed a novel numerical method} achieving machine-precision exactness for a class of operator algebra constraints
+    \item \textbf{Integrated Monte Carlo simulations with quantum computing workflows}, delivering end-to-end prototype pipelines bridging classical HPC and quantum backends
+    \item \textbf{Mentored 3 graduate students} and delivered tutorial sessions for undergraduate computing courses
+  \end{itemize}
+\end{large}
+
+\vspace{9pt}
+
+\begin{large}{\bf SELECTED PUBLICATIONS}
+
+   \begin{itemize}
+     \item \href{https://inspirehep.net/literature/3075565}{SU(N) lattice gauge theories with Physics-Informed Neural Networks}
+     \item \href{https://inspirehep.net/literature/2925594}{The anomalous magnetic moment of the muon in the Standard Model: an update}
+     \item \href{https://inspirehep.net/literature/2847988}{Strange and charm quark contributions to the muon anomalous magnetic moment in lattice QCD with twisted-mass fermions}
+     \item \href{https://inspirehep.net/literature/2781250}{Towards determining the (2+1)-dimensional Quantum Electrodynamics running coupling with Monte Carlo and quantum computing methods}
+     \item \href{https://inspirehep.net/literature/2724218}{Digitizing lattice gauge theories in the magnetic basis: reducing the breaking of the fundamental commutation relations}
+   \end{itemize}
+
+\end{large}
+
+\vspace{-0.09cm}
+
+<!-- \begin{large}
+  \begin{itemize}
+    \item Built a full-stack \textbf{Streamlit} web application for a nutritionist's practice to manage patient records, appointment history, and nutritional assessments. Delivered solo from requirements to deployment
+  \end{itemize}
+\end{large} -->
+
+<!-- \vspace{9pt} -->
+
+<!-- EDUCATION -->
+\begin{large}{\bf EDUCATION}
+  \vspace{9pt}
+  \hrule
+  \vspace{9pt}
+
   \begin{multicols}{2}
     \begin{flushleft}{\href{https://www.uniroma3.it/}{\textit{Roma Tre University}}}\end{flushleft}
     \begin{flushright}Rome, Italy\end{flushright}
@@ -76,22 +195,16 @@ Passionate about expanding expertise and tackling complex computational challeng
   \vspace{-0.15cm}
   \begin{multicols}{2}
     \begin{flushleft}
-    \textbf{PhD in Theoretical Physics} (Dissertation 22 April 2022) 
+    \textbf{PhD in Physics} (defended April 2022) 
     \end{flushleft}
-<<<<<<< HEAD
-    \begin{flushright} Nov. 2018 -- Oct. 2021\end{flushright}
-=======
-    \begin{flushright}2018 -- 2021\end{flushright}
->>>>>>> a74fe5fc7c4c5eee067f6a41383ed5cf6e46d3e3
+    \begin{flushright}Nov. 2018 -- Oct. 2021\end{flushright}
   \end{multicols}
   \vspace{-0.2cm}
   \begin{itemize}
-    \item \textbf{1st in ranking} for public admission exam to PhD program
-    \item Affiliation with \href{https://www.infn.it/}{\textbf{INFN (Istituto Nazionale di Fisica Nucleare)}}{}
-    \item \textbf{Tutorial sessions and teaching assistant} for undergraduate courses
+    \item Focus: numerical algorithms, Monte Carlo methods, HPC simulation
+    \item Ranked \textbf{1st} in national competitive admission exam
   \end{itemize}
 
-  %---------------- Master ----------------%
   \begin{multicols}{2}
     \begin{flushleft}{\href{https://www.uniroma3.it/}{\textit{Roma Tre University}}}\end{flushleft}
     \begin{flushright}Rome, Italy\end{flushright}
@@ -99,20 +212,15 @@ Passionate about expanding expertise and tackling complex computational challeng
   \vspace{-0.15cm}
   \begin{multicols}{2}
     \begin{flushleft}
-    \textbf{M.S.\ in Theoretical Physics of Elementary Particles}
+    \textbf{M.S.\ in Physics}
     \end{flushleft}
-<<<<<<< HEAD
-    \begin{flushright} Oct. 2016 -- Oct. 2018\end{flushright}
-=======
-    \begin{flushright}2016 -- 2018\end{flushright}
->>>>>>> a74fe5fc7c4c5eee067f6a41383ed5cf6e46d3e3
+    \begin{flushright}Oct. 2016 -- Oct. 2018\end{flushright}
   \end{multicols}
   \vspace{-0.2cm}
   \begin{itemize}
-    \item \textbf{Final grade}: 110/110 \emph{cum laude}, \textbf{GPA: 29.85/30}
+    \item GPA: 29.85/30, graduated with highest honours
   \end{itemize}
 
-  %---------------- Bachelor ----------------%
   \begin{multicols}{2}
     \begin{flushleft}{\href{https://www.uniroma3.it/}{\textit{Roma Tre University}}}\end{flushleft}
     \begin{flushright}Rome, Italy\end{flushright}
@@ -122,202 +230,59 @@ Passionate about expanding expertise and tackling complex computational challeng
     \begin{flushleft}
     \textbf{B.S.\ in Physics}
     \end{flushleft}
-<<<<<<< HEAD
-    \begin{flushright} Oct. 2013 -- Jul. 2016\end{flushright}
-=======
-    \begin{flushright}2013 -- 2016\end{flushright}
->>>>>>> a74fe5fc7c4c5eee067f6a41383ed5cf6e46d3e3
+    \begin{flushright}Oct. 2013 -- Jul. 2016\end{flushright}
   \end{multicols}
   \vspace{-0.2cm}
   \begin{itemize}
-    \item \textbf{Final grade}: 110/110 \emph{cum laude}, \textbf{GPA: 28.84 / 30}
-    \item \textbf{Merit Scholarship} awarded for top high school marks and academic excellence.
-  \end{itemize}
-
-\end{large}
-
-\vspace{0.05cm}
-
-
-
-<!-- EXPERIENCE : 1ST BULLET-->
-\begin{large}{\bf WORK EXPERIENCE}
-  \vspace{9pt}
-  \hrule
-  \vspace{9pt}
-  \begin{multicols}{2}
-    \begin{flushleft}{\bf \href{https://www.unibe.ch/index_eng.html}{University of Bern}}\end{flushleft}
-    \begin{flushright}Apr 2024--Present\end{flushright}
-  \end{multicols}
-  \vspace{-0.15cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Postdoctoral Researcher}\end{flushleft}
-    \begin{flushright}Bern, Switzerland\end{flushright}
-  \end{multicols}
-\end{large}
-
-\vspace{-0.09cm}
-
-\begin{large}
-
-  \begin{itemize}
-  \item \href{https://inspirehep.net/literature/3075565}{\textbf{Innovative method} using \textbf{Physics-Informed Neural Networks (PINNs)}} $\to$ exponential to polynomial scaling of memory
-  \item \textbf{Reference scientist} for \href{https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author\%3Aromiti\%20fulltext\%3AHVP&ui-citation-summary=true&ui-exclude-self-citations=true}{Hadronic Vacuum Polarization (HVP)} analysis of Bern group $\to$ sub-permille precision achievement
-  \item \textbf{Pole contribution} to \href{https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author\%3Aromiti\%20fulltext\%3AHLbL&ui-citation-summary=true&ui-exclude-self-citations=true}{Hadronic Light-by-Light contribution to $(g-2)_\mu$} $\to$ achieved $N^6$ to $N \log(N)$ scaling improvement 
-  \item \href{https://github.com/simone-romiti}{\textbf{Main developer} of open-source libraries} $\to$ my code for Monte Carlo simulations led to scientific publications
-  \item \textbf{Supervision of 3 PhD students}
+    \item GPA: 28.84/30, graduated with highest honours | Merit Scholarship recipient
   \end{itemize}
 
 \end{large}
 
 \vspace{9pt}
 
-<!-- EXPERIENCE : 2ND BULLET -->
+<!-- LEADERSHIP -->
 \begin{large}
-  \begin{multicols}{2}
-    \begin{flushleft}{\bf \href{https://www.uni-bonn.de/en/home?set_language=en}{University of Bonn}}\end{flushleft}
-    \begin{flushright}Nov 2021--Mar 2024\end{flushright}
-  \end{multicols}
-  \vspace{-0.15cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Postdoctoral Researcher}\end{flushleft}
-    \begin{flushright}Bonn, Germany\end{flushright}
-  \end{multicols}
-\end{large}
-\vspace{-0.09cm}
-
-\begin{large}
-
-  \begin{itemize}
-  \item Generated ETMC ensembles with O(a)-improved configurations, enabling more accurate lattice QCD calculations for the European Twisted Mass Collaboration
-  \item \href{https://inspirehep.net/literature/2613828}{GPU code optimization} $\to$ achieved $\sim 1.5$ improvement by auto-tuning of Multigrid parameters
-  \item \href{https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author\%3Aromiti\%20title\%3ASU\%282\%29\%20OR\%20title\%3Adigitizing&ui-citation-summary=true&ui-exclude-self-citations=true}{\textbf{Novel method for SU(2) Hamiltonians}} $\to$ achieved machine-precision exactness for canonical commutation relations
-  \item \href{https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author\%3Aromiti\%20fulltext\%3Amatching&ui-citation-summary=true&ui-exclude-self-citations=true}{\textbf{Monte Carlo and Quantum Computing}} $\to$ obtained Hamiltonian limit and calculations of glueballs spectrum
-  \item \textbf{Supervision of 1 Master's and 2 PhD students} of their thesis project, \textbf{tutorial sessions of undergraduate courses}
-  \end{itemize}
-
-\end{large}
-
-<<<<<<< HEAD
-<!-- \begin{large}{\bf SELECTED PUBLICATIONS}
-=======
-\begin{large}{\bf SELECTED PUBLICATIONS}
->>>>>>> a74fe5fc7c4c5eee067f6a41383ed5cf6e46d3e3
+{\bf LEADERSHIP \& ACHIEVEMENTS}
   \vspace{9pt}
   \hrule
   \vspace{9pt}
-\end{large}
-\vspace{-0.15cm}
 
-\begin{large}
-  \begin{itemize}
-    \item \href{https://inspirehep.net/literature/3075565}{SU(N) lattice gauge theories with Physics-Informed Neural Networks}
-    \item \href{https://inspirehep.net/literature/2925594}{The anomalous magnetic moment of the muon in the Standard Model: an update}
-    \item \href{https://inspirehep.net/literature/2847988}{Strange and charm quark contributions to the muon anomalous magnetic moment in lattice QCD with twisted-mass fermions}
-    \item \href{https://inspirehep.net/literature/2781250}{Towards determining the (2+1)-dimensional Quantum Electrodynamics running coupling with Monte Carlo and quantum computing methods}
-    \item \href{https://inspirehep.net/literature/2724218}{Digitizing lattice gauge theories in the magnetic basis: reducing the breaking of the fundamental commutation relations}
-  \end{itemize}
-<<<<<<< HEAD
-\end{large} -->
-=======
-\end{large}
->>>>>>> a74fe5fc7c4c5eee067f6a41383ed5cf6e46d3e3
-
-<!-- SKILLS -->
-\begin{large}{\bf SKILLS}
-  \vspace{9pt}
-  \hrule
-  \vspace{9pt}
-\end{large}
-\vspace{-0.15cm}
-
-\begin{large}
-
-\textbf{Programming Languages} - C, C++, Python, Bash, R
-
-\vspace{-0.15cm}
-\textbf{High-Performance Computing} - openMP, MPI, CUDA, GNU/Linux, EasyBuild, SLURM
-
-\vspace{-0.15cm}
-\textbf{Frameworks and Libraries} - Jupyter, NumPy, SymPy, SciPy, Pandas, Matplotlib, Plotly, PyTorch, Streamlit
-
-\vspace{-0.15cm}
-\textbf{Computational Methods} - Monte Carlo, Bayesian statistics |  Machine Learning (PyTorch): PINNs, VAEs, diffusion models
-
-\vspace{-0.15cm}
-\textbf{Tools \& DevOps} - \LaTeX, Markdown, RMarkdown, Quarto, Docker, Git, GitHub Actions 
-
-\vspace{-0.15cm}
-\textbf{Languages} - Italian (native), English (proficient), German (A2.1)
-
-\end{large}
-
-\vspace{9pt}
-
-<!-- EXTRA STUFF : 1ST BULLET -->
-\begin{large}
-{\bf LEADERSHIP \& RECOGNITION}
-  \vspace{9pt}
-  \hrule
-  \vspace{9pt}
-  \begin{multicols}{2}
-    \begin{flushleft}    
-    \textbf{Invited speaker} at \href{https://indico.ectstar.eu/event/229/}{Scale Setting workshop}
-    \end{flushleft}
-    \begin{flushright}
-    \href{https://www.ectstar.eu/}{ECT*} | March 2025\end{flushright}
-  \end{multicols}
-
-    \vspace{-0.15cm}
+\setlength{\columnsep}{-4.5cm}
 
   \begin{multicols}{2}
     \begin{flushleft}    
-      \textbf{Main organizer} of \href{https://indico.ectstar.eu/event/242/}{Hamiltonian LGTs workshop}
+      \textbf{Principal Investigator} -- 0.24M GPU node-hours compute grant
     \end{flushleft}
-    \begin{flushright} \href{https://www.ectstar.eu/}{ECT*} | September 2025\end{flushright}
-  \end{multicols}
-
-
-  \vspace{-0.15cm}
-
-  \begin{multicols}{2}
-    \begin{flushleft}    
-      \textbf{Principal Investigator} for 240k GPU node-hours allocation
-    \end{flushleft}
-    \begin{flushright}\href{https://www.cscs.ch/computers/alps}{CSCS (ALPS)} | October 2025\end{flushright}
+    \begin{flushright}\href{https://www.cscs.ch/computers/alps}{CSCS ALPS} | 2025\end{flushright}
   \end{multicols}
 
   \vspace{-0.15cm}
 
   \begin{multicols}{2}
     \begin{flushleft}    
-<<<<<<< HEAD
-      \textbf{Developer} of \texttt{streamlit} app for patients management
-=======
-      \textbf{Developer} of Patient and Medical History Software
->>>>>>> a74fe5fc7c4c5eee067f6a41383ed5cf6e46d3e3
+      \textbf{Workshop Organizer} -- HPC \& Quantum Computing workshop
     \end{flushleft}
-    \begin{flushright} \href{https://nutrizionistafrancescobartolazzi.webnode.it/}{Nutritional Biologist Practice} | 2026 \end{flushright}
+    \begin{flushright}\href{https://indico.ectstar.eu/event/242/}{ECT*} | 2025\end{flushright}
   \end{multicols}
 
   \vspace{-0.15cm}
 
   \begin{multicols}{2}
     \begin{flushleft}    
-      \textbf{Invited speaker} at \href{https://indico.cern.ch/category/376/}{CERN's Lattice seminar}
+      \textbf{Invited Speaker} -- Scientific seminars at \href{https://indico.cern.ch/category/376/}{CERN} and \href{https://indico.ectstar.eu/event/229/contributions/5308/}{ECT*}
     \end{flushleft}
-    \begin{flushright} \href{https://home.cern/}{CERN} | 2026 \end{flushright}
+    \begin{flushright}2025 -- 2026\end{flushright}
   \end{multicols}
 
-  \vspace{-0.15cm}
+  \vspace{-0.15cm}  
 
   \begin{multicols}{2}
     \begin{flushleft}    
-      \textbf{UniBe visiting grant} \href{https://www.philnat.unibe.ch/research/support_for_early_career_scientists/open_round/index_eng.html}{Open round 2026/1}
+      \textbf{Visiting Research Grant} -- \href{https://www.philnat.unibe.ch/e17097/e95924/e1163513/e1163533/OpenRound2026_01_2_eng.pdf}{Open round 2026/1 fund}
     \end{flushleft}
-    \begin{flushright} \href{https://www.tuwien.at/}{TU Wien} | 2026 \end{flushright}
+    \begin{flushright}\href{https://www.tuwien.at/}{TU Wien} | 2026\end{flushright}
   \end{multicols}
 
 
 \end{large}
-
