@@ -52,13 +52,20 @@ simone.romiti.1994@gmail.com |
 
 ```{python}
 #| echo: false
+#| output: asis
+
 from datetime import date
-years = (date.today() - date(2018, 11, 1)).days // 365
+years = (date.today() - date(2018, 3, 1)).days // 365
+
+print(f"""
+
+Computational scientist and software engineer with {years}+  experience in high-performance computing, large-scale numerical simulations and machine learning. 
+Proven track record of designing algorithms that delivered order-of-magnitude performance gains, building open-source scientific software used in peer-reviewed research, and leading collaborative projects across international research institutions.
+
+""")
+
 ```
 
-
-Computational scientist and software engineer with `{python} f"{years}"`+ experience in high-performance computing, large-scale numerical simulations and machine learning. 
-Proven track record of designing algorithms that delivered order-of-magnitude performance gains, building open-source scientific software used in peer-reviewed research, and leading collaborative projects across international research institutions.
 
 \end{large}
 
@@ -269,22 +276,14 @@ Proven track record of designing algorithms that delivered order-of-magnitude pe
     \begin{flushright}2025 -- 2026\end{flushright}
   \end{multicols}
 
-  \vspace{-0.15cm}
+  \vspace{-0.15cm}  
 
   \begin{multicols}{2}
     \begin{flushleft}    
-      \textbf{Visiting Research Grant} -- competitive international grant
+      \textbf{Visiting Research Grant} -- \href{https://www.philnat.unibe.ch/e17097/e95924/e1163513/e1163533/OpenRound2026_01_2_eng.pdf}{Open round 2026/1 fund}
     \end{flushleft}
     \begin{flushright}\href{https://www.tuwien.at/}{TU Wien} | 2026\end{flushright}
   \end{multicols}
 
-  \vspace{-0.15cm}
-
-  \begin{multicols}{2}
-    \begin{flushleft}    
-      \textbf{5+ peer-reviewed publications} -- \href{https://orcid.org/0000-0002-6509-447X}{full list on ORCID}
-    \end{flushleft}
-    \begin{flushright}2021 -- Present\end{flushright}
-  \end{multicols}
 
 \end{large}

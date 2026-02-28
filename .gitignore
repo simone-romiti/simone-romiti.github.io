@@ -5,5 +5,9 @@ site_libs/
 *.pdf
 
 *.js
+curriculum_academic.tex
 curriculum_pdf.tex
 curriculum_pdf.pdf
+
+.jupyter_cache/
+_freeze/
