@@ -59,7 +59,7 @@ years = (date.today() - date(2018, 3, 1)).days // 365
 
 print(f"""
 
-Computational scientist and software engineer with {years}+  experience in high-performance computing, large-scale numerical simulations and machine learning. 
+Computational scientist and scientific software developer with {years}+  experience in high-performance computing, large-scale numerical simulations and machine learning. 
 Proven track record of designing algorithms that delivered order-of-magnitude performance gains, building open-source scientific software used in peer-reviewed research, and leading collaborative projects across international research institutions.
 
 """)
@@ -124,9 +124,9 @@ Proven track record of designing algorithms that delivered order-of-magnitude pe
 \begin{large}
   \begin{itemize}
     \item \textbf{Reduced memory complexity from exponential to polynomial} by designing a novel algorithm using Physics-Informed Neural Networks (PINNs) in PyTorch
-    \item \textbf{Achieved sub-permille numerical precision} as lead engineer for a high-accuracy scientific computation pipeline
-    \item \textbf{Improved algorithm scaling from $O(N^6)$ to $O(N \log N)$} through a novel mathematical reformulation
-    \item \textbf{Built and maintained open-source simulation libraries} (Python/C++) adopted for several peer-reviewed scientific publications
+    \item \textbf{Achieved sub-permille numerical precision} as lead developer for a high-accuracy scientific computation pipeline
+    \item \textbf{Improved algorithm scaling from $O(N^6)$ to $O(N \log N)$} through FFTs and convolutions
+    \item \textbf{Built and maintained open-source simulation libraries} (Python/C++) adopted for Monte Carlo simulations and data analysis
     \item \textbf{Mentored 3 PhD students} on software engineering practices, numerical methods, and project delivery
   \end{itemize}
 \end{large}
@@ -149,7 +149,7 @@ Proven track record of designing algorithms that delivered order-of-magnitude pe
 
 \begin{large}
   \begin{itemize}
-    \item \textbf{Optimized GPU kernels (CUDA)} achieving a $\sim$1.5$\times$ throughput improvement via auto-tuning of Multigrid solver parameters on HPC clusters
+    \item \textbf{Optimization of GPU kernels (CUDA)} achieving a $\sim$1.5$\times$ throughput improvement via auto-tuning of Multigrid solver parameters on HPC clusters
     \item \textbf{Designed and ran large-scale distributed simulations} (MPI/OpenMP) on international computing centers
     \item \textbf{Developed a novel numerical method} achieving machine-precision exactness for a class of operator algebra constraints
     \item \textbf{Integrated Monte Carlo simulations with quantum computing workflows}, delivering end-to-end prototype pipelines bridging classical HPC and quantum backends
@@ -177,7 +177,7 @@ Proven track record of designing algorithms that delivered order-of-magnitude pe
 
 \begin{large}
   \begin{itemize}
-    \item Built a full-stack \textbf{Streamlit} web application for a nutritionist's practice to manage patient records, appointment history, and nutritional assessments. Delivered solo from requirements to deployment
+    \item Built a full-stack \href{https://streamlit.io/}{Streamlit} web application for a nutritionist's practice to manage patient records, appointment history, and nutritional assessments. Delivered solo from requirements to deployment
   \end{itemize}
 \end{large}
 
