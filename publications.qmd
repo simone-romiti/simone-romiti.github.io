@@ -10,17 +10,6 @@ csl: aps-chronological.csl
 nocite: '@*'
 ---
 
-```{python}
-#| eval: true
-#| echo: false
-
-import subprocess
-
-# automatic update of my publications list
-some_cmd_result = subprocess.run('curl "https://inspirehep.net/api/literature?q=authors.recid:1755571&format=bibtex&size=1000" > publications.bib', shell=True, capture_output=True)
-
-```
-
 
 # My profile on research databases
 
