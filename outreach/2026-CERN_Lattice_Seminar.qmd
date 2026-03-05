@@ -1,0 +1,25 @@
+---
+title: "**Presentation of the recent publication on PINNs**"
+description: "Invited speaker at the CERN Lattice seminar"
+author: "Simone Romiti"
+date: "2025-04-03"
+categories: [workshop, presentation]
+# image: "/files/images/placeholder2.JPG"
+page-layout: full
+#css: /custom.css
+#draft: true
+---
+
+# Information about my talk
+
+In the week 8-13 March 2026 I stayed at CERN as a visitor. The reason of my stay was that I was **invited** as a **speaker** for the [CERN Lattice seminar](https://indico.cern.ch/category/376/).
+
+In [my talk](https://indico.cern.ch/event/1641317/), I presented the novel algorithm and the results discussed in my [recent publication](https://inspirehep.net/literature/3075565): _"SU(N) lattice gauge theories with Physics-Informed Neural Networks"_. 
+
+
+
+[![CERN Logo](https://indico.cern.ch/static/custom/files/cern_small.svg){width=50%}](https://indico.cern.ch/category/376/)
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

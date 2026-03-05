@@ -27,28 +27,28 @@ about:
       text: "Github"
       href: https://github.com/simone-romiti     
       target: _blank 
-    - icon: sun
-      text: Uni-Bern
-      href: https://www.itp.unibe.ch/about_us/people/people/index_eng.html?id=265
-      target: _blank
-    - text: "{{< ai inspire >}} Inspire HEP"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://inspirehep.net/authors/1755571
-      target: _blank
+    # - icon: sun
+    #   text: Uni-Bern
+    #   href: https://www.itp.unibe.ch/about_us/people/people/index_eng.html?id=265
+    #   target: _blank
+    # - text: "{{< ai inspire >}} Inspire HEP"   # use academic icons, "" are needed, you also need to install the fontawesome extension
+    #   href: https://inspirehep.net/authors/1755571
+    #   target: _blank
     - text: "{{< ai orcid >}} Orcid"
       href: https://orcid.org/0000-0002-6509-447X
       target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com/wos/author/record/PFK-1395-2025  
-      target: _blank
+    # - text: "{{< ai clarivate >}} Web of Science"
+    #   href: https://www.webofscience.com/wos/author/record/PFK-1395-2025  
+    #   target: _blank
     # - text: "{{< ai scopus >}} Scopus"
     #   href: https://www.scopus.com
     #   target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com/citations?user=B95wK7wAAAAJ&hl=en
-      target: _blank
-    - text: "{{< fa people-group >}} Comp. Phys."
-      href: https://lqcd.hiskp.uni-bonn.de/people/
-      target: _blank
+    # - text: "{{< ai google-scholar >}} Google Scholar"
+    #   href: https://scholar.google.com/citations?user=B95wK7wAAAAJ&hl=en
+    #   target: _blank
+    # - text: "{{< fa people-group >}} Comp. Phys."
+    #   href: https://lqcd.hiskp.uni-bonn.de/people/
+    #   target: _blank
 # - text: "{{< ai researchgate >}} Research Gate"
     #   href: https://scholar.google.com/citations?hl=en&user=B95wK7wAAAAJ
     #   target: _blank
@@ -91,7 +91,7 @@ My main areas of interest are:
 
 - Quantum Field Theories on the **lattice**, **QCD** phenomenology
 - **Machine Learning** for scientific applications, Physics-Informed Neural Networks
-- **Markov chain Monte Carlo**, Bayesian algorithms
+- **Markov Chain Monte Carlo**, Bayesian algorithms
 
 [Curriculum](./curriculum_pdf.qmd) | [Education](./education.qmd) | [Experience](./experience.qmd) | [Publications](./publications.qmd) | [Teaching](teaching.qmd) | [Software](./software_libs.qmd)
 

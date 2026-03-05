@@ -53,6 +53,13 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/simone-romiti/
         target: _blank
+      # - text: "{{< ai orcid >}}"
+      #   href: https://orcid.org/0000-0002-6509-447X
+      - text: "{{< ai google-scholar >}}"
+        href: https://scholar.google.com/citations?user=B95wK7wAAAAJ&hl=en
+      # - text: "{{< ai inspire >}}"   # use academic icons, "" are needed, you also need to install the fontawesome extension
+      #   href: https://inspirehep.net/authors/1755571
+      #   target: _blank
   
   page-navigation: true
   
@@ -62,13 +69,6 @@ website:
     right:  
       - icon: github
         href: https://github.com/simone-romiti/simone-romiti.github.io
-        target: _blank
-      - text: "{{< ai orcid >}}"
-        href: https://orcid.org/0000-0002-6509-447X
-      - text: "{{< ai google-scholar >}}"
-        href: https://scholar.google.com/citations?user=B95wK7wAAAAJ&hl=en
-      - text: "{{< ai inspire >}}"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-        href: https://inspirehep.net/authors/1755571
         target: _blank
   
   search:
@@ -97,6 +97,7 @@ bibliography: publications.bib  # Add references.bib to the root folder to enabl
 
 format:
   html:
+    page-layout: full
     theme: cosmo
     css: styles.css
     toc: true

@@ -11,3 +11,4 @@ curriculum_pdf.pdf
 
 .jupyter_cache/
 _freeze/
+*.quarto_ipynb

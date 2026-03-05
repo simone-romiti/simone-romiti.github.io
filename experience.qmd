@@ -17,20 +17,16 @@ toc-expand: 3
 
 **Computational Methods:**
 
-- Monte Carlo algorithms and code development
-- Multi-dimensional integrals (Euclidean path integral)
-- Hamiltonian formulations (Kogut-Susskind)
-- Tensor networks and quantum computing
-- Machine Learning (PINNs, normalizing flows)
-- Bayesian algorithms, Nested Sampling
+- Monte Carlo algorithms for multi-dimensional integrals: Euclidean path integral
+- Bayesian algorithms: Hybrid Monte Carlo, Nested Sampling, Model Averaging
+- Machine Learning: PINNs, VAEs, diffusion models
 
 **Physics Areas:**
 
-- Precision lattice phenomenology
-- Hadronic contributions to muon anomalous magnetic moment
-- Transition Form Factors of pseudoscalar mesons
+- Precision lattice phenomenology, hadronic contributions to muon anomalous magnetic moment
+- Transition Form Factors of pseudoscalar mesons ($\pi^0, \eta, \eta'$)
 - Isospin breaking effects on the lattice
-- Lattice Hamiltonians and solution of Schrödinger equation on truncated Hilbert spaces
+- Hamiltonian formulations on the lattice (Kogut-Susskind), Quantum Computing, solution of Schrödinger equation on truncated Hilbert spaces
 
 **Technical Skills:**
 
@@ -92,6 +88,8 @@ toc-expand: 3
 **Department:**  
 [Helmholtz Institute for Radiation and Nuclear Physics (HISKP)](https://www.hiskp.uni-bonn.de/)
 
+[**Computational Physics group**](https://lqcd.hiskp.uni-bonn.de/people/)
+
 **Key Activities:**
 
 - **Ensemble production and analysis:**  
@@ -110,7 +108,7 @@ toc-expand: 3
 - **Teaching:**  
   - Tutorial sessions for undergraduate courses (see [teaching section](teaching.qmd))
 
-- **Organization support for the [Lattice 2022 international conference](https://indico.hiskp.uni-bonn.de/event/40/)  
+- **Organization support** for the [Lattice 2022 international conference](https://indico.hiskp.uni-bonn.de/event/40/)  
 
 :::
 

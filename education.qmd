@@ -1,7 +1,18 @@
 ---
 title: "Education"
 author: Simone Romiti
-format: html
+format: 
+  html:
+    include-in-header:
+      text: |
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="https://unpkg.com/tippy.js@6"></script>
+        <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/dist/tippy.css"/>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          tippy('[data-tippy-content]');
+        });
+        </script>
 toc: false
 ---
 
@@ -18,7 +29,7 @@ toc: false
 - **Submission date:** 31 October 2021
 - **Dissertation defense:**[^1] 22 April 2022  
 
-[^1]: As in many other countries, in Italy the PhD thesis dissertation takes place months after the submission, in order for the referees to evaluate your work. Upon positive evaluation, the exact date is decided by the Department's committee. The day after the submission, I started a postdoc position in Germany (check out my [experience section](experience.qmd)).
+[^1]: In Italy the PhD thesis dissertation takes place months after the submission, in order for the referees to evaluate your work. Upon positive evaluation, the exact date is decided by the Department's committee. The day after the submission, I started a postdoc position in Germany (check out my [experience section](experience.qmd)).
 
 :::
 
@@ -29,8 +40,8 @@ toc: false
 
 - **Thesis:** *Optimization techniques in the lattice calculation of the hadronic contribution to the muon anomaly*  
 - **Supervisor:** Cecilia Tarantino  
-- **Final grade:** 110/110 *cum laude*  
-- **Dissertation defense:** 18 October 2018  
+- **Final grade:** 110/110 *cum laude* | **GPA**<span data-tippy-content="Grade Point Average" style="cursor:help; border:1px solid black; border-radius:50%; font-size:0.6em; display:inline-flex; align-items:center; justify-content:center; width:1.4em; height:1.4em; vertical-align:super;">i</span>: 29.85/30
+- **Dissertation defense:** 23 October 2018  
 
 :::
 
@@ -41,7 +52,9 @@ toc: false
 
 - **Thesis:** *Astro-Archaeology of the Galactic Centre*  
 - **Supervisor:** Giorgio Matt  
-- **Final grade:** 110/110 *cum laude*  
+
+- **Final grade:** 110/110 *cum laude* | **GPA**<span data-tippy-content="Grade Point Average" style="cursor:help; border:1px solid black; border-radius:50%; font-size:0.6em; display:inline-flex; align-items:center; justify-content:center; width:1.4em; height:1.4em; vertical-align:super;">i</span>: 28.84/30
+
 - **Dissertation defense:** 21 July 2016  
 
 :::

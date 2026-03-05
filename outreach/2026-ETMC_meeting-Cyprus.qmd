@@ -1,0 +1,26 @@
+---
+title: "**Update on the $a_\\mu^{\\text{HLbL}}$ calculation in Bern**"
+description: "Talk at the ETMC meeting in Cyprus"
+author: "Simone Romiti"
+date: "2025-12-05"
+categories: [workshop, presentation]
+# image: "/files/images/placeholder2.JPG"
+page-layout: full
+#css: /custom.css
+#draft: true
+---
+
+**25-27 March 2026**: I attended the ETMC internal workshop in Nicosia, Cyprus.
+
+# Information about my talk
+
+I gave a [talk]() at [Cyprus Institute](https://www.cyi.ac.cy/) in [Nicosia, Cyprus](https://maps.app.goo.gl/fXFDLSjEjrRoCfBs5) for the [ETMC meeting](https://indico.global/event/16475/).
+I presented the the progress of the Bern group on the HLbL contribution to $(g-2)_\mu$: light flavors ($u,d$) [fully connected and 2+2 disconnected] and the heavy quarks $s,c$ [fully connected].
+
+
+[![](https://indico.global/event/16475/attachments/67284/130435/A98_9418%20(1).JPG)](https://indico.global/event/16475/)
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
