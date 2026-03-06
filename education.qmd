@@ -16,7 +16,7 @@ format:
 toc: false
 ---
 
-<button type="button"> [Click here to download my CV as PDF](./curriculum_pdf.qmd) </button>
+<button type="button"> [Here you can find my CV as PDF](./curriculum_page.qmd) </button>
 
 ::: {.callout-note appearance="minimal"}
 # PhD in Theoretical Physics (3 years)

@@ -7,7 +7,7 @@ toc-location: right-body
 toc-expand: 3
 ---
 
-<button type="button"> [Click here to download my CV as PDF](./curriculum_pdf.qmd) </button>
+<button type="button"> [Here you can find my CV as PDF](./curriculum_page.qmd) </button>
 
 
 # Expertise Summary

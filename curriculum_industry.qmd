@@ -49,13 +49,28 @@ simone.romiti.1994@gmail.com |
 
 \begin{large}
 
-Computational scientist and software engineer with 6+ years of experience in high-performance computing, machine learning, and large-scale numerical simulations. Proven track record of designing algorithms that delivered order-of-magnitude performance gains, building open-source scientific software used in peer-reviewed research, and leading cross-institutional projects. Experienced in parallel computing and deep learning (PyTorch).
+```{python}
+#| echo: false
+#| output: asis
+
+from datetime import date
+years = (date.today() - date(2018, 3, 1)).days // 365
+
+print(f"""
+
+Computational scientist and software engineer with {years}+ years of experience in high-performance computing, machine learning, and large-scale numerical simulations. Proven track record of designing algorithms that delivered order-of-magnitude performance gains, building open-source scientific software adopted in peer-reviewed research, and leading cross-institutional projects. Experienced in parallel computing, deep learning (PyTorch), and full-stack application development.
+
+""")
+
+```
+
+
 
 \end{large}
 
 \vspace{9pt}
 
-<!-- SKILLS - moved up for recruiter scanning -->
+<!-- SKILLS -->
 \begin{large}{\bf TECHNICAL SKILLS}
   \vspace{9pt}
   \hrule
@@ -65,7 +80,7 @@ Computational scientist and software engineer with 6+ years of experience in hig
 
 \begin{large}
 
-\textbf{Languages} - C, C++, Python, Bash, R
+\textbf{Programming Languages} - C, C++, Python, Bash, R
 
 \vspace{-0.15cm}
 \textbf{HPC \& Systems} - CUDA, MPI, OpenMP, SLURM, EasyBuild, GNU/Linux
@@ -77,10 +92,10 @@ Computational scientist and software engineer with 6+ years of experience in hig
 \textbf{Libraries \& Frameworks} - NumPy, SciPy, Pandas, Matplotlib, Plotly, Streamlit, SymPy, Jupyter
 
 \vspace{-0.15cm}
-\textbf{DevOps \& Tools} - Git, GitHub Actions, Docker, \LaTeX, Quarto, Markdown
+\textbf{DevOps \& Tools} - Git, GitHub Actions, CI/CD, Docker, \LaTeX, Quarto, Markdown
 
 \vspace{-0.15cm}
-\textbf{Languages} - Italian (native), English (proficient), German (basic)
+\textbf{Spoken Languages} - Italian (native), English (proficient), German (basic)
 
 \end{large}
 
@@ -133,7 +148,7 @@ Computational scientist and software engineer with 6+ years of experience in hig
 
 \begin{large}
   \begin{itemize}
-    \item \textbf{Optimized GPU kernels (CUDA)} achieving a $\sim$1.5$\times$ throughput improvement via auto-tuning of Multigrid solver parameters on HPC clusters
+    \item \textbf{Optimized GPU kernels (CUDA)}, achieving a $\sim$1.5$\times$ throughput improvement via auto-tuning of Multigrid solver parameters on HPC clusters
     \item \textbf{Designed and ran large-scale distributed simulations} (MPI/OpenMP) on national supercomputing infrastructure, generating datasets used across a European research collaboration
     \item \textbf{Developed a novel numerical method} achieving machine-precision exactness for a class of operator algebra constraints, published in a peer-reviewed journal
     \item \textbf{Integrated Monte Carlo simulations with quantum computing workflows}, delivering end-to-end prototype pipelines bridging classical HPC and quantum backends
@@ -161,7 +176,7 @@ Computational scientist and software engineer with 6+ years of experience in hig
 
 \begin{large}
   \begin{itemize}
-    \item Built a full-stack \textbf{Streamlit} web application for a nutritionist practice to manage patient records, appointment history, and nutritional assessments — delivered solo from requirements to deployment
+    \item Built a full-stack \textbf{Streamlit} web application (Python) for a nutritionist practice to manage patient records, appointment history, and nutritional assessments -- delivered solo from requirements to deployment
   \end{itemize}
 \end{large}
 
@@ -232,6 +247,8 @@ Computational scientist and software engineer with 6+ years of experience in hig
   \vspace{9pt}
   \hrule
   \vspace{9pt}
+
+\setlength{\columnsep}{-4.5cm}
 
   \begin{multicols}{2}
     \begin{flushleft}    

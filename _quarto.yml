@@ -43,10 +43,10 @@ website:
           href: teaching.qmd
       - text: Software
         href: software_libs.qmd
+      - text: CV
+        href: curriculum_page.qmd
 
     right: 
-      - text: CV
-        href: /curriculum_pdf.pdf
       - icon: github
         href: https://github.com/simone-romiti
         target: _blank

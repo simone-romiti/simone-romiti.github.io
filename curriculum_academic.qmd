@@ -49,7 +49,6 @@ simone.romiti.1994@gmail.com |
 
 \begin{large}
 
-
 ```{python}
 #| echo: false
 #| output: asis
@@ -59,9 +58,8 @@ years = (date.today() - date(2018, 3, 1)).days // 365
 
 print(f"""
 
-Theoretical physicist specialized in the field of lattice gauge theories and lattice QCD predictions.Multi-year  experience in high-performance computing, large-scale numerical simulations and machine learning. 
-Proven track record of designing algorithms that delivered order-of-magnitude performance gains.
-Building open-source scientific software used in peer-reviewed research, and leading collaborative projects across international research institutions.
+Theoretical physicist specialized in lattice gauge theories and lattice QCD predictions, with {years}+ years of experience in high-performance computing, large-scale numerical simulations, and machine learning. 
+Proven track record of designing algorithms that delivered order-of-magnitude performance gains, building open-source scientific software used in peer-reviewed research, and leading collaborative projects across international research institutions.
 
 """)
 
@@ -72,7 +70,7 @@ Building open-source scientific software used in peer-reviewed research, and lea
 
 \vspace{9pt}
 
-<!-- SKILLS - moved up for recruiter scanning -->
+<!-- SKILLS -->
 \begin{large}{\bf TECHNICAL SKILLS}
   \vspace{9pt}
   \hrule
@@ -82,7 +80,7 @@ Building open-source scientific software used in peer-reviewed research, and lea
 
 \begin{large}
 
-\textbf{Languages} - C, C++, Python, Bash, R
+\textbf{Programming Languages} - C, C++, Python, Bash, R
 
 \vspace{-0.15cm}
 \textbf{HPC \& Systems} - CUDA, MPI, OpenMP, SLURM, EasyBuild, GNU/Linux
@@ -91,13 +89,13 @@ Building open-source scientific software used in peer-reviewed research, and lea
 \textbf{ML \& Data} - PINNs, VAEs, Diffusion Models, Bayesian Statistics, Markov Chain Monte Carlo, Nested Sampling
 
 \vspace{-0.15cm}
-\textbf{Libraries \& Frameworks} - Pytorch, NumPy, SciPy, Pandas, Matplotlib, Plotly, Streamlit, SymPy, Jupyter
+\textbf{Libraries \& Frameworks} - PyTorch, NumPy, SciPy, Pandas, Matplotlib, Plotly, Streamlit, SymPy, Jupyter
 
 \vspace{-0.15cm}
-\textbf{DevOps \& Tools} - Git, GitHub Actions, CI/CD Docker, \LaTeX, Quarto, Markdown
+\textbf{DevOps \& Tools} - Git, GitHub Actions, CI/CD, Docker, \LaTeX, Quarto, Markdown
 
 \vspace{-0.15cm}
-\textbf{Languages} - Italian (native), English (fluent), German (basic)
+\textbf{Spoken Languages} - Italian (native), English (fluent), German (basic)
 
 \end{large}
 
@@ -125,9 +123,9 @@ Building open-source scientific software used in peer-reviewed research, and lea
 \begin{large}
   \begin{itemize}
     \item \textbf{Reduced memory complexity from exponential to polynomial} by designing a novel algorithm using Physics-Informed Neural Networks (PINNs) in PyTorch
-    \item \textbf{Achieved sub-permille numerical precision} as lead engineer for a high-accuracy scientific computation pipeline
-    \item \textbf{Improved algorithm scaling from $O(N^6)$ to $O(N \log N)$} through a novel mathematical reformulation
-    \item \textbf{Built and maintained open-source simulation libraries} (Python/C++) adopted for several peer-reviewed scientific publications
+    \item \textbf{Achieved sub-permille numerical precision} as lead developer for a high-accuracy scientific computation pipeline
+    \item \textbf{Improved algorithm scaling from $O(N^6)$ to $O(N \log N)$} through a novel mathematical reformulation using FFTs and convolutions
+    \item \textbf{Built and maintained open-source simulation libraries} (Python/C++) adopted across multiple research groups and directly enabling peer-reviewed publications
     \item \textbf{Mentored 3 PhD students} on software engineering practices, numerical methods, and project delivery
   \end{itemize}
 \end{large}
@@ -150,7 +148,7 @@ Building open-source scientific software used in peer-reviewed research, and lea
 
 \begin{large}
   \begin{itemize}
-    \item \textbf{Optimized GPU kernels (CUDA)} achieving a $\sim$1.5$\times$ throughput improvement via auto-tuning of Multigrid solver parameters on HPC clusters
+    \item \textbf{Optimized GPU kernels (CUDA)}, achieving a $\sim$1.5$\times$ throughput improvement via auto-tuning of Multigrid solver parameters on HPC clusters
     \item \textbf{Designed and ran large-scale distributed simulations} (MPI/OpenMP) on international computing centers
     \item \textbf{Developed a novel numerical method} achieving machine-precision exactness for a class of operator algebra constraints
     \item \textbf{Integrated Monte Carlo simulations with quantum computing workflows}, delivering end-to-end prototype pipelines bridging classical HPC and quantum backends
@@ -160,7 +158,11 @@ Building open-source scientific software used in peer-reviewed research, and lea
 
 \vspace{9pt}
 
+<!-- PUBLICATIONS -->
 \begin{large}{\bf SELECTED PUBLICATIONS}
+  \vspace{9pt}
+  \hrule
+  \vspace{9pt}
 
    \begin{itemize}
      \item \href{https://inspirehep.net/literature/3075565}{SU(N) lattice gauge theories with Physics-Informed Neural Networks}
@@ -172,15 +174,7 @@ Building open-source scientific software used in peer-reviewed research, and lea
 
 \end{large}
 
-\vspace{-0.09cm}
-
-<!-- \begin{large}
-  \begin{itemize}
-    \item Built a full-stack \textbf{Streamlit} web application for a nutritionist's practice to manage patient records, appointment history, and nutritional assessments. Delivered solo from requirements to deployment
-  \end{itemize}
-\end{large} -->
-
-<!-- \vspace{9pt} -->
+\vspace{9pt}
 
 <!-- EDUCATION -->
 \begin{large}{\bf EDUCATION}
@@ -201,7 +195,8 @@ Building open-source scientific software used in peer-reviewed research, and lea
   \end{multicols}
   \vspace{-0.2cm}
   \begin{itemize}
-    \item Focus: numerical algorithms, Monte Carlo methods, HPC simulation
+    \item Thesis: \textit{Non-perturbative aspects of gauge theories on the lattice: algorithms, simulations and quantum computing}
+    \item Focus: Monte Carlo methods, HPC simulations, Isospin Breaking effects in lattice QCD
     \item Ranked \textbf{1st} in national competitive admission exam
   \end{itemize}
 
