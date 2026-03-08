@@ -189,7 +189,7 @@ Proven track record of designing algorithms that delivered order-of-magnitude pe
   \vspace{-0.15cm}
   \begin{multicols}{2}
     \begin{flushleft}
-    \textbf{PhD in Physics} (defended April 2022) 
+    \textbf{PhD in Physics} (Dissertation April 2022) 
     \end{flushleft}
     \begin{flushright}Nov. 2018 -- Oct. 2021\end{flushright}
   \end{multicols}
