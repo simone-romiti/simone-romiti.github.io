@@ -43,8 +43,8 @@ website:
           href: teaching.qmd
       - text: Software
         href: software_libs.qmd
-      - text: CV
-        href: curriculum_page.qmd
+      - text: Resume
+        href: resume_page.qmd
 
     right: 
       - icon: github

@@ -1,0 +1,29 @@
+---
+title: "Resume"
+---
+
+I maintain two versions of my resume depending on what you're looking for.
+
+**Academic resume** — intended for fellow researchers, hiring committees, and academic institutions. It includes my publications, research focus, and contributions to the scientific community.
+
+**Industry resume** — intended for companies and technical teams. It emphasizes software engineering, HPC, machine learning, and project delivery. It is more concise, with a focus on impact and practical outcomes.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### Academic 🎓
+
+For research positions, postdoctoral applications, and academic collaborations.
+
+[Download PDF](resume_academic.pdf){.btn .btn-outline-primary}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Industry 🏢
+
+For software engineering, data science, and HPC roles in industry.
+
+[Download PDF](resume_industry.pdf){.btn .btn-outline-primary}
+:::
+
+:::
