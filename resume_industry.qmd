@@ -57,12 +57,18 @@ from datetime import date
 years = (date.today() - date(2018, 3, 1)).days // 365
 
 print(f"""
-Computational scientist and software engineer with {years}+ years of experience in 
-high-performance computing, large-scale numerical simulations, and machine learning. 
-Proven track record of designing algorithms that delivered order-of-magnitude performance 
-gains, building open-source scientific software adopted in peer-reviewed research, and 
-leading cross-institutional projects. Experienced in parallel computing, deep learning 
-(PyTorch, VAEs, diffusion models), and full-stack application development.
+
+I am a computational physicist with {years}+ years of experience in software development for scientific applications. 
+My core expertise lies in high-performance computing for large-scale numerical simulations and the statistical analysis of large datasets. 
+I work on Bayesian Monte Carlo methods for data production and analysis, and Machine Learning methods for physics applications (PINNs, diffusion models). 
+
+I am comfortable translating technical complexity for diverse audiences, and enjoy collaborative, multidisciplinary environments. 
+I lead international research projects, and regularly present at workshops and conferences. 
+
+Resident in Switzerland with B permit. 
+\\\\
+Outside the lab: skier, hiker, and karaoke enthusiast.
+
 """)
 
 ```
@@ -83,19 +89,20 @@ leading cross-institutional projects. Experienced in parallel computing, deep le
 
 \begin{large}
 
-\textbf{Programming Languages} - C, C++, Python, Bash, R
+\textbf{Languages} - GNU/Linux, Bash scripting, C/C++, Python, R
 
 \vspace{-0.15cm}
-\textbf{HPC \& Systems} - CUDA, MPI, OpenMP, SLURM, EasyBuild, GNU/Linux
+\textbf{Python libraries \& frameworks} - NumPy, SciPy, Pandas, Matplotlib, Plotly, Pytorch, Streamlit, SymPy, Jupyter
+
+
+\vspace{-0.15cm}
+\textbf{HPC \& Systems} - CUDA, MPI, OpenMP, SLURM, EasyBuild
 
 \vspace{-0.15cm}
 \textbf{ML \& Data} - PyTorch, Physics-Informed Neural Networks (PINNs), VAEs, Diffusion Models, Bayesian Statistics, Monte Carlo
 
 \vspace{-0.15cm}
-\textbf{Libraries \& Frameworks} - NumPy, SciPy, Pandas, Matplotlib, Plotly, Streamlit, SymPy, Jupyter
-
-\vspace{-0.15cm}
-\textbf{DevOps \& Tools} - Git, GitHub Actions, CI/CD, Docker, \LaTeX, Quarto, Markdown
+\textbf{DevOps \& Tools} - Git, GitHub Actions, CI/CD, Docker, LaTeX, Quarto, Markdown
 
 \vspace{-0.15cm}
 \textbf{Spoken Languages} - Italian (native), English (proficient), German (basic)
@@ -116,7 +123,7 @@ leading cross-institutional projects. Experienced in parallel computing, deep le
   \end{multicols}
   \vspace{-0.15cm}
   \begin{multicols}{2}
-    \begin{flushleft}\textit{Postdoctoral Research Engineer}\end{flushleft}
+    \begin{flushleft}\textit{Postdoctoral Researcher}\end{flushleft}
     \begin{flushright}Bern, Switzerland\end{flushright}
   \end{multicols}
 \end{large}
@@ -125,11 +132,11 @@ leading cross-institutional projects. Experienced in parallel computing, deep le
 
 \begin{large}
   \begin{itemize}
-    \item \textbf{Pioneered a novel scientific application of Physics-Informed Neural Networks (PINNs)}, including feature engineering (lattice variable encoding) and output constraint monitoring throughout training, published in a peer-reviewed journal with open-source implementation.
-    \item \textbf{Conducted systematic experiment tracking} across multiple PINN training runs to produce publication-quality results, varying model hyperparameters and physical coupling parameters.
-    \item \textbf{Led end-to-end high-precision analysis pipeline} — encompassing autocorrelation checks, bootstrap error estimation, numerical integration, data modelling, finite-volume and continuum extrapolations, and Akaike Model Averaging with full systematic error budget.
-    \item \textbf{Improved algorithm scaling from $O(N^6)$ to $O(N \log N)$} for a class of critical multi-dimensional integrals needed for model validation.
-    \item \textbf{Productionized and maintained open-source scientific simulation libraries}, with versioned releases, CI/CD pipelines and automated testing.
+    \item \textbf{Novel application of Physics-Informed Neural Networks (PINNs)} | Schrödinger equation on the lattice | published in a peer-reviewed journal with open-source implementation.
+    \item \textbf{Led high-precision analysis pipeline} for calculation of muon's $g-2$ | Monte Carlo history, analysis pipeline, Bayesian Model Averaging with full systematic error budget.
+    \item \textbf{Improved algorithm scaling from $O(N^6)$ to $O(N \log N)$} for a class of critical multi-dimensional integrals using parallelized Fast Fourier Transforms.
+    \item \textbf{Application of Nested Sampling algorithm} for phase transitions | density of states curve.
+    \item \textbf{Production of open-source scientific simulation libraries} with versioned releases, CI/CD pipelines and automated testing.
     \item \textbf{Mentored 3 PhD students} on software engineering practices, numerical methods, and project delivery
   \end{itemize}
 \end{large}
@@ -143,7 +150,7 @@ leading cross-institutional projects. Experienced in parallel computing, deep le
   \end{multicols}
   \vspace{-0.15cm}
   \begin{multicols}{2}
-    \begin{flushleft}\textit{Postdoctoral Research Engineer}\end{flushleft}
+    \begin{flushleft}\textit{Postdoctoral Researcher}\end{flushleft}
     \begin{flushright}Bonn, Germany\end{flushright}
   \end{multicols}
 \end{large}
@@ -152,37 +159,36 @@ leading cross-institutional projects. Experienced in parallel computing, deep le
 
 \begin{large}
   \begin{itemize}
-    \item \textbf{Productionized a reusable PINN training framework} (Python/PyTorch) enabling reproducible model generation across different physical parameters, with versioned releases and CI/CD pipelines.
-    \item \textbf{Designed and ran large-scale distributed simulations} (MPI/OpenMP) on national supercomputing infrastructure, with a full data quality pipeline including correlation analysis, parameter tuning, and statistical validation of multi-terabyte datasets across a European research collaboration
-    \item \textbf{Developed a novel numerical method} achieving machine-precision exactness for a class of operator algebra constraints, published in a peer-reviewed journal
-    \item \textbf{Integrated Monte Carlo simulations with quantum computing workflows}, delivering end-to-end prototype pipelines bridging classical HPC and quantum backends
-    \item \textbf{Mentored 3 graduate students} and delivered tutorial sessions for undergraduate computing courses
+    \item \textbf{Designed and ran Monte Carlo simulations} on international HPC machines | Monte Carlo history analysis, tuning, statistical validation of multi-terabyte datasets
+    \item \textbf{Developed a novel numerical method} achieving machine-precision exactness for a class of operator algebra constraints | published in a peer-reviewed journal.
+    \item \textbf{Hybrid method combining Monte Carlo simulations with Quantum Computing} for lattice theories
+    \item \textbf{Mentored 3 graduate students} and delivered \textbf{tutorial sessions for undergraduate courses}
   \end{itemize}
 \end{large}
 
 \vspace{9pt}
 
-<!-- PROJECTS -->
-\begin{large}{\bf SELECTED PROJECTS}
-  \vspace{9pt}
-  \hrule
-  \vspace{9pt}
+<!-- <\!-- PROJECTS -\-> -->
+<!-- \begin{large}{\bf SELECTED PROJECTS} -->
+<!--   \vspace{9pt} -->
+<!--   \hrule -->
+<!--   \vspace{9pt} -->
 
-  \begin{multicols}{2}
-    \begin{flushleft}
-      \textbf{\href{https://nutrizionistafrancescobartolazzi.webnode.it/}{Patient Management Web App}}
-    \end{flushleft}
-    \begin{flushright}2026\end{flushright}
-  \end{multicols}
-\end{large}
+<!--   \begin{multicols}{2} -->
+<!--     \begin{flushleft} -->
+<!--       \textbf{\href{https://nutrizionistafrancescobartolazzi.webnode.it/}{Patient Management Web App}} -->
+<!--     \end{flushleft} -->
+<!--     \begin{flushright}2026\end{flushright} -->
+<!--   \end{multicols} -->
+<!-- \end{large} -->
 
-\vspace{-0.09cm}
+<!-- \vspace{-0.09cm} -->
 
-\begin{large}
-  \begin{itemize}
-    \item Built a full-stack data application in \textbf{Python/Streamlit} for managing patient records with data ingestion, transformation, and storage pipelines — delivered solo from requirements to production deployment.
-  \end{itemize}
-\end{large}
+<!-- \begin{large} -->
+<!--   \begin{itemize} -->
+<!--     \item Built a full-stack data application in \textbf{Python}/\textbf{Streamlit} for managing patient records with data ingestion, transformation, and storage pipelines — delivered solo from requirements to production deployment. -->
+<!--   \end{itemize} -->
+<!-- \end{large} -->
 
 \vspace{9pt}
 
@@ -205,8 +211,8 @@ leading cross-institutional projects. Experienced in parallel computing, deep le
   \end{multicols}
   \vspace{-0.2cm}
   \begin{itemize}
-    \item Focus: numerical algorithms, Monte Carlo methods, HPC simulation
-    \item Ranked \textbf{1st} in national competitive admission exam
+    \item Focus: Monte Carlo simulation on HPC machines, analysis of lattice data
+    \item Ranked 1st in national admission exam
   \end{itemize}
 
   \begin{multicols}{2}
@@ -222,7 +228,7 @@ leading cross-institutional projects. Experienced in parallel computing, deep le
   \end{multicols}
   \vspace{-0.2cm}
   \begin{itemize}
-    \item GPA: 29.85/30, graduated with highest honours
+    \item Grade: 110/110 cum laude | GPA: 29.85/30
   \end{itemize}
 
   \begin{multicols}{2}
@@ -238,7 +244,7 @@ leading cross-institutional projects. Experienced in parallel computing, deep le
   \end{multicols}
   \vspace{-0.2cm}
   \begin{itemize}
-    \item GPA: 28.84/30, graduated with highest honours | Merit Scholarship recipient
+    \item Grade: 110/110 cum laude | GPA: 28.84/30 | Merit Scholarship recipient
   \end{itemize}
 
 \end{large}
@@ -282,8 +288,8 @@ leading cross-institutional projects. Experienced in parallel computing, deep le
   \vspace{-0.15cm}
 
   \begin{multicols}{2}
-    \begin{flushleft}    
-      \textbf{Visiting Research Grant} -- competitive international grant
+    \begin{flushleft}
+      \textbf{Visiting Grant} -- Networking funds from Univeristy of Bern
     \end{flushleft}
     \begin{flushright}\href{https://www.tuwien.at/}{TU Wien} | 2026\end{flushright}
   \end{multicols}
