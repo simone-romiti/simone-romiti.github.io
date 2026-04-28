@@ -58,14 +58,16 @@ years = (date.today() - date(2018, 3, 1)).days // 365
 
 print(f"""
 
-I am a computational physicist with {years}+ years of experience in software development for scientific applications. 
-My core expertise lies in high-performance computing for large-scale numerical simulations and the statistical analysis of large datasets. 
-I work on Bayesian Monte Carlo methods for data production and analysis, and Machine Learning methods for physics applications (PINNs, diffusion models). 
+I am a computational scientist and ML developer with {years}+ years of experience building high-performance
+simulation, inference, and data analysis systems. 
+My core expertise is in Monte Carlo methods, Bayesian
+statistics, deep learning, and large-scale HPC pipelines on multi-terabyte datasets.
+I have a proven track record of open-source software with CI/CD, automated testing,
+and versioned releases. 
+Comfortable translating technical complexity for diverse audiences;
+experienced leading international projects and cross-functional teams.
 
-I am comfortable translating technical complexity for diverse audiences, and enjoy collaborative, multidisciplinary environments. 
-I lead international research projects, and regularly present at workshops and conferences. 
-
-Resident in Switzerland with B permit. 
+Resident in Switzerland with B permit.
 \\\\
 Outside the lab: skier, hiker, and karaoke enthusiast.
 
@@ -89,20 +91,19 @@ Outside the lab: skier, hiker, and karaoke enthusiast.
 
 \begin{large}
 
-\textbf{Languages} - GNU/Linux, Bash scripting, C/C++, Python, R
+\textbf{Languages} - C/C++, Python, R, Bash/GNU Linux
 
 \vspace{-0.15cm}
-\textbf{Python libraries \& frameworks} - NumPy, SciPy, Pandas, Matplotlib, Plotly, Pytorch, Streamlit, SymPy, Jupyter
+\textbf{ML \& Statistics} - PyTorch, Physics-Informed Neural Networks (PINNs), VAEs, Diffusion Models, Bayesian Inference, Monte Carlo, Nested Sampling
 
+\vspace{-0.15cm}
+\textbf{Data \& Scientific Python} - NumPy, SciPy, Pandas, Matplotlib, Plotly, Streamlit, SymPy, Jupyter
 
 \vspace{-0.15cm}
 \textbf{HPC \& Systems} - CUDA, MPI, OpenMP, SLURM, EasyBuild
 
 \vspace{-0.15cm}
-\textbf{ML \& Data} - PyTorch, Physics-Informed Neural Networks (PINNs), VAEs, Diffusion Models, Bayesian Statistics, Monte Carlo
-
-\vspace{-0.15cm}
-\textbf{DevOps \& Tools} - Git, GitHub Actions, CI/CD, Docker, LaTeX, Quarto, Markdown
+\textbf{DevOps \& Tools} - Git, GitHub Actions, CI/CD, Docker, LaTeX, Quarto
 
 \vspace{-0.15cm}
 \textbf{Spoken Languages} - Italian (native), English (proficient), German (basic)
@@ -132,12 +133,12 @@ Outside the lab: skier, hiker, and karaoke enthusiast.
 
 \begin{large}
   \begin{itemize}
-    \item \textbf{Novel application of Physics-Informed Neural Networks (PINNs)} | Schrödinger equation on the lattice | published in a peer-reviewed journal with open-source implementation.
-    \item \textbf{Led high-precision analysis pipeline} for calculation of muon's $g-2$ | Monte Carlo history, analysis pipeline, Bayesian Model Averaging with full systematic error budget.
-    \item \textbf{Improved algorithm scaling from $O(N^6)$ to $O(N \log N)$} for a class of critical multi-dimensional integrals using parallelized Fast Fourier Transforms.
-    \item \textbf{Application of Nested Sampling algorithm} for phase transitions | density of states curve.
-    \item \textbf{Production of open-source scientific simulation libraries} with versioned releases, CI/CD pipelines and automated testing.
-    \item \textbf{Mentored 3 PhD students} on software engineering practices, numerical methods, and project delivery
+    \item \textbf{Reduced algorithm complexity from $O(N^6)$ to $O(N \log N)$} for a class of high-dimensional integrals via parallelized Fast Fourier Transforms — directly cutting HPC compute costs.
+    \item \textbf{Built end-to-end Bayesian inference pipeline} over multi-terabyte datasets: full uncertainty quantification, systematic error budget, and model averaging; published with open-source implementation.
+    \item \textbf{Applied Physics-Informed Neural Networks (PINNs)} to solve differential equations, extending the method to a new problem class; results published in a peer-reviewed journal.
+    \item \textbf{Implemented Nested Sampling algorithm} for multi-modal density estimation and phase-transition detection.
+    \item \textbf{Shipped production open-source simulation libraries}: versioned releases, CI/CD pipelines, automated test suites, and documentation — 240,000 GPU node-hours compute grant (CSCS ALPS, 2025) as PI.
+    \item \textbf{Mentored 3 PhD students} on software engineering practices, numerical methods, and project delivery.
   \end{itemize}
 \end{large}
 
@@ -159,36 +160,12 @@ Outside the lab: skier, hiker, and karaoke enthusiast.
 
 \begin{large}
   \begin{itemize}
-    \item \textbf{Designed and ran Monte Carlo simulations} on international HPC machines | Monte Carlo history analysis, tuning, statistical validation of multi-terabyte datasets
-    \item \textbf{Developed a novel numerical method} achieving machine-precision exactness for a class of operator algebra constraints | published in a peer-reviewed journal.
-    \item \textbf{Hybrid method combining Monte Carlo simulations with Quantum Computing} for lattice theories
-    \item \textbf{Mentored 3 graduate students} and delivered \textbf{tutorial sessions for undergraduate courses}
+    \item \textbf{Designed and operated large-scale Monte Carlo simulation pipelines} on international HPC clusters: tuning, statistical validation, and quality control of multi-terabyte datasets.
+    \item \textbf{Developed a novel numerical method} achieving machine-precision accuracy for a class of constrained optimization problems; published in a peer-reviewed journal.
+    \item \textbf{Prototyped hybrid Monte Carlo + Quantum Computing pipeline} for combinatorial sampling problems.
+    \item \textbf{Mentored 3 graduate students} and delivered tutorial sessions for undergraduate courses.
   \end{itemize}
 \end{large}
-
-\vspace{9pt}
-
-<!-- <\!-- PROJECTS -\-> -->
-<!-- \begin{large}{\bf SELECTED PROJECTS} -->
-<!--   \vspace{9pt} -->
-<!--   \hrule -->
-<!--   \vspace{9pt} -->
-
-<!--   \begin{multicols}{2} -->
-<!--     \begin{flushleft} -->
-<!--       \textbf{\href{https://nutrizionistafrancescobartolazzi.webnode.it/}{Patient Management Web App}} -->
-<!--     \end{flushleft} -->
-<!--     \begin{flushright}2026\end{flushright} -->
-<!--   \end{multicols} -->
-<!-- \end{large} -->
-
-<!-- \vspace{-0.09cm} -->
-
-<!-- \begin{large} -->
-<!--   \begin{itemize} -->
-<!--     \item Built a full-stack data application in \textbf{Python}/\textbf{Streamlit} for managing patient records with data ingestion, transformation, and storage pipelines — delivered solo from requirements to production deployment. -->
-<!--   \end{itemize} -->
-<!-- \end{large} -->
 
 \vspace{9pt}
 
@@ -211,7 +188,7 @@ Outside the lab: skier, hiker, and karaoke enthusiast.
   \end{multicols}
   \vspace{-0.2cm}
   \begin{itemize}
-    \item Focus: Monte Carlo simulation on HPC machines, analysis of lattice data
+    \item Specialization: Monte Carlo simulation on HPC machines, large-scale statistical data analysis
     \item Ranked 1st in national admission exam
   \end{itemize}
 
@@ -262,9 +239,9 @@ Outside the lab: skier, hiker, and karaoke enthusiast.
 
   \begin{multicols}{2}
     \begin{flushleft}    
-      \textbf{Principal Investigator} -- 240,000 GPU node-hours compute grant
+      \textbf{Invited Speaker} -- Technical seminars at CERN and ECT*
     \end{flushleft}
-    \begin{flushright}\href{https://www.cscs.ch/computers/alps}{CSCS ALPS} | 2025\end{flushright}
+    \begin{flushright}2025 -- 2026\end{flushright}
   \end{multicols}
 
   \vspace{-0.15cm}
@@ -279,21 +256,11 @@ Outside the lab: skier, hiker, and karaoke enthusiast.
   \vspace{-0.15cm}
 
   \begin{multicols}{2}
-    \begin{flushleft}    
-      \textbf{Invited Speaker} -- Technical seminars at CERN and ECT*
-    \end{flushleft}
-    \begin{flushright}2025 -- 2026\end{flushright}
-  \end{multicols}
-
-  \vspace{-0.15cm}
-
-  \begin{multicols}{2}
     \begin{flushleft}
-      \textbf{Visiting Grant} -- Networking funds from Univeristy of Bern
+      \textbf{Visiting Grant} -- Networking funds from University of Bern
     \end{flushleft}
     \begin{flushright}\href{https://www.tuwien.at/}{TU Wien} | 2026\end{flushright}
   \end{multicols}
 
 
 \end{large}
-
