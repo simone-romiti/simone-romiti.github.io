@@ -49,9 +49,27 @@ format:
 
 \begin{normalsize}
 
-Computational physicist with a PhD and 4+ years of postdoctoral research experience in Monte Carlo simulations, Bayesian inference, and high-performance computing. Production-grade C++ and Python developer; main author and maintainer of open-source scientific libraries with CI/CD and versioned releases. Principal Investigator on two multi-million GPU-hour allocations (CSCS ALPS 2025, GCS JUPITER 2026). Comfortable owning numerical methods end-to-end: derivation, implementation, statistical validation, and uncertainty quantification on terabyte-scale simulation outputs.
+```{python}
+#| echo: false
+#| output: asis
 
-%Resident in Switzerland with B permit.
+from datetime import date
+years = (date.today() - date(2018, 3, 1)).days // 365
+
+print(f"""
+
+I am a computational physicist and ML developer with {years}+ years of experience in building high-performance simulations, statistical inference analyses, and data science. 
+My core expertise is in Monte Carlo methods, Bayesian statistics, deep learning, and HPC pipelines on multi-terabyte datasets.
+I have a proven track record of open-source software with CI/CD, automated testing, and versioned releases. 
+I am comfortable translating technical complexity for diverse audiences, and experienced in leading projects with international teams.
+
+Resident in Switzerland with B permit.
+
+""")
+
+```
+
+
 
 \end{normalsize}
 
@@ -69,16 +87,13 @@ pt}
 
 \begin{normalsize}
 
-\textbf{Languages} - C/C++ (production, templates, modern C++), Python (production, packaging), R, Bash/GNU Linux
+\textbf{Languages} - C/C++, Python, R, Bash/GNU Linux
 
 \vspace{-0.15cm}
-\textbf{Numerical \& Statistical Methods} - Monte Carlo, Markov Chain Monte Carlo, Hybrid/Hamiltonian Monte Carlo, Bayesian inference, Nested Sampling, uncertainty quantification, FFT-based spectral methods, constrained optimization
+\textbf{ML \& Statistics} - PyTorch, Physics-Informed Neural Networks (PINNs), VAEs, Diffusion Models, Bayesian Inference, Monte Carlo, Nested Sampling
 
 \vspace{-0.15cm}
-\textbf{Machine Learning} - PyTorch, Physics-Informed Neural Networks (PINNs), score-based Diffusion Models
-
-\vspace{-0.15cm}
-\textbf{Scientific Python} - NumPy, SciPy, Pandas, Matplotlib, Plotly, Streamlit, SymPy, Jupyter
+\textbf{Data \& Scientific Python} - NumPy, SciPy, Pandas, Matplotlib, Plotly, Streamlit, SymPy, Jupyter
 
 \vspace{-0.15cm}
 \textbf{HPC \& Systems} - CUDA, MPI, OpenMP, SLURM, EasyBuild
@@ -116,12 +131,11 @@ pt}
 
 \begin{normalsize}
   \begin{itemize}
-    \item \textbf{Reduced algorithmic complexity from $O(N^6)$ to $O(N \log N)$} for a class of high-dimensional integrals by reformulating the kernel via parallelized Fast Fourier Transforms.
-    \item Built a \textbf{Bayesian inference pipeline} processing observables computed on $\sim 10^3$ simulation configurations ($\sim 1$ TB each); features uncertainty quantification, systematic error budget, and model averaging. Released as open-source library.
-    \item Developed a \textbf{Physics-Informed Neural Network} approach to the Schrödinger equation with periodic potentials (sole-author publication, open-source implementation).
-    \item Applied \textbf{Nested Sampling} to multi-modal density estimation for the study of phase transitions.
-    \item \textbf{Principal Investigator} on two large compute allocations totalling $\sim O(10^6)$ GPU-hours (CSCS ALPS 2025, GCS JUPITER 2026).
-    \item Mentoring of multiple Master's and PhD students.
+    \item \textbf{Reduced algorithm complexity from $O(N^6)$ to $O(N \log N)$} for a class of high-dimensional integrals via parallelized Fast Fourier Transforms
+    \item \textbf{Bayesian inference pipeline} over multi-terabyte datasets: uncertainty quantification, systematic error budget, and model averaging; published with open-source implementation.
+    \item \textbf{Physics-Informed Neural Networks (PINNs)}: developed novel application for the solution of the Schrödinger equation with periodic potentials; results published in peer-reviewed journal.
+    \item \textbf{Application of Nested Sampling algorithm} for multi-modal density estimation and study of phase-transitions.
+    \item \textbf{Principal Investigator} of two $O(10^6)$ GPU computing time allocations (CSCS ALPS, 2025 and GCS JUPITER,2026)
   \end{itemize}
 \end{normalsize}
 
@@ -143,30 +157,9 @@ pt}
 
 \begin{normalsize}
   \begin{itemize}
-    \item Designed and operated \textbf{large-scale Monte Carlo simulations} on international HPC clusters: parameter tuning, statistical validation, autocorrelation analysis, and quality control over ensembles.
-    \item Derived and implemented a \textbf{numerical method achieving machine-precision accuracy} for a class of constrained optimization problems.
-    \item Co-developed a \textbf{hybrid Monte Carlo + quantum-computing} method for estimating high-dimensional integrals.
-  \end{itemize}
-\end{normalsize}
-
-\vspace{8pt}
-
-<!-- OPEN-SOURCE PROJECTS -->
-\begin{normalsize}{\bf SELECTED OPEN-SOURCE PROJECTS}
-  \vspace{5
-pt}
-  \hrule
-  \vspace{5
-pt}
-\end{normalsize}
-\vspace{-0.15cm}
-
-\begin{normalsize}
-  \begin{itemize}
-    \item \href{https://github.com/simone-romiti/lattice_data_tools}{\textbf{lattice\_data\_tools}} -- Python toolkit for the production and statistical analysis of lattice simulation data. Main author and maintainer.
-    \item \href{https://github.com/urbach/su2}{\textbf{su2}} -- C++ templated library for Monte Carlo simulation of SU(N) theories with OpenMP parallelization. Main editor.
-    \item \href{https://github.com/etmc/tmLQCD}{\textbf{tmLQCD}} -- Large-scale C library for lattice simulations on GPU clusters (CUDA + MPI). Contributor.
-    \item \href{https://github.com/simone-romiti/adiabatic_PINNs-suN}{\textbf{adiabatic\_PINNs-suN}} -- Physics-Informed Neural Network solver for the Schrödinger equation in SU(N) lattice gauge theory; reference implementation for sole-author publication.
+    \item \textbf{Designed and operated large-scale Monte Carlo simulations} on international HPC clusters: tuning, statistical validation, and quality control of multi-terabyte datasets.
+    \item \textbf{Developed a novel numerical method} achieving machine-precision accuracy for a class of constrained optimization problems; published in a peer-reviewed journal.
+    \item \textbf{Hybrid Monte Carlo + Quantum Computing } method for the estimation of high-dimensional integrals.
   \end{itemize}
 \end{normalsize}
 
@@ -180,6 +173,8 @@ pt}
   \vspace{5
 pt}
 
+
+
   \begin{multicols}{2}
     \begin{flushleft}
     \textbf{PhD in Physics} | title awarded in April 2022 |
@@ -187,6 +182,12 @@ pt}
     \begin{flushright}\href{https://www.uniroma3.it/}{\textit{Roma Tre University}} | Nov. 2018 -- Oct. 2021\end{flushright}
   \end{multicols}
   \vspace{-0.2cm}
+  % \begin{itemize}
+  %   \item Specialization: Monte Carlo simulation on HPC machines, multi-terabyte-scale statistical data analysis
+  %   \item Ranked 1st in national admission exam
+  % \end{itemize}
+
+
 
   \begin{multicols}{2}
     \begin{flushleft}
@@ -194,6 +195,9 @@ pt}
     \end{flushleft}
     \begin{flushright}\href{https://www.uniroma3.it/}{\textit{Roma Tre University}} | Oct. 2016 -- Oct. 2018\end{flushright}
   \end{multicols}
+
+
+
 
   \begin{multicols}{2}
     \begin{flushleft}
@@ -209,7 +213,7 @@ pt}
 <!-- LEADERSHIP -->
 \begin{normalsize}
 
-{\bf LEADERSHIP \& COMMUNICATION}
+{\bf LEADERSHIP \& ACHIEVEMENTS}
   \vspace{5
 pt}
   \hrule
@@ -217,6 +221,12 @@ pt}
 pt}
 
 \setlength{\columnsep}{-4.5cm}
+
+  \begin{multicols}{2}
+    \begin{flushleft}    
+      \textbf{Supervision of Masters and PhD students}
+    \end{flushleft}
+  \end{multicols}
 
   \begin{multicols}{2}
     \begin{flushleft}    
@@ -229,9 +239,12 @@ pt}
 
   \begin{multicols}{2}
     \begin{flushleft}    
-      \textbf{Workshop Organizer} -- International workshop on HPC \& Quantum Computing
+      \textbf{Workshop Organizer} -- International HPC \& Quantum Computing workshop
     \end{flushleft}
     \begin{flushright}\href{https://indico.ectstar.eu/event/242/}{ECT*} | 2025\end{flushright}
   \end{multicols}
 
+
+
 \end{normalsize}
+
