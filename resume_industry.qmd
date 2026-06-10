@@ -25,7 +25,6 @@ format:
         \setlength{\columnsep}{3em}
         \usepackage{enumitem}
         \setlist{nolistsep}
-        \setlength{\columnsep}{-2.8cm}
         \fancyhf{}
         \renewcommand{\headrulewidth}{0pt}
         \fancyfoot[C]{\thepage/\pageref{LastPage}}
@@ -33,7 +32,7 @@ format:
 ---
 
 <!-- TITLE -->
-\begin{huge}\begin{center}{\bf SIMONE ROMITI}\end{center}\end{huge}
+\begin{huge}\begin{center}\textbf{SIMONE ROMITI}\end{center}\end{huge}
 
 <!-- CONTACT INFO -->
 \begin{center}
@@ -49,36 +48,105 @@ format:
 
 \begin{normalsize}
 
-Computational physicist with a PhD and 4+ years of postdoctoral research experience in Monte Carlo simulations, Bayesian inference, and high-performance computing. Production-grade C++ and Python developer; main author and maintainer of open-source scientific libraries with CI/CD and versioned releases. Principal Investigator on two multi-million GPU-hour allocations (CSCS ALPS 2025, GCS JUPITER 2026). Comfortable owning numerical methods end-to-end: derivation, implementation, statistical validation, and uncertainty quantification on terabyte-scale simulation outputs.
+Computational physicist with a PhD and 4+ years of postdoctoral research experience in Monte Carlo simulations, Bayesian inference, and high-performance computing. Production-grade C++ and Python developer; main author and maintainer of open-source scientific libraries with CI/CD and versioned releases. 
+Comfortable owning numerical methods end-to-end: derivation, implementation, statistical validation, and uncertainty quantification.
 
-%Resident in Switzerland with B permit.
+Resident in Switzerland with a B permit.
 
 \end{normalsize}
 
-\vspace{8pt}
-
-<!-- SKILLS -->
-\begin{normalsize}{\bf TECHNICAL SKILLS}
-  \vspace{5
-pt}
+<!-- EDUCATION -->
+\begin{normalsize}\textbf{EDUCATION}
+  \vspace{5pt}
   \hrule
-  \vspace{5
-pt}
+  \vspace{5pt}
+
+  \begin{multicols}{2}
+    \begin{flushleft}
+    \textbf{PhD in Physics} | title awarded in April 2022
+    \end{flushleft}
+    \begin{flushright}\href{https://www.uniroma3.it/}{\textit{Roma Tre University}} | Nov. 2018 -- Oct. 2021\end{flushright}
+  \end{multicols}
+  \vspace{-0.2cm}
+
+  \begin{multicols}{2}
+    \begin{flushleft}
+    \textbf{M.S.\ in Physics} | Grade: 110/110 \textit{cum laude} | GPA: 3.98 / 4
+    \end{flushleft}
+    \begin{flushright}\href{https://www.uniroma3.it/}{\textit{Roma Tre University}} | Oct. 2016 -- Oct. 2018\end{flushright}
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \begin{flushleft}
+    \textbf{B.S.\ in Physics} | Grade: 110/110 \textit{cum laude} | GPA: 3.85 / 4
+    \end{flushleft}
+    \begin{flushright}\href{https://www.uniroma3.it/}{\textit{Roma Tre University}} | Oct. 2013 -- Jul. 2016\end{flushright}
+  \end{multicols}
+
 \end{normalsize}
-\vspace{-0.15cm}
+
+<!-- WORK EXPERIENCE -->
+\begin{normalsize}\textbf{WORK EXPERIENCE}
+  \vspace{5pt}
+  \hrule
+  \vspace{5pt}
+
+  \begin{multicols}{2}
+    \begin{flushleft}\textbf{\href{https://www.unibe.ch/index_eng.html}{University of Bern}}\end{flushleft}
+    \begin{flushright}Apr 2024 -- Present\end{flushright}
+  \end{multicols}
+  \vspace{-0.15cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Postdoctoral Researcher} | Software developer for scientific applications \end{flushleft}
+    \begin{flushright}Bern, Switzerland\end{flushright}
+  \end{multicols}
+\end{normalsize}
 
 \begin{normalsize}
+  \begin{multicols}{2}
+    \begin{flushleft}\textbf{\href{https://www.uni-bonn.de/en/home?set_language=en}{University of Bonn}}\end{flushleft}
+    \begin{flushright}Nov 2021 -- Mar 2024\end{flushright}
+  \end{multicols}
+  \vspace{-0.15cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Postdoctoral Researcher} | Software developer for scientific applications \end{flushleft}
+    \begin{flushright}Bonn, Germany\end{flushright}
+  \end{multicols}
+\end{normalsize}
 
-\textbf{Languages} - C/C++ (production, templates, modern C++), Python (production, packaging), R, Bash/GNU Linux
+<!-- COMPETENCES -->
+\begin{normalsize}\textbf{COMPETENCES}
+
+\vspace{8pt}
+\hrule
+
+\begin{itemize}
+\item
+\textbf{Design and implementation of algorithms} for high-dimensional integrals with Markov Chain Monte Carlo, Langevin dynamics, Nested Sampling. Spectral methods for time series analysis.
+\item
+\textbf{Machine Learning applications to the solution of Partial Differential Equations} with Physics-Informed Neural Networks, convolutional networks, and diffusion models.
+\item
+\textbf{Statistical analysis of terabyte-scale datasets} from data production to inference. Autocorrelation analysis, Akaike model averaging, and error budgeting.
+\item
+\textbf{Code optimization via parallel computing} using CPU and GPU offloading. Scaling-based optimizations for memory consumption and computational cost.
+\item
+\textbf{Scientific writing and reporting}: author of peer-reviewed papers in scientific journals, invited speaker at conferences and workshops, and organizer of scientific events.
+\item
+\textbf{Mentoring} and technical support for Master's and PhD students.
+\end{itemize}
+
+\end{normalsize}
+
+<!-- SKILLS -->
+\begin{normalsize}\textbf{SOFTWARE TOOLS}
+  \vspace{5pt}
+  \hrule
+  \vspace{5pt}
+
+\textbf{Languages} - Bash, C/C++, Python, R
 
 \vspace{-0.15cm}
-\textbf{Numerical \& Statistical Methods} - Monte Carlo, Markov Chain Monte Carlo, Hybrid/Hamiltonian Monte Carlo, Bayesian inference, Nested Sampling, uncertainty quantification, FFT-based spectral methods, constrained optimization
-
-\vspace{-0.15cm}
-\textbf{Machine Learning} - PyTorch, Physics-Informed Neural Networks (PINNs), score-based Diffusion Models
-
-\vspace{-0.15cm}
-\textbf{Scientific Python} - NumPy, SciPy, Pandas, Matplotlib, Plotly, Streamlit, SymPy, Jupyter
+\textbf{Python libraries} - PyTorch, NumPy, SciPy, Pandas, Matplotlib, Plotly, Streamlit, SymPy, Jupyter
 
 \vspace{-0.15cm}
 \textbf{HPC \& Systems} - CUDA, MPI, OpenMP, SLURM, EasyBuild
@@ -91,147 +159,37 @@ pt}
 
 \end{normalsize}
 
-\vspace{8pt}
-
-<!-- EXPERIENCE -->
-\begin{normalsize}{\bf WORK EXPERIENCE}
-  \vspace{5
-pt}
-  \hrule
-  \vspace{5
-pt}
-
-  \begin{multicols}{2}
-    \begin{flushleft}{\bf \href{https://www.unibe.ch/index_eng.html}{University of Bern}}\end{flushleft}
-    \begin{flushright}Apr 2024 -- Present\end{flushright}
-  \end{multicols}
-  \vspace{-0.15cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Postdoctoral Researcher}\end{flushleft}
-    \begin{flushright}Bern, Switzerland\end{flushright}
-  \end{multicols}
-\end{normalsize}
-
-\vspace{-0.09cm}
-
-\begin{normalsize}
-  \begin{itemize}
-    \item \textbf{Reduced algorithmic complexity from $O(N^6)$ to $O(N \log N)$} for a class of high-dimensional integrals by reformulating the kernel via parallelized Fast Fourier Transforms.
-    \item Built a \textbf{Bayesian inference pipeline} processing observables computed on $\sim 10^3$ simulation configurations ($\sim 1$ TB each); features uncertainty quantification, systematic error budget, and model averaging. Released as open-source library.
-    \item Developed a \textbf{Physics-Informed Neural Network} approach to the Schrödinger equation with periodic potentials (sole-author publication, open-source implementation).
-    \item Applied \textbf{Nested Sampling} to multi-modal density estimation for the study of phase transitions.
-    \item \textbf{Principal Investigator} on two large compute allocations totalling $\sim O(10^6)$ GPU-hours (CSCS ALPS 2025, GCS JUPITER 2026).
-    \item Mentoring of multiple Master's and PhD students.
-  \end{itemize}
-\end{normalsize}
+<!-- ACHIEVEMENTS -->
+\begin{normalsize}\textbf{ACHIEVEMENTS}
 
 \vspace{8pt}
+\hrule
 
-\begin{normalsize}
-  \begin{multicols}{2}
-    \begin{flushleft}{\bf \href{https://www.uni-bonn.de/en/home?set_language=en}{University of Bonn}}\end{flushleft}
-    \begin{flushright}Nov 2021 -- Mar 2024\end{flushright}
-  \end{multicols}
-  \vspace{-0.15cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Postdoctoral Researcher}\end{flushleft}
-    \begin{flushright}Bonn, Germany\end{flushright}
-  \end{multicols}
-\end{normalsize}
-
-\vspace{-0.09cm}
-
-\begin{normalsize}
-  \begin{itemize}
-    \item Designed and operated \textbf{large-scale Monte Carlo simulations} on international HPC clusters: parameter tuning, statistical validation, autocorrelation analysis, and quality control over ensembles.
+\begin{itemize}
+    \item Developed novel algorithm using \textbf{Physics-Informed Neural Network} for solving the Schrödinger equation.
+    \item \textbf{Principal Investigator} for $O(10^6)$ GPU-hour allocations on CSCS ALPS and GCS JUPITER 2026.
+    \item Designed and operated \textbf{large-scale Monte Carlo simulations} on international HPC clusters, improving sampling efficiency.
+    \item \textbf{Reduction of algorithmic complexity} for a class of multi-dimensional integrals from exponential to $O(N \log N)$ using parallelized Fast Fourier Transforms.
     \item Derived and implemented a \textbf{numerical method achieving machine-precision accuracy} for a class of constrained optimization problems.
-    \item Co-developed a \textbf{hybrid Monte Carlo + quantum-computing} method for estimating high-dimensional integrals.
+    \item Developed a \textbf{Hybrid Monte Carlo + quantum-computing} method for estimating high-dimensional integrals.
   \end{itemize}
 \end{normalsize}
 
 \vspace{8pt}
 
 <!-- OPEN-SOURCE PROJECTS -->
-\begin{normalsize}{\bf SELECTED OPEN-SOURCE PROJECTS}
-  \vspace{5
-pt}
+\begin{normalsize}\textbf{SELECTED OPEN-SOURCE PROJECTS}
+  \vspace{5pt}
   \hrule
-  \vspace{5
-pt}
+  \vspace{5pt}
 \end{normalsize}
 \vspace{-0.15cm}
 
 \begin{normalsize}
   \begin{itemize}
     \item \href{https://github.com/simone-romiti/lattice_data_tools}{\textbf{lattice\_data\_tools}} -- Python toolkit for the production and statistical analysis of lattice simulation data. Main author and maintainer.
-    \item \href{https://github.com/urbach/su2}{\textbf{su2}} -- C++ templated library for Monte Carlo simulation of SU(N) theories with OpenMP parallelization. Main editor.
-    \item \href{https://github.com/etmc/tmLQCD}{\textbf{tmLQCD}} -- Large-scale C library for lattice simulations on GPU clusters (CUDA + MPI). Contributor.
+    \item \href{https://github.com/HISKP-LQCD/su2/tree/nested_sampling}{\textbf{su2}} -- C++ templated library for Monte Carlo simulation of SU(N) theories with OpenMP parallelization. Main editor.
     \item \href{https://github.com/simone-romiti/adiabatic_PINNs-suN}{\textbf{adiabatic\_PINNs-suN}} -- Physics-Informed Neural Network solver for the Schrödinger equation in SU(N) lattice gauge theory; reference implementation for sole-author publication.
+    \item \href{https://github.com/etmc/tmLQCD}{\textbf{tmLQCD}} -- Large-scale C library for lattice simulations on GPU clusters (CUDA + MPI). Contributor.
   \end{itemize}
-\end{normalsize}
-
-\vspace{8pt}
-
-<!-- EDUCATION -->
-\begin{normalsize}{\bf EDUCATION}
-  \vspace{5
-pt}
-  \hrule
-  \vspace{5
-pt}
-
-  \begin{multicols}{2}
-    \begin{flushleft}
-    \textbf{PhD in Physics} | title awarded in April 2022 |
-    \end{flushleft}
-    \begin{flushright}\href{https://www.uniroma3.it/}{\textit{Roma Tre University}} | Nov. 2018 -- Oct. 2021\end{flushright}
-  \end{multicols}
-  \vspace{-0.2cm}
-
-  \begin{multicols}{2}
-    \begin{flushleft}
-    \textbf{M.S.\ in Physics} | Grade: 110/110 \textit{cum laude} | GPA: 29.85/30 |
-    \end{flushleft}
-    \begin{flushright}\href{https://www.uniroma3.it/}{\textit{Roma Tre University}} | Oct. 2016 -- Oct. 2018\end{flushright}
-  \end{multicols}
-
-  \begin{multicols}{2}
-    \begin{flushleft}
-    \textbf{B.S.\ in Physics} | Grade: 110/110 \textit{cum laude} | GPA: 28.84/30 | Scholarship
-    \end{flushleft}
-    \begin{flushright}\href{https://www.uniroma3.it/}{\textit{Roma Tre University}} | Oct. 2013 -- Jul. 2016\end{flushright}
-  \end{multicols}
-
-\end{normalsize}
-
-\vspace{8pt}
-
-<!-- LEADERSHIP -->
-\begin{normalsize}
-
-{\bf LEADERSHIP \& COMMUNICATION}
-  \vspace{5
-pt}
-  \hrule
-  \vspace{5
-pt}
-
-\setlength{\columnsep}{-4.5cm}
-
-  \begin{multicols}{2}
-    \begin{flushleft}    
-      \textbf{Invited Speaker} -- Technical seminars at \href{https://indico.cern.ch/event/1641317/}{CERN} and \href{https://indico.ectstar.eu/event/229/contributions/5308/}{ECT*}
-    \end{flushleft}
-    \begin{flushright}2025 -- 2026\end{flushright}
-  \end{multicols}
-
-  \vspace{-0.15cm}
-
-  \begin{multicols}{2}
-    \begin{flushleft}    
-      \textbf{Workshop Organizer} -- International workshop on HPC \& Quantum Computing
-    \end{flushleft}
-    \begin{flushright}\href{https://indico.ectstar.eu/event/242/}{ECT*} | 2025\end{flushright}
-  \end{multicols}
-
 \end{normalsize}
