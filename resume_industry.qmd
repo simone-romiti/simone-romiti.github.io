@@ -124,7 +124,7 @@ Resident in Switzerland with a B permit.
 \item
 \textbf{Design and implementation of algorithms} for high-dimensional integrals with Markov Chain Monte Carlo, Langevin dynamics, Nested Sampling. Spectral methods for time series analysis.
 \item
-\textbf{Machine Learning applications to the solution of Partial Differential Equations} with Physics-Informed Neural Networks, convolutional networks, and diffusion models.
+\textbf{Machine Learning applications to the solution of Partial Differential Equations} with Physics-Informed Neural Networks, convolutional networks, diffusion models, model validation.
 \item
 \textbf{Statistical analysis of terabyte-scale datasets} from data production to inference. Autocorrelation analysis, Akaike model averaging, and error budgeting.
 \item
@@ -143,7 +143,7 @@ Resident in Switzerland with a B permit.
   \hrule
   \vspace{5pt}
 
-\textbf{Languages} - Bash, C/C++, Python, R
+\textbf{Languages} - Bash, C/C++, Python, R, SQL
 
 \vspace{-0.15cm}
 \textbf{Python libraries} - PyTorch, NumPy, SciPy, Pandas, Matplotlib, Plotly, Streamlit, SymPy, Jupyter
