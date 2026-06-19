@@ -33,6 +33,7 @@ format:
 
 <!-- TITLE -->
 \begin{huge}\begin{center}\textbf{SIMONE ROMITI}\end{center}\end{huge}
+\begin{center}\textit{Machine Learning Engineer | Computational Scientist}\end{center}
 
 <!-- CONTACT INFO -->
 \begin{center}
@@ -48,8 +49,7 @@ format:
 
 \begin{normalsize}
 
-Computational physicist with a PhD and 4+ years of postdoctoral research experience in Monte Carlo simulations, Bayesian inference, and high-performance computing. Production-grade C++ and Python developer; main author and maintainer of open-source scientific libraries with CI/CD and versioned releases. 
-Comfortable owning numerical methods end-to-end: derivation, implementation, statistical validation, and uncertainty quantification.
+Machine learning engineer and computational scientist with a PhD and 4+ years of postdoctoral research experience building production-grade models and software for high-dimensional inference, optimization, and simulation. Designs, trains, and validates deep learning systems in PyTorch -- including physics-informed and generative architectures -- end-to-end: data pipelines, model design, GPU training infrastructure, and statistical validation. Main author and maintainer of open-source Python/C++ libraries with CI/CD and versioned releases.
 
 Resident in Switzerland with a B permit.
 
@@ -57,62 +57,35 @@ Resident in Switzerland with a B permit.
 
 <!-- EDUCATION -->
 \begin{normalsize}\textbf{EDUCATION}
-  \vspace{5pt}
+  \vspace{3pt}
   \hrule
-  \vspace{5pt}
+  \vspace{3pt}
 
-  \begin{multicols}{2}
-    \begin{flushleft}
-    \textbf{PhD in Physics} | title awarded in April 2022
-    \end{flushleft}
-    \begin{flushright}\href{https://www.uniroma3.it/}{\textit{Roma Tre University}} | Nov. 2018 -- Oct. 2021\end{flushright}
-  \end{multicols}
-  \vspace{-0.2cm}
 
-  \begin{multicols}{2}
-    \begin{flushleft}
-    \textbf{M.S.\ in Physics} | Grade: 110/110 \textit{cum laude} | GPA: 3.98 / 4
-    \end{flushleft}
-    \begin{flushright}\href{https://www.uniroma3.it/}{\textit{Roma Tre University}} | Oct. 2016 -- Oct. 2018\end{flushright}
-  \end{multicols}
+    \textbf{PhD in Physics} | \href{https://www.uniroma3.it/}{\textit{Rome, Italy}} | Nov. 2018 -- Oct. 2021 | title awarded in April 2022
 
-  \begin{multicols}{2}
-    \begin{flushleft}
-    \textbf{B.S.\ in Physics} | Grade: 110/110 \textit{cum laude} | GPA: 3.85 / 4
-    \end{flushleft}
-    \begin{flushright}\href{https://www.uniroma3.it/}{\textit{Roma Tre University}} | Oct. 2013 -- Jul. 2016\end{flushright}
-  \end{multicols}
+
+
+
+    \textbf{M.S.\ in Physics} | \href{https://www.uniroma3.it/}{\textit{Rome, Italy}} | Oct. 2016 -- Oct. 2018 | Grade: 110/110 \textit{cum laude} | GPA: 3.98 / 4
+
+
+
+    \textbf{B.S.\ in Physics} | \href{https://www.uniroma3.it/}{\textit{Rome, Italy}} | Oct. 2013 -- Jul. 2016 | Grade: 110/110 \textit{cum laude} | GPA: 3.85 / 4 
+
 
 \end{normalsize}
 
 <!-- WORK EXPERIENCE -->
 \begin{normalsize}\textbf{WORK EXPERIENCE}
-  \vspace{5pt}
+  \vspace{3pt}
   \hrule
-  \vspace{5pt}
+  \vspace{3pt}
 
-  \begin{multicols}{2}
-    \begin{flushleft}\textbf{\href{https://www.unibe.ch/index_eng.html}{University of Bern}}\end{flushleft}
-    \begin{flushright}Apr 2024 -- Present\end{flushright}
-  \end{multicols}
-  \vspace{-0.15cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Postdoctoral Researcher} | Software developer for scientific applications \end{flushleft}
-    \begin{flushright}Bern, Switzerland\end{flushright}
-  \end{multicols}
+\textbf{\href{https://www.unibe.ch/index_eng.html}{University of Bern}, Switzerland} | Apr. 2024 -- present | \textit{Postdoctoral Researcher} | ML/software developer for scientific applications
 \end{normalsize}
 
-\begin{normalsize}
-  \begin{multicols}{2}
-    \begin{flushleft}\textbf{\href{https://www.uni-bonn.de/en/home?set_language=en}{University of Bonn}}\end{flushleft}
-    \begin{flushright}Nov 2021 -- Mar 2024\end{flushright}
-  \end{multicols}
-  \vspace{-0.15cm}
-  \begin{multicols}{2}
-    \begin{flushleft}\textit{Postdoctoral Researcher} | Software developer for scientific applications \end{flushleft}
-    \begin{flushright}Bonn, Germany\end{flushright}
-  \end{multicols}
-\end{normalsize}
+\textbf{\href{https://www.uni-bonn.de/en/home?set_language=en}{University of Bonn}, Germany} | Nov 2021 -- Mar 2024 | \textit{Postdoctoral Researcher} | ML/software developer for scientific applications 
 
 <!-- COMPETENCES -->
 \begin{normalsize}\textbf{COMPETENCES}
@@ -122,17 +95,17 @@ Resident in Switzerland with a B permit.
 
 \begin{itemize}
 \item
-\textbf{Design and implementation of algorithms} for high-dimensional integrals with Markov Chain Monte Carlo, Langevin dynamics, Nested Sampling. Spectral methods for time series analysis.
+\textbf{Machine learning model development}: Physics-Informed Neural Networks, convolutional networks, and diffusion models in PyTorch, with end-to-end validation against held-out benchmarks.
 \item
-\textbf{Machine Learning applications to the solution of Partial Differential Equations} with Physics-Informed Neural Networks, convolutional networks, diffusion models, model validation.
+\textbf{Probabilistic inference and algorithm design} for high-dimensional Bayesian models: Markov Chain Monte Carlo, Langevin dynamics, Nested Sampling, and spectral methods for time series.
 \item
-\textbf{Statistical analysis of terabyte-scale datasets} from data production to inference. Autocorrelation analysis, Akaike model averaging, and error budgeting.
+\textbf{Statistical analysis and inference pipelines for terabyte-scale datasets}, from data production through inference: autocorrelation analysis, Akaike-weighted model averaging, and rigorous error budgeting.
 \item
-\textbf{Code optimization via parallel computing} using CPU and GPU offloading. Scaling-based optimizations for memory consumption and computational cost.
+\textbf{Performance engineering} for compute-heavy pipelines via CPU/GPU parallelization, with scaling-aware optimization of memory footprint and runtime cost.
 \item
-\textbf{Scientific writing and reporting}: author of peer-reviewed papers in scientific journals, invited speaker at conferences and workshops, and organizer of scientific events.
+\textbf{Technical communication}: peer-reviewed publications, invited conference talks, and workshop organization, translating complex methods for varied audiences.
 \item
-\textbf{Mentoring} and technical support for Master's and PhD students.
+\textbf{Mentoring} and technical onboarding for Master's and PhD students, including code review and reproducible-research practices.
 \end{itemize}
 
 \end{normalsize}
@@ -143,18 +116,18 @@ Resident in Switzerland with a B permit.
   \hrule
   \vspace{5pt}
 
-\textbf{Languages} - Bash, C/C++, Python, R, SQL
-
-\vspace{-0.15cm}
 \textbf{Python libraries} - PyTorch, NumPy, SciPy, Pandas, Matplotlib, Plotly, Streamlit, SymPy, Jupyter
 
-\vspace{-0.15cm}
-\textbf{HPC \& Systems} - CUDA, MPI, OpenMP, SLURM, EasyBuild
 
-\vspace{-0.15cm}
+\textbf{Languages} - Bash, C/C++, Python, R, SQL
+
+
 \textbf{DevOps \& Tools} - Git, GitHub Actions, CI/CD, Docker, LaTeX, Quarto
 
-\vspace{-0.15cm}
+
+\textbf{HPC \& Systems} - CUDA, MPI, OpenMP, SLURM, EasyBuild
+
+
 \textbf{Spoken Languages} - Italian (native), English (proficient), German (basic)
 
 \end{normalsize}
@@ -166,19 +139,17 @@ Resident in Switzerland with a B permit.
 \hrule
 
 \begin{itemize}
-    \item Developed novel algorithm using \textbf{Physics-Informed Neural Network} for solving the Schrödinger equation.
-    \item \textbf{Principal Investigator} for $O(10^6)$ GPU-hour allocations on CSCS ALPS and GCS JUPITER 2026.
-    \item Designed and operated \textbf{large-scale Monte Carlo simulations} on international HPC clusters, improving sampling efficiency.
-    \item \textbf{Reduction of algorithmic complexity} for a class of multi-dimensional integrals from exponential to $O(N \log N)$ using parallelized Fast Fourier Transforms.
+    \item Developed a novel \textbf{Physics-Informed Neural Network} algorithm for solving the Schr\"odinger equation, implemented end-to-end in PyTorch.
+    \item \textbf{Principal Investigator} for $O(10^6)$ GPU-hour compute allocations on CSCS ALPS and GCS JUPITER (2026), competitively secured through technical proposal review.
+    \item Designed and operated \textbf{large-scale stochastic simulations} on international HPC clusters, improving sampling efficiency.
+    \item \textbf{Reduced algorithmic complexity} of a class of high-dimensional integral estimators from exponential to $O(N \log N)$ by redesigning the method around parallelized Fast Fourier Transforms.
     \item Derived and implemented a \textbf{numerical method achieving machine-precision accuracy} for a class of constrained optimization problems.
-    \item Developed a \textbf{Hybrid Monte Carlo + quantum-computing} method for estimating high-dimensional integrals.
+    \item Designed a \textbf{hybrid classical-quantum algorithm} (Monte Carlo + quantum computing) for high-dimensional integral estimation.
   \end{itemize}
 \end{normalsize}
 
-\vspace{8pt}
-
-<!-- OPEN-SOURCE PROJECTS -->
-\begin{normalsize}\textbf{SELECTED OPEN-SOURCE PROJECTS}
+<!-- SELECTED PROJECTS -->
+\begin{normalsize}\textbf{SELECTED PROJECTS}
   \vspace{5pt}
   \hrule
   \vspace{5pt}
@@ -187,9 +158,10 @@ Resident in Switzerland with a B permit.
 
 \begin{normalsize}
   \begin{itemize}
-    \item \href{https://github.com/simone-romiti/lattice_data_tools}{\textbf{lattice\_data\_tools}} -- Python toolkit for the production and statistical analysis of lattice simulation data. Main author and maintainer.
-    \item \href{https://github.com/HISKP-LQCD/su2/tree/nested_sampling}{\textbf{su2}} -- C++ templated library for Monte Carlo simulation of SU(N) theories with OpenMP parallelization. Main editor.
-    \item \href{https://github.com/simone-romiti/adiabatic_PINNs-suN}{\textbf{adiabatic\_PINNs-suN}} -- Physics-Informed Neural Network solver for the Schrödinger equation in SU(N) lattice gauge theory; reference implementation for sole-author publication.
-    \item \href{https://github.com/etmc/tmLQCD}{\textbf{tmLQCD}} -- Large-scale C library for lattice simulations on GPU clusters (CUDA + MPI). Contributor.
+    \item \href{https://github.com/simone-romiti/lattice_data_tools}{\textbf{lattice\_data\_tools}} -- Python toolkit for production and statistical analysis of large-scale simulation data. Sole author and maintainer; CI/CD and versioned releases.
+    \item \href{https://github.com/simone-romiti/adiabatic_PINNs-suN}{\textbf{adiabatic\_PINNs-suN}} -- PyTorch-based Physics-Informed Neural Network solver for high-dimensional differential equations; reference implementation for a sole-authored publication.
+    \item \href{https://github.com/HISKP-LQCD/su2/tree/nested_sampling}{\textbf{su2}} -- C++ templated library for Monte Carlo simulation with OpenMP parallelization. Core maintainer.
+    \item \href{https://github.com/etmc/tmLQCD}{\textbf{tmLQCD}} -- Large-scale C library for GPU-accelerated simulations (CUDA + MPI). Contributor.
+    \item \textbf{Patient management app (Streamlit)} -- Designed and deployed a private web application for a nutrition practitioner to manage patient records (demographics, weight, BMI) and visit history, with search and nutritional-conversion tools across a food database. Sole developer: requirements gathering, UI design, and deployment.
   \end{itemize}
 \end{normalsize}
