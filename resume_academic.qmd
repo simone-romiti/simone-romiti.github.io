@@ -82,7 +82,7 @@ I have a proven track record of designing algorithms that delivered order-of-mag
 
 \begin{large}
 
-\textbf{Programming Languages} - C, C++, Python, Bash, R
+\textbf{Programming Languages} - C, C++, Python, Bash, R, SQL
 
 \vspace{-0.15cm}
 \textbf{HPC \& Systems} - CUDA, MPI, OpenMP, SLURM, EasyBuild, GNU/Linux
@@ -124,7 +124,7 @@ I have a proven track record of designing algorithms that delivered order-of-mag
 
 \begin{large}
   \begin{itemize}
-    \item \textbf{Reduced memory complexity from exponential to polynomial} by designing a novel algorithm using Physics-Informed Neural Networks (PINNs) in PyTorch
+    \item \textbf{Designed novel algorithm for the solution of lattice Hamiltonians} using Physics-Informed Neural Networks (PINNs)
     \item \textbf{Achieved sub-permille numerical precision} as lead developer for a high-accuracy scientific computation of HVP contribution to the muon's ${g_\mu-2}$
     \item \textbf{Improved algorithm scaling from $O(N^6)$ to $O(N \log N)$} through a novel mathematical reformulation using FFTs and convolutions, entering in the HLbL contribution to ${g_\mu-2}$
     \item \textbf{Built and maintained open-source simulation libraries} (Python/C++) adopted across multiple research groups and directly enabling peer-reviewed publications
@@ -152,7 +152,7 @@ I have a proven track record of designing algorithms that delivered order-of-mag
   \begin{itemize}
     \item \textbf{Optimized GPU kernels (CUDA)}, achieving a $\sim$1.5$\times$ throughput improvement via auto-tuning of Multigrid solver parameters on HPC clusters
     \item \textbf{Designed and ran large-scale distributed simulations} (MPI/OpenMP) on international computing centers
-    \item \textbf{Developed a novel numerical method} achieving machine-precision exactness for a class of operator algebra constraints
+    \item \textbf{Developed a novel numerical formulation of canonical momenta in $SU(N)$}, achieving machine-precision exactness for a class of operator algebra constraints
     \item \textbf{Integrated Monte Carlo simulations with quantum computing workflows}, delivering end-to-end prototype pipelines bridging classical HPC and quantum backends
     \item \textbf{Mentored 3 graduate students} and delivered tutorial sessions for undergraduate computing courses
   \end{itemize}
@@ -249,7 +249,7 @@ I have a proven track record of designing algorithms that delivered order-of-mag
 
   \begin{multicols}{2}
     \begin{flushleft}    
-      \textbf{Principal Investigator} -- multi-million GPU node-hours compute grants, one at \href{https://www.cscs.ch/computers/alps}{CSCS ALPS} and one at \href{https://www.gauss-centre.eu/}{GCS}
+      \textbf{Principal Investigator} of computing time allocation grants, one at \href{https://www.cscs.ch/computers/alps}{CSCS ALPS} and one at \href{https://www.gauss-centre.eu/}{GCS}
     \end{flushleft}
     \begin{flushright} | 2025\end{flushright}
   \end{multicols}
