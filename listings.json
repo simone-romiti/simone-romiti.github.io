@@ -27,6 +27,10 @@
     ]
   },
   {
+    "listing": "/projects.html",
+    "items": []
+  },
+  {
     "listing": "/software_libs.html",
     "items": [
       "/software_waiting_to_be_released.html",
@@ -37,10 +41,6 @@
       "/software_libs/su2_urbach.html",
       "/software_libs/tmLQCD.html"
     ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": []
   },
   {
     "listing": "/outreach.html",
