@@ -67,11 +67,11 @@ Resident in Switzerland with a B permit.
 
 
 
-    \textbf{M.S.\ in Physics} | \href{https://www.uniroma3.it/}{\textit{Rome, Italy}} | Oct. 2016 -- Oct. 2018 | Grade: 110/110 \textit{cum laude} | GPA: 3.98 / 4
+    \textbf{M.S.\ in Physics} | \href{https://www.uniroma3.it/}{\textit{Rome, Italy}} | Oct. 2016 -- Oct. 2018 | Grade: 110/110 \textit{cum laude} | GPA 3.98
 
 
 
-    \textbf{B.S.\ in Physics} | \href{https://www.uniroma3.it/}{\textit{Rome, Italy}} | Oct. 2013 -- Jul. 2016 | Grade: 110/110 \textit{cum laude} | GPA: 3.85 / 4 
+    \textbf{B.S.\ in Physics} | \href{https://www.uniroma3.it/}{\textit{Rome, Italy}} | Oct. 2013 -- Jul. 2016 | Grade: 110/110 \textit{cum laude} | GPA 3.85 
 
 
 \end{normalsize}
@@ -85,7 +85,7 @@ Resident in Switzerland with a B permit.
 \textbf{\href{https://www.unibe.ch/index_eng.html}{University of Bern}, Switzerland} | Apr. 2024 -- present | \textit{Postdoctoral Researcher} | ML/software developer for scientific applications
 \end{normalsize}
 
-\textbf{\href{https://www.uni-bonn.de/en/home?set_language=en}{University of Bonn}, Germany} | Nov 2021 -- Mar 2024 | \textit{Postdoctoral Researcher} | ML/software developer for scientific applications 
+\textbf{\href{https://www.uni-bonn.de/en/home?set_language=en}{University of Bonn}, Germany} | Nov 2021 -- Mar 2024 | \textit{Postdoctoral Researcher} | Software developer for scientific applications 
 
 <!-- COMPETENCES -->
 \begin{normalsize}\textbf{COMPETENCES}
@@ -95,7 +95,7 @@ Resident in Switzerland with a B permit.
 
 \begin{itemize}
 \item
-\textbf{Machine learning model development}: Physics-Informed Neural Networks, convolutional networks, and diffusion models in PyTorch, with end-to-end validation against held-out benchmarks.
+\textbf{Machine learning, model development}: Physics-Informed Neural Networks, convolutional networks, and diffusion models in PyTorch, with end-to-end validation against held-out benchmarks.
 \item
 \textbf{Probabilistic inference and algorithm design} for high-dimensional Bayesian models: Markov Chain Monte Carlo, Langevin dynamics, Nested Sampling, and spectral methods for time series.
 \item
@@ -119,10 +119,10 @@ Resident in Switzerland with a B permit.
 \textbf{Python libraries} - PyTorch, NumPy, SciPy, Pandas, Matplotlib, Plotly, Streamlit, SymPy, Jupyter
 
 
-\textbf{Languages} - Bash, C/C++, Python, R, SQL
+\textbf{Languages} - Bash, C, C++, Python, R, SQL, LaTeX
 
 
-\textbf{DevOps \& Tools} - Git, GitHub Actions, CI/CD, Docker, LaTeX, Quarto
+\textbf{DevOps \& Tools} - Git, GitHub Actions, CI/CD, Docker, Quarto Markdown, Agentic Coding
 
 
 \textbf{HPC \& Systems} - CUDA, MPI, OpenMP, SLURM, EasyBuild
