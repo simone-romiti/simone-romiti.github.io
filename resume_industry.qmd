@@ -95,7 +95,7 @@ Resident in Switzerland with a B permit.
 
 \begin{itemize}
 \item
-\textbf{Machine learning, model development}: Physics-Informed Neural Networks, convolutional networks, and diffusion models in PyTorch, with end-to-end validation against held-out benchmarks.
+\textbf{Machine learning, model development}: Physics-Informed Neural Networks, convolutional networks, and diffusion models in PyTorch, stochastic minimization.
 \item
 \textbf{Probabilistic inference and algorithm design} for high-dimensional Bayesian models: Markov Chain Monte Carlo, Langevin dynamics, Nested Sampling, and spectral methods for time series.
 \item
