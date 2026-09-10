@@ -1,0 +1,377 @@
+\vspace*{-1.2cm}
+
+\begin{center}
+  {\LARGE \textbf{Simone Romiti}}\\[2pt]
+  {\large Curriculum Vitae}
+\end{center}
+
+\vspace{2pt}
+
+\cvhead{Personal information}
+
+\noindent
+\begin{tabularx}{\textwidth}{@{\hspace{0.5cm}}p{8.2cm}X@{}}
+\textit{Simone Romiti} & Institute for Theoretical Physics \\
+Date of birth: 25/08/1994 & Albert Einstein Center for Fundamental Physics \\
+Place of birth: Rome, Italy & University of Bern \\
+Nationality: Italian & Sidlerstrasse 5 \\
+Email: \href{mailto:simone.romiti.1994@gmail.com}{simone.romiti.1994@gmail.com} & 3012 Bern, Switzerland \\
+Phone: +39 334 356 3288 & \\
+Website: \href{https://simone-romiti.github.io/}{simone-romiti.github.io} & \\
+\end{tabularx}
+
+\cvhead{Research activity}
+
+My field of research is lattice field theory, a first-principles approach to the non-perturbative regime of quantum field theories.
+I work in both of its formulations: the Lagrangian one, where observables are computed by Monte Carlo sampling of Euclidean path integrals, and the Hamiltonian one, which is used, among others, by tensor-network and quantum-computing methods.
+I have made contributions to:
+
+\begin{tightitemize}
+  \item the solution of the eigenvalue problem of $\mathrm{SU}(N)$ lattice Hamiltonians with physics-informed
+  neural networks. In a sole-author paper I introduced an adiabatic training scheme that follows eigenfunctions
+  and eigenvalues along the coupling dependence without an explicit truncation of the Hilbert space
+  \ref{pub:pinn}. This is the method that the present proposal develops further.
+  \item the digitisation of gauge fields for quantum simulation. I worked on discrete formulations of the canonical momenta in $\mathrm{SU}(2)$ using subsets of the group manifold \ref{pub:canonicalmomenta}.
+  I introduced a discrete transform between the points on the sphere $S_3$ and their momenta, minimising the breaking of the canonical commutation relations \ref{pub:digitization}.
+  \item the quantitative matching of the Lagrangian and the Hamiltonian formulations at finite lattice spacing,
+  where they differ by discretisation effects \ref{pub:matching}, and its application to the determination of the running coupling
+  of $(2+1)$-dimensional quantum electrodynamics with Monte Carlo and quantum-computing methods \ref{pub:runningcoupling}.
+  \item the lattice input to the anomalous magnetic moment of the muon within the Extended Twisted Mass
+  Collaboration: the hadronic vacuum polarisation, where I am the reference person of the Bern group in the
+  blinded analysis \ref{pub:hvpupdate}, \ref{pub:g2etm}, and the hadronic light-by-light contribution, where I am the contact person for the pole contributions and the analysis tool
+  chain \ref{pub:hlbl}.
+  \item the calculation of leading isospin-breaking effects with the RM123 method, in particular the
+  neutron-proton mass difference and the mass splittings of the $\Delta(1232)$ resonances, which was the
+  subject of my doctoral thesis and one of the few theoretical determinations available in the literature
+  \ref{pub:isospin}, \ref{pub:nptalk}.
+  \item methods and software for lattice calculations: the extraction of multiple exponential signals from
+  Euclidean correlators \ref{pub:extraction}, the auto-tuning of multigrid solver parameters in the hybrid Monte Carlo \ref{pub:multigrid}, and
+  GPU implementations for gauge-ensemble generation \ref{pub:gpuensemble}.
+\end{tightitemize}
+
+\cvhead{Professional experience}
+
+\begin{cvlist}
+\item[01/04/2024 - today] \textbf{Postdoctoral researcher}, \textit{University of Bern}, Bern, Switzerland\\
+Institute for Theoretical Physics and Albert Einstein Center for Fundamental Physics. Member of the Extended
+Twisted Mass Collaboration (see Research activity above and Participation in international collaborations
+below).\\
+Supervisor: Prof. Urs Wenger.
+
+\item[01/11/2021 - 31/03/2024] \textbf{Postdoctoral researcher}, \textit{University of Bonn}, Bonn, Germany\\
+Helmholtz Institute for Radiation and Nuclear Physics (HISKP), Computational Physics group. Member of the
+Extended Twisted Mass Collaboration (see Research activity above and Participation in international
+collaborations below).\\
+Supervisor: Prof. Carsten Urbach.
+
+\item[01/11/2018 - 31/10/2021] \textbf{Doctoral researcher}, \textit{Roma Tre University}, Rome, Italy\\
+Department of Mathematics and Physics (see Research activity above).\\
+Supervisors: Prof. Vittorio Lubicz, Dr. Silvano Simula.
+\end{cvlist}
+
+\cvhead{Education}
+
+\begin{cvlist}
+\item[01/11/2018 - 31/10/2021] \textbf{PhD in Theoretical Physics}, \textit{Roma Tre University}, Rome, Italy\\
+Thesis: \textit{The neutron--proton mass difference in Lattice QCD+QED}.\\
+Supervisors: Vittorio Lubicz, Silvano Simula.\\
+Date of submission: 31/10/2021. Date of defence: 22/04/2022.\\
+Admitted first in the ranking of the national competitive admission examination.
+
+\item[01/10/2016 - 23/10/2018] \textbf{Master's Degree in Theoretical Physics of Elementary Particles},
+\textit{Roma Tre University}, Rome, Italy\\
+Thesis: \textit{Optimization techniques in the lattice calculation of the hadronic contribution to the muon
+anomaly}.\\
+Supervisor: Prof. Cecilia Tarantino.\\
+Final mark: 110/110 cum laude. GPA: 29.85/30. Date of defence: 23/10/2018.
+
+\item[01/10/2013 - 21/07/2016] \textbf{Bachelor's Degree in Physics}, \textit{Roma Tre University}, Rome, Italy\\
+Thesis: \textit{Astro-Archaeology of the Galactic Centre}.\\
+Supervisor: Prof. Giorgio Matt.\\
+Final mark: 110/110 cum laude. GPA: 28.84/30. Date of defence: 21/07/2016.
+\end{cvlist}
+
+\cvhead{Publications}
+
+{\raggedright\noindent\textbf{ORCID:}~\href{https://orcid.org/0000-0002-6509-447X}{orcid.org/0000-0002-6509-447X}\quad
+\textbf{Inspire:}~\href{https://inspirehep.net/authors/1755571}{inspirehep.net/authors/1755571}\quad
+\textbf{GitHub:}~\href{https://github.com/simone-romiti}{github.com/simone-romiti}\par}
+
+\cvsub{Peer-reviewed journals}
+
+\begin{enumerate}[leftmargin=1.6em,labelsep=0.5em,label={[J\arabic*]},itemsep=2pt,topsep=3pt]
+  \item \label{pub:pinn} \textbf{S. Romiti}, \textit{$\mathrm{SU}(N)$ lattice gauge theories with physics-informed neural
+  networks}, Phys.\ Rev.\ D \textbf{113} (2026) 054511, arXiv:2510.26904 [hep-lat].
+
+  \item T. Jakobs, M. Garofalo, T. Hartung, K. Jansen, P. Ludwig, J. Ostmeyer, \textbf{S. Romiti}, C. Urbach,
+  \textit{A comprehensive stress test of truncated Hilbert space bases against Green's function Monte Carlo in
+  $\mathrm{U}(1)$}, Eur.\ Phys.\ J.\ C \textbf{86} (2026) 637, arXiv:2510.27611 [hep-lat].
+
+  \item T. Jakobs, M. Garofalo, T. Hartung, K. Jansen, J. Ostmeyer, \textbf{S. Romiti}, C. Urbach,
+  \textit{Dynamics in Hamiltonian lattice gauge theory: approaching the continuum limit with partitionings of
+  $\mathrm{SU}(2)$}, Eur.\ Phys.\ J.\ C \textbf{85} (2025) 1418, arXiv:2503.03397 [hep-lat].
+
+  \item \label{pub:matching} C. F. Gro\ss{}, \textbf{S. Romiti}, L. Funcke, K. Jansen, A. Kan, S. K\"uhn, C. Urbach,
+  \textit{Matching Lagrangian and Hamiltonian simulations in $(2+1)$-dimensional $\mathrm{U}(1)$ gauge theory},
+  Eur.\ Phys.\ J.\ C \textbf{85} (2025) 1253, arXiv:2503.11480 [hep-lat].
+
+  \item \label{pub:runningcoupling} A. Crippa, \textbf{S. Romiti}, L. Funcke, K. Jansen, S. K\"uhn, P. Stornati, C. Urbach,
+  \textit{Towards determining the $(2+1)$-dimensional Quantum Electrodynamics running coupling with Monte Carlo
+  and quantum computing methods}, Commun.\ Phys.\ \textbf{8} (2025) 367, arXiv:2404.17545 [hep-lat].
+
+  \item R. Aliberti \textit{et al.} (Muon $g-2$ Theory Initiative), \textit{The anomalous magnetic moment of the
+  muon in the Standard Model: an update}, Phys.\ Rept.\ \textbf{1143} (2025) 1--158, arXiv:2505.21476 [hep-ph].
+
+  \item \label{pub:g2etm} Extended Twisted Mass Collaboration (C. Alexandrou \textit{et al.}), \textit{Strange and charm quark
+  contributions to the muon anomalous magnetic moment in lattice QCD with twisted-mass fermions}, Phys.\ Rev.\ D
+  \textbf{111} (2025) 054502, arXiv:2411.08852 [hep-lat].
+
+  \item Extended Twisted Mass Collaboration (C. Alexandrou \textit{et al.}), \textit{Inclusive hadronic decay
+  rate of the $\tau$ lepton from lattice QCD: the $\bar{u}s$ flavour channel and the Cabibbo angle}, Phys.\ Rev.\
+  Lett.\ \textbf{132} (2024) 261901, arXiv:2403.05404 [hep-lat].
+
+  \item \label{pub:digitization} \textbf{S. Romiti} and C. Urbach, \textit{Digitizing lattice gauge theories in the magnetic basis:
+  reducing the breaking of the fundamental commutation relations}, Eur.\ Phys.\ J.\ C \textbf{84} (2024) 708,
+  arXiv:2311.11928 [hep-lat].
+
+  \item \label{pub:canonicalmomenta} T. Jakobs, M. Garofalo, T. Hartung, K. Jansen, J. Ostmeyer, D. Rolfes, \textbf{S. Romiti}, C. Urbach,
+  \textit{Canonical momenta in digitized $\mathrm{SU}(2)$ lattice gauge theory: definition and free theory},
+  Eur.\ Phys.\ J.\ C \textbf{83} (2023) 669, arXiv:2304.02322 [hep-lat].
+
+  \item \label{pub:isospin} \textbf{S. Romiti}, \textit{Leading isospin breaking effects in nucleon and $\Delta$ masses},
+  Rev.\ Mex.\ Fis.\ Suppl.\ \textbf{3} (2022) 0308030, arXiv:2203.04636 [hep-lat].
+
+  \item \label{pub:extraction} \textbf{S. Romiti} and S. Simula, \textit{Extraction of multiple exponential signals from lattice
+  correlation functions}, Phys.\ Rev.\ D \textbf{100} (2019) 054515, arXiv:1907.09926 [hep-lat].
+\end{enumerate}
+
+\cvsub{Conference proceedings}
+
+\begin{enumerate}[leftmargin=1.6em,labelsep=0.5em,label={[C\arabic*]},itemsep=2pt,topsep=3pt]
+  \item \label{pub:hvpupdate} ETM Collaboration (S. Bacchio \textit{et al.}, incl.\ \textbf{S. Romiti}), \textit{An update on the HVP contribution to $g_\mu-2$ in isoQCD from ETMC}, 42nd Int.\ Symp.\ on Lattice Field Theory (2026), arXiv:2603.03120 [hep-lat].
+  \item \label{pub:hlbl} N. Kalntis, G. Kanwar, M. Petschlies, \textbf{S. Romiti}, U. Wenger, \textit{HLbL contribution to the muon $g-2$ using twisted-mass fermions at the physical point}, 42nd Int.\ Symp.\ on Lattice Field Theory (2025), arXiv:2512.21155 [hep-lat].
+  \item \label{pub:multigrid} M. Garofalo, B. Kostrzewa, \textbf{S. Romiti}, A. Sen, \textit{Autotuning multigrid parameters in the HMC on different architectures}, PoS \textbf{LATTICE2024} (2025) 276.
+  \item N. Kalntis, G. Kanwar, M. Petschlies, \textbf{S. Romiti}, U. Wenger, \textit{Hadronic light-by-light contribution to the muon $g-2$ using twisted-mass fermions}, PoS \textbf{LATTICE2024} (2025) 228, arXiv:2412.12320 [hep-lat].
+  \item A. Evangelista \textit{et al.} (Extended Twisted Mass, incl.\ \textbf{S. Romiti}), \textit{Valence leading isospin breaking contributions to $a_\mu^{\mathrm{HVP\text{-}LO}}$}, PoS \textbf{LATTICE2024} (2025) 260, arXiv:2501.19350 [hep-lat].
+  \item M. Garofalo, T. Hartung, T. Jakobs, K. Jansen, J. Ostmeyer, D. Rolfes, \textbf{S. Romiti}, C. Urbach, \textit{Testing the $\mathrm{SU}(2)$ lattice Hamiltonian built from $S_3$ partitionings}, PoS \textbf{LATTICE2023} (2024) 231, arXiv:2311.15926 [hep-lat].
+  \item M. Garofalo, T. Hartung, K. Jansen, J. Ostmeyer, \textbf{S. Romiti}, C. Urbach, \textit{Defining canonical momenta for discretised $\mathrm{SU}(2)$ gauge fields}, PoS \textbf{LATTICE2022} (2023) 040, arXiv:2210.15547 [hep-lat].
+  \item L. Funcke, C. F. Gro\ss{}, K. Jansen, S. K\"uhn, \textbf{S. Romiti}, C. Urbach, \textit{Hamiltonian limit of lattice QED in $2+1$ dimensions}, PoS \textbf{LATTICE2022} (2023) 292, arXiv:2212.09627 [hep-lat].
+  \item \label{pub:gpuensemble} B. Kostrzewa, S. Bacchio, J. Finkenrath, M. Garofalo, F. Pittler, \textbf{S. Romiti}, C. Urbach (ETM), \textit{Twisted mass ensemble generation on GPU machines}, PoS \textbf{LATTICE2022} (2023) 340, arXiv:2212.06635 [hep-lat].
+  \item \label{pub:nptalk} \textbf{S. Romiti}, \textit{The neutron--proton mass difference}, PoS \textbf{LATTICE2021} (2022) 543, arXiv:2202.01613 [hep-lat].
+\end{enumerate}
+
+\cvsub{Published software}
+
+\begin{enumerate}[leftmargin=1.6em,labelsep=0.5em,label={[\arabic*]},itemsep=3pt,topsep=3pt]
+  \item \textbf{S. Romiti}, \textit{\href{https://github.com/simone-romiti/adiabatic_PINNs-suN}{\texttt{adiabatic\_PINNs-suN}}}: creator. Standalone implementation accompanying the adiabatic-PINN paper. It reproduces the published results.
+  \item \textbf{S. Romiti} and C. Urbach, \textit{\texttt{su2\_DJT}} (2023), Zenodo, \href{https://doi.org/10.5281/zenodo.10143897}{doi:10.5281/zenodo.10143897}: creator. Archived and citable implementation accompanying the $\mathrm{SU}(2)$ digitisation paper.
+  \item \textbf{S. Romiti}, \textit{\href{https://github.com/simone-romiti/lattice_data_tools}{\texttt{lattice\_data\_tools}}}: creator and maintainer. Actively maintained toolkit for the production and analysis of lattice data, L-CNN, canonical momenta, solution of Kogut-Susskind Hamiltonian with PINNs, etc.
+  \item \textit{\href{https://github.com/HISKP-LQCD/su2}{\texttt{su2}}}: main maintainer. Monte Carlo library for $\mathrm{U}(1)$, $\mathrm{SU}(2)$ and $\mathrm{SU}(3)$ in $d=2,3,4$ dimensions, used for several of the publications above and beyond my own group.
+  \item \textit{\href{https://github.com/etmc/tmLQCD}{\texttt{tmLQCD}}}: contributor. Community library for twisted-mass lattice QCD, used to generate the ETM collaboration ensembles.
+\end{enumerate}
+
+\cvhead{Talks at international conferences, workshops and seminars}
+
+\begin{cvlist}
+\item[30/09-02/10/2026] \textbf{Invited speaker.} \href{https://agenda.infn.it/event/53069/}{StaND4LQ 2026}, \textit{State
+of the Art \& New Directions for Lattice Gauge Theory and Quantum Simulation}, University of Pisa, Italy.
+First edition of this workshop, organised entirely by PhD students, bringing together researchers in
+lattice gauge theories, quantum simulation and quantum many-body physics.
+
+\item[03-07/08/2026] \textbf{Invited speaker.} \href{https://indico.phys.uconn.edu/event/3/}{9th Plenary
+Workshop of the Muon $g-2$ Theory Initiative}, University of Connecticut, Storrs, United States.
+\href{https://indico.phys.uconn.edu/event/3/contributions/104/}{Talk} on the update of
+$a_\mu^{\mathrm{HVP,\,isoQCD}}$ from the ETM collaboration.
+
+\item[26/07-01/08/2026] \href{https://indico.global/event/16565/}{Lattice 2026}, the 43rd International
+Symposium on Lattice Field Theory, University of Maryland, College Park, United States.
+\href{https://indico.global/event/16565/contributions/156143/}{Talk} on
+$\mathrm{SU}(N)$ lattice gauge theories with physics-informed neural networks.
+
+\item[08-13/03/2026] \textbf{Invited speaker.} \href{https://indico.cern.ch/category/376/}{CERN Lattice
+Seminar}, CERN, Geneva, Switzerland. \href{https://indico.cern.ch/event/1641317/}{Talk} on the adiabatic PINN algorithm
+for $\mathrm{SU}(N)$ lattice gauge theories.
+
+\item[25-27/03/2026] \href{https://indico.global/event/16475/}{ETM collaboration meeting}, Cyprus Institute,
+Nicosia, Cyprus. Progress of the Bern group on the HLbL contribution to $(g-2)_\mu$.
+
+\item[01-05/12/2025] \href{https://indico.ectstar.eu/event/248/}{ECT* workshop} \textit{Multi-canonical methods
+and lattice field theory}, Trento, Italy.
+\href{https://indico.ectstar.eu/event/248/contributions/6627/}{Talk} on the adiabatic learning of the
+coupling dependence of eigenfunctions and energies.
+
+\item[08-12/09/2025] \href{https://indico.ijclab.in2p3.fr/event/11652/}{8th Plenary Workshop of the Muon $g-2$
+Theory Initiative}, IJCLab, Orsay, France.
+\href{https://indico.ijclab.in2p3.fr/event/11652/contributions/39079/}{Talk} on behalf of the ETM
+collaboration on the HLbL contribution.
+
+\item[01-05/09/2025] \href{https://indico.ectstar.eu/event/242/}{ECT* workshop} \textit{Hamiltonian Lattice
+Gauge Theories: Status, Novel Developments and Applications}, Trento, Italy. Closing
+\href{https://indico.ectstar.eu/event/242/contributions/5858/}{summary talk} of the workshop from the
+organisers, with C. Urbach.
+
+\item[03-07/03/2025] \textbf{Invited speaker.} \href{https://indico.ectstar.eu/event/229/}{ECT*
+workshop} \textit{Scale Setting: Precision Lattice QCD for Particle and Nuclear Physics}, Trento, Italy.
+\href{https://indico.ectstar.eu/event/229/contributions/5308/}{Talk} on the sub-permille determination of the
+lattice spacing in isoQCD within the ETM collaboration.
+
+\item[28/07-03/08/2024] \href{https://conference.ippp.dur.ac.uk/event/1265/}{Lattice 2024}, the 41st
+International Symposium on Lattice Field Theory, Liverpool, United Kingdom.
+\href{https://conference.ippp.dur.ac.uk/event/1265/contributions/7618/}{Talk} on the Nested Sampling algorithm for
+$\mathrm{SU}(N)$ lattice gauge theories (the first of three coordinated talks in that session).
+
+\item[31/07-04/08/2023] \href{https://indico.fnal.gov/event/57249/}{Lattice 2023}, the 40th International
+Symposium on Lattice Field Theory, Fermilab, Batavia, United States.
+\href{https://indico.fnal.gov/event/57249/contributions/268337/}{Talk} on the digitisation of lattice gauge
+theories in the magnetic basis.
+
+\item[20-24/03/2023] \href{https://indico.ectstar.eu/event/164/}{ECT* Gradient Flow Workshop}, Trento, Italy.
+\href{https://indico.ectstar.eu/event/164/contributions/3536/}{Talk} on the gradient-flow determination of the
+renormalised anisotropy on anisotropic lattices.
+
+\item[08-13/08/2022] \href{https://indico.hiskp.uni-bonn.de/event/40/}{Lattice 2022}, the 39th International
+Symposium on Lattice Field Theory, Bonn, Germany.
+\href{https://indico.hiskp.uni-bonn.de/event/40/contributions/704/}{Talk} on the Hamiltonian limit of lattice
+gauge theories.
+
+\item[26-30/07/2021] \href{https://indico.cern.ch/event/1006302/}{Lattice 2021}, the 38th International
+Symposium on Lattice Field Theory, MIT, United States (online).
+\href{https://indico.cern.ch/event/1006302/contributions/4373299/}{Talk} on the lattice determination of the
+neutron--proton mass difference.
+
+\item[26-30/07/2021] \href{https://indico.nucleares.unam.mx/event/1541/}{Hadron 2021}, the 19th International Conference on Hadron Spectroscopy and Structure
+(online). \href{https://indico.nucleares.unam.mx/event/1541/session/28/contribution/226}{Talk} on the mass
+splittings of the nucleons and of the $\Delta(1232)$ resonances.
+\end{cvlist}
+
+\cvhead{Attendance of international workshops and schools}
+
+\begin{cvlist}
+\item[06-17/07/2026] \href{https://indico.cern.ch/event/1616325/}{Lattice@CERN 2026}, \textit{Improved estimators for lattice QCD correlation functions},
+CERN Theory Department, Geneva, Switzerland.
+\item[12-14/02/2025] \href{https://indico.psi.ch/event/16749/}{Z\"urich Gradient Flow Workshop 2025},
+University of Zurich, Switzerland.
+\end{cvlist}
+
+\cvhead{Awards and grants}
+
+\begin{cvlist}
+\item[2025 - 2026] \textbf{Person of Contact} for Computing-time allocation of $22.90\times10^{6}$ core-hours on the JUPITER Booster
+module, awarded by the Gauss Centre for Supercomputing (GCS).
+
+\item[2025 - 2026] \textbf{Principal investigator} of a computing-time allocation of $0.20\times10^{6}$
+core-hours on ALPS at CSCS, the Swiss National Supercomputing Centre, corresponding to
+$0.80\times10^{6}$ GPU node-hours, for the continuum-limit calculation of the $\eta,\eta'$ transition form
+factors on the ETM ensembles.
+
+\item[2026] Winner of a CHF 5{,}000 grant for the organisation of the \textit{Swiss Lattice Meeting}, the first
+national gathering for lattice gauge theory in Switzerland, to be held on 14-15/01/2027.
+
+\item[2026] Winner of a CHF 3{,}000 grant from the \textit{Open Round 2026} programme of the University of Bern,
+for a visiting research period at TU Wien, Vienna, Austria, from 15/05/2026 to 15/06/2026.
+
+\item[2013 - 2016] Winner of a EUR 3{,}000 merit scholarship awarded by Roma Tre University for academic
+excellence during the Bachelor's degree.
+\end{cvlist}
+
+\cvhead{Event organisation}
+
+\begin{cvlist}
+\item[14-15/01/2027] \textbf{Organiser} of the \textit{Swiss Lattice Meeting}, one of four organisers, all
+postdoctoral researchers. First edition of the national meeting for lattice gauge theory in Switzerland,
+established as a recurring event. I secured the CHF 5{,}000 of funding for it.
+
+\item[01-05/09/2025] \textbf{Leading organiser} of the \href{https://indico.ectstar.eu/event/242/}{ECT*
+workshop} \textit{Hamiltonian Lattice Gauge Theories: Status, Novel Developments and Applications}, Trento, Italy.
+I proposed the workshop and led its organisation over the week.
+
+\item[20-24/01/2025] \textbf{Organising support} for the
+\href{https://indico.global/event/9559/}{\textit{Workshop on the sign problem in QCD and beyond}} (SIGN25),
+Institute for Theoretical Physics, University of Bern, Switzerland.
+
+\item[2022 - 2024] \textbf{Co-organiser}, with M. Mai, of the
+\href{https://indico.hiskp.uni-bonn.de/category/35/}{weekly physics seminars} of HISKP, University of Bonn, Germany:
+invitation of the speakers, chairing of the sessions and broadcasting.
+
+\item[08-13/08/2022] \textbf{Organising support} for
+\href{https://indico.hiskp.uni-bonn.de/event/40/}{Lattice 2022}, the 39th International Symposium on Lattice
+Field Theory, Bonn, Germany, as one of the local organisers, including the audio and video broadcasting of the
+scientific programme.
+\end{cvlist}
+
+\cvhead{Participation in international collaborations}
+
+\begin{cvlist}
+\item[01/04/2024 - today] Member of the Extended Twisted Mass (ETM) Collaboration, as reference person of the
+Bern group for the blinded analysis of the hadronic vacuum polarisation and contact person for the hadronic
+light-by-light contribution.
+\item[01/11/2021 - 31/03/2024] Member of the Extended Twisted Mass (ETM) Collaboration within the Bonn group.
+\item[2025 - today] Contributor to the Muon $g-2$ Theory Initiative.
+\end{cvlist}
+
+\cvhead{Supervision and teaching}
+
+\noindent\hspace{0.5cm}\begin{minipage}{\dimexpr\textwidth-0.5cm\relax}
+\textit{Supervision.} Within my postdoctoral positions I have guided graduate students on both the theoretical
+understanding and the technical execution of their projects, through regular meetings and progress reviews
+against their milestones.
+\end{minipage}
+
+\begin{cvlist}
+\item[2024 - today] University of Bern, Switzerland: three PhD students (N. Kalntis, J. F. de la Garza,
+L. N. Filipovic).
+\item[2022 - 2024] University of Bonn, Germany: two MSc and PhD students (C. F. Groß, T. Jakobs, O. Luniachek).
+\end{cvlist}
+
+\noindent\hspace{0.5cm}\begin{minipage}{\dimexpr\textwidth-0.5cm\relax}
+\textit{Teaching.} Tutorials and assistantships over eight semesters, for six university courses. The teaching material of several of
+them is maintained in open repositories on GitHub.
+\end{minipage}
+
+\begin{cvlist}
+\item[01/10/2023 - 01/02/2024] \textit{Computational Physics} (Prof. C. Urbach), University of Bonn, Germany.
+\item[01/04/2022 - 31/07/2022] \textit{Quantum Computing} (Prof. L. Funcke), University of Bonn, Germany.
+\item[01/10/2021 - 28/02/2022] \textit{Quantum Computing} (Prof. C. Urbach), University of Bonn, Germany.
+\item[01/10/2020 - 28/02/2021] \textit{Laboratory of Programming and Calculus} (Prof. S. Bussino), Roma Tre
+University, Italy.
+\item[01/10/2019 - 28/02/2020] \textit{Mathematical Analysis 1} (Prof. U. Bessi), Roma Tre University, Italy.
+\item[01/10/2020 - 28/02/2021] \textit{Mathematical Analysis 1} (Prof. L. Chierchia), Roma Tre University, Italy.
+\item[01/10/2020 - 28/02/2021] \textit{Fundamentals of Mathematics 2} (Prof. L. Tedeschini Lalli), Department
+of Architecture, Roma Tre University, Italy, as assistant of the lecturer.
+\item[01/02/2020 - 30/06/2020] \textit{Physics 1} (Prof. W. Plastino), Roma Tre University, Italy.
+\end{cvlist}
+
+\cvhead{Outreach}
+
+\begin{cvlist}
+\item[15/02/2019] \textbf{Co-organiser and presenter} of the public event
+\href{https://matematicafisica.uniroma3.it/terza-missione/iniziative-per-tutti/occhi-su-marte/}{\textit{Occhi su
+Marte}} (``Eyes on Mars''), Department of Mathematics and Physics, Roma Tre University, Rome, Italy. The event
+consisted of seminars, hands-on activities for children and telescope observations for the general public. I
+contributed to the organisation of the whole event and presented a live demonstration of the Barkhausen effect.
+\end{cvlist}
+
+\cvhead{Peer review}
+
+\begin{cvlist}
+\item[2023, 2024] Referee for \textit{Physical Review D}, one manuscript in each year.
+\end{cvlist}
+
+\cvhead{Technical skills}
+
+\begin{cvlist}[2.6cm]
+\item[Languages] C, C++, Python, Bash, R, SQL, \LaTeX{}, Quarto.
+\item[HPC] CUDA, MPI, OpenMP, SLURM, GNU/Linux clusters.
+\item[Scientific ML] PyTorch, NumPy, SciPy, SymPy.
+\item[Development] Git, GitHub Actions, continuous integration, Docker.
+\item[Methods] Monte Carlo and hybrid Monte Carlo, Bayesian inference and model averaging, physics-informed
+neural networks, variational autoencoders, diffusion models.
+\end{cvlist}
+
+\cvhead{Spoken languages}
+
+\begin{cvlist}[2.6cm]
+\item[Italian] Mother tongue
+\item[English] Fluent
+\item[German] Intermediate
+\end{cvlist}

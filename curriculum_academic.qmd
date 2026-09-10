@@ -1,0 +1,15 @@
+---
+format:
+  pdf:
+    pdf-engine: pdflatex
+    geometry:
+      - a4paper
+      - left=15mm
+      - right=15mm
+      - top=12mm
+      - bottom=15mm
+    include-in-header:
+      - curriculum_academic-preamble.tex
+---
+
+\input{curriculum_academic-body.tex}

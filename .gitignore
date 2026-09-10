@@ -17,3 +17,9 @@ curriculum_pdf.pdf
 .jupyter_cache/
 _freeze/
 *.quarto_ipynb
+
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.fdb_latexmk
